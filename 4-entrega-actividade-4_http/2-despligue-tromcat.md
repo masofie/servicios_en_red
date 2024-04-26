@@ -4,8 +4,6 @@
 
 
 
-
-
 ## 1. Qué es TROMCAT 
 <br><br>
 
