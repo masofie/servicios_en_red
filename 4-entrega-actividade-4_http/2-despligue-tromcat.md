@@ -8,6 +8,7 @@
   - [1.1 Error al Iniciar el Tromcat](#11-error-al-iniciar-el-tromcat)
   - [1.2 Solucionar Error de Tromcat](#12-solucionar-error-de-tromcat)
   - [1.3 Crear Usuario Manager en Tromcat](#13-crear-usuario-manager-en-tromcat)
+  - [](#)
   - [2. Información Adicional sombre el Despligue de Tromcat](#2-información-adicional-sombre-el-despligue-de-tromcat)
 
 
@@ -81,5 +82,5 @@ Iniciamos con el usuario que hemos agreagado antes y como podemos ver inicia cor
 <br><br><br>
 
 
-##<B>
+## <B>
 ## 2. Información Adicional sombre el Despligue de Tromcat 
