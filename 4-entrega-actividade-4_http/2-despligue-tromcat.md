@@ -71,5 +71,3 @@ Iniciamos con el usuario que hemos agreagado antes y como podemos ver inicia cor
 
 ##
 ## 2. Información Adicional sombre el Despligue de Tromcat 
-
-![Tromcat crear usuario 3](./img/gato.png)
