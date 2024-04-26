@@ -6,11 +6,8 @@
   - [INDICE](#indice)
   - [1. Qué es TROMCAT](#1-qué-es-tromcat)
   - [1.1 Error al Iniciar el Tromcat](#11-error-al-iniciar-el-tromcat)
-  - [](#)
   - [1.2 Solucionar Error de Tromcat](#12-solucionar-error-de-tromcat)
-  - [](#-1)
   - [1.3 Crear Usuario Manager en Tromcat](#13-crear-usuario-manager-en-tromcat)
-  - [](#-2)
   - [2. Información Adicional sombre el Despligue de Tromcat](#2-información-adicional-sombre-el-despligue-de-tromcat)
 
 
@@ -35,7 +32,7 @@ Este es el error que nos da al iniciar el **TROMCAT** porque le hace falta una v
 ![Error al Iniciar Tromcat](./img/1_error_tromcat.png)
 <br><br>
 
-##
+##<B>
 ## 1.2 Solucionar Error de Tromcat 
 <br>
 
@@ -60,7 +57,7 @@ Volvemos comprobar que **tromcat** se ha iniciado correctamente
 ![Tromcat iniciado correctamente](./img/2_variable_java_home.png)
 
 
-##
+##<B>
 ## 1.3 Crear Usuario Manager en Tromcat
 <br>
 
@@ -84,5 +81,5 @@ Iniciamos con el usuario que hemos agreagado antes y como podemos ver inicia cor
 <br><br><br>
 
 
-##
+##<B>
 ## 2. Información Adicional sombre el Despligue de Tromcat 
