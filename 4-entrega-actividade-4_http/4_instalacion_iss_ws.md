@@ -59,63 +59,63 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 ## 3. Creación de nuevo sitio 
 
 
-3.1 Crea un sitio virtual por nombre denominado masofieiis.gal :
+3.1 Crea un sitio virtual por nombre denominado masofieiis.gal : <br><br>
 
 ![Creando Sitio 1](./img/4_iis.png)
 
 
-3.2 Debe tener el raíz en c:/masofieiis.gal . También atender peticiones tanto por ip que por nombre www.masofieiis.gal
+3.2 Debe tener el raíz en c:/masofieiis.gal . También atender peticiones tanto por ip que por nombre www.masofieiis.gal <br><br>
 
 ![Creando Sitio 2](./img/5_iis.png)
 
-3.3 Crea una carpeta virtual (alias) denominada privado que este situada en c:/privado
+3.3 Crea una carpeta virtual (alias) denominada privado que este situada en c:/privado <br><br>
 
 ![Directorio Virtual](./img/6_iis.png)
 
 ![Directorio Virtual 2](./img/7_iis.png)
 
 
-Directorio virtual creado correctamente 
+Directorio virtual creado correctamente <br><br>
 
 ![Directorio Virtual 2](./img/8_iis.png)
 
-3.4 Cuando se produzca un error **404** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto **“Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ”**.
+3.4 Cuando se produzca un error **404** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto **“Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ”**. <br><br>
 
 ![Creando Error 404 (1)](./img/9_iis.png)
 ![Creando Error 404 (2)](./img/10_iis.png)
 
 
-3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” .
+3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” . <br><br>
 
 ![Comprobando Error 404](./img/11_iis.png)
 
 
 
-3.6 Crea un archivo privado.html en el directorio virtual privado que tenga dentro “Bienvenido a esta carpeta PRIVADO del sitio web masofieiis.gal” .
+3.6 Crea un archivo privado.html en el directorio virtual privado que tenga dentro “Bienvenido a esta carpeta PRIVADO del sitio web masofieiis.gal” . <br><br>
 
 
 ![Creando Error 404 (2)](./img/12_iis.png)
 
-3.7 Que tenga autenticación basic este directorio
+3.7 Que tenga autenticación basic este directorio <br><br>
 
 ![Autenticación Basic 1](./img/13_iis.png)
 
 
-Añadimos el usuario por defecto en iss para poder acceder al directorio 
+Añadimos el usuario por defecto en iss para poder acceder al directorio <br><br>
 
 ![Autenticación Basic 2](./img/14_iis.png)
 
 
-Crear usuario nuevo para acceder al directorio virtual 
+Crear usuario nuevo para acceder al directorio virtual <br><br>
 
 ![Autenticación Basic 3](./img/15_iis.png)
 
-Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos index.html y default.asp , y como este directorio tiene un fichero llamado privado.html .
+Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos index.html y default.asp , y como este directorio tiene un fichero llamado privado.html . <br><br>
 
 ![Autenticación Basic 4](./img/16_iis.png)
 
 
-Para solucionar este problema solo hay que buscarlo de esta manera y funcionara correctamente 
+Para solucionar este problema solo hay que buscarlo de esta manera y funcionara correctamente <br><br>
 
 
 ![Autenticación Basic 5](./img/17_iis.png)
