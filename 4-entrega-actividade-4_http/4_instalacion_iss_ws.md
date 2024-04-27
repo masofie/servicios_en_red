@@ -75,7 +75,6 @@ Directorio virtual creado correctamente
 ![Creando Error 404 (2)](./img/10_iis.png)
 
 
-
 Comprobar sitio principal
 
 ![Comprobando Error 404](./img/11_iis.png)
