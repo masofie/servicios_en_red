@@ -32,7 +32,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 
 ![Agregando Roles 1](./img/1_roles.png)
 
-1.2 Seleccionar el rol de ‘Servidor Web (ISS)’ , así como se muestra en la siguiente imagen
+1.2 Seleccionar el rol de **‘Servidor Web (ISS)’** , así como se muestra en la siguiente imagen
 
 ![Agregando Roles 2](./img/2_roles.png)
 
@@ -52,7 +52,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 
 ![Examen de Directorios](./img/2_iis.png)
 
-2.2 En el archivo por defecto a mostrar para todos los sitios será index.html y default.asp . No habrá más .
+2.2 En el archivo por defecto a mostrar para todos los sitios será *index.html* y *default.asp* . No habrá más .
 
 ![Directorios Predeterminados](./img/3_iis.png)
 
