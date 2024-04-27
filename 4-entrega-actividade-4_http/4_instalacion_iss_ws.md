@@ -125,24 +125,24 @@ Para solucionar este problema solo hay que buscarlo de esta manera y funcionara 
 ## 4. Re-dirección de http a https 
 
 
-4.1 Crea un certificado y redije al puerto 443 . Para eso solo hay que ir a la configuración global del servidor y ir a ‘Certificados de Servidor – Certificado Auto-firmado’ y lo creamos de la siguiente manera .
+4.1 Crea un certificado y redije al puerto 443 . Para eso solo hay que ir a la configuración global del servidor y ir a ‘Certificados de Servidor – Certificado Auto-firmado’ y lo creamos de la siguiente manera . <br>
 
 
 ![Re-dirección de http a https 1](./img/18_iis.png)
 
 
-Creamos un enlace para redirigir , lo hacemos de la siguiente manera 
+Creamos un enlace para redirigir , lo hacemos de la siguiente manera  <br>
 ![Re-dirección de http a https 2](./img/19_iis.png)
 
-Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado antes 
+Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado antes  <br>
 
 
 ![Re-dirección de http a https 3](./img/20_iis.png)
 
-Ahora volvemos al navegador y escribimos la misma url pero en ves de poner http ponemos https y nos mostrara la siguiente advertencia 
+Ahora volvemos al navegador y escribimos la misma url pero en ves de poner http ponemos https y nos mostrara la siguiente advertencia  <br>
 
 ![Re-dirección de http a https 4](./img/21_iis.png)
 
-Como podemos ver se ha redirigido correctamente y nos muestra también el certificado que hemos creado antes 
+Como podemos ver se ha redirigido correctamente y nos muestra también el certificado que hemos creado antes <br>
 
 ![Re-dirección de http a https 5](./img/22_iis.png)
