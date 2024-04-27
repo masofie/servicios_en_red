@@ -62,7 +62,7 @@
 
 Directorio virtual creado correctamente 
 
-
+![Directorio Virtual 2](./img/8_iis.png)
 
 3.4 Cuando se produzca un error 404 deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto “Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ” .Comprobar error 404 
 
