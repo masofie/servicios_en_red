@@ -52,7 +52,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 
 ![Examen de Directorios](./img/2_iis.png)
 
-2.2 En el archivo por defecto a mostrar para todos los sitios será *index.html* y *default.asp* . No habrá más .
+2.2 En el archivo por defecto a mostrar para todos los sitios será  ***index.html* y *default.asp***. No habrá más .
 
 ![Directorios Predeterminados](./img/3_iis.png)
 
