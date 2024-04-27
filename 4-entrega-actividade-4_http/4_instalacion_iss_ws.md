@@ -58,7 +58,7 @@
 
 ![Directorio Virtual](./img/6_iis.png)
 
-
+![Directorio Virtual 2](./img/7_iis.png)
 
 Directorio virtual creado correctamente 
 
