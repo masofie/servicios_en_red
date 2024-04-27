@@ -20,7 +20,7 @@ El **Servidor IIS (Internet Information Services)** es un componente de **Window
 
 IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la integración con bases de datos **SQL Server**, la compatibilidad con **ASP**.**NET** y la capacidad de administrar múltiples sitios web desde una única interfaz de administración. Además, **IIS** proporciona herramientas de diagnóstico y registro para supervisar el rendimiento del servidor y solucionar problemas de forma rápida. En resumen, IIS es una herramienta esencial para hospedar sitios web en entornos **Windows** y garantizar un funcionamiento óptimo y seguro de las aplicaciones web.
 
-
+<br>
 ![Portada IIS](./img/portada_iis.png)
 
 ## 1. Instalación :
