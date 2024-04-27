@@ -14,6 +14,9 @@
 
 1.1 Agregar roles y características 
 
+
+![Agregando Roles 1](./img/1_roles.png)
+
 1.2 Seleccionar el rol de ‘Servidor Web (ISS)’ , así como se muestra en la siguiente imagen
 
 1.3 Instalación de componentes adicionales
