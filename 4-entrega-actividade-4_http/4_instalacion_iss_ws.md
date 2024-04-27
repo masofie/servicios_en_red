@@ -18,7 +18,7 @@ El **Servidor IIS (Internet Information Services)** es un componente de **Window
 
 <br>
 
-IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la integración con bases de datos **SQL Server**, la compatibilidad con **ASP**.**NET** y la capacidad de administrar múltiples sitios web desde una única interfaz de administración. Además, **IIS** proporciona herramientas de diagnóstico y registro para supervisar el rendimiento del servidor y solucionar problemas de forma rápida. En resumen, IIS es una herramienta esencial para hospedar sitios web en entornos **Windows** y garantizar un funcionamiento óptimo y seguro de las aplicaciones web.
+IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la integración con bases de datos **SQL Server**, la compatibilidad con ***ASP**.**NET*** y la capacidad de administrar múltiples sitios web desde una única interfaz de administración. Además, **IIS** proporciona herramientas de diagnóstico y registro para supervisar el rendimiento del servidor y solucionar problemas de forma rápida. En resumen, IIS es una herramienta esencial para hospedar sitios web en entornos **Windows** y garantizar un funcionamiento óptimo y seguro de las aplicaciones web.
 
 <br>
 
@@ -52,7 +52,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 
 ![Examen de Directorios](./img/2_iis.png)
 
-2.2 En el archivo por defecto a mostrar para todos los sitios será  ***index.html* y *default.asp***. No habrá más .
+2.2 En el archivo por defecto a mostrar para todos los sitios será  ***index.html*** y ***default.asp***. No habrá más .
 
 ![Directorios Predeterminados](./img/3_iis.png)
 
@@ -65,11 +65,11 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 ![Creando Sitio 1](./img/4_iis.png)
 
 
-3.2 Debe tener el raíz en c:/masofieiis.gal . También atender peticiones tanto por ip que por nombre www.masofieiis.gal <br><br>
+3.2 Debe tener el raíz en ***c:/masofieiis.gal*** . También atender peticiones tanto por ip que por nombre **www.masofieiis.gal** <br><br>
 
 ![Creando Sitio 2](./img/5_iis.png)
 
-3.3 Crea una carpeta virtual (alias) denominada privado que este situada en c:/privado <br><br>
+3.3 Crea una carpeta virtual (alias) denominada privado que este situada en ***c:/privado*** <br><br>
 
 ![Directorio Virtual](./img/6_iis.png)
 
@@ -92,7 +92,7 @@ Directorio virtual creado correctamente <br><br>
 
 
 
-3.6 Crea un archivo privado.html en el directorio virtual privado que tenga dentro “Bienvenido a esta carpeta PRIVADO del sitio web masofieiis.gal” . <br><br>
+3.6 Crea un archivo privado.html en el directorio virtual privado que tenga dentro **“Bienvenido a esta carpeta PRIVADO del sitio web masofieiis.gal”** . <br><br>
 
 
 ![Creando Error 404 (2)](./img/12_iis.png)
@@ -111,7 +111,7 @@ Crear usuario nuevo para acceder al directorio virtual <br><br>
 
 ![Autenticación Basic 3](./img/15_iis.png)
 
-Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos index.html y default.asp , y como este directorio tiene un fichero llamado privado.html . <br><br>
+Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos ***index.html*** y ***default.asp*** , y como este directorio tiene un fichero llamado ***privado.html** . <br><br>
 
 ![Autenticación Basic 4](./img/16_iis.png)
 
@@ -126,7 +126,7 @@ Para solucionar este problema solo hay que buscarlo de esta manera y funcionara 
 ## 4. Re-dirección de http a https 
 <br>
 
-4.1 Crea un certificado y redije al puerto 443 . Para eso solo hay que ir a la configuración global del servidor y ir a ‘Certificados de Servidor – Certificado Auto-firmado’ y lo creamos de la siguiente manera . <br><br>
+4.1 Crea un certificado y redije al puerto **443** . Para eso solo hay que ir a la configuración global del servidor y ir a ***‘Certificados de Servidor – Certificado Auto-firmado’*** y lo creamos de la siguiente manera . <br><br>
 
 
 ![Re-dirección de http a https 1](./img/18_iis.png)
@@ -140,7 +140,7 @@ Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado
 
 ![Re-dirección de http a https 3](./img/20_iis.png)
 
-Ahora volvemos al navegador y escribimos la misma url pero en ves de poner http ponemos https y nos mostrara la siguiente advertencia  <br><br>
+Ahora volvemos al navegador y escribimos la misma ***url*** pero en ves de poner ***http*** ponemos ***https*** y nos mostrara la siguiente advertencia  <br><br>
 
 ![Re-dirección de http a https 4](./img/21_iis.png)
 
