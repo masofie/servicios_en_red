@@ -19,7 +19,11 @@
 
 1.2 Seleccionar el rol de ‘Servidor Web (ISS)’ , así como se muestra en la siguiente imagen
 
+![Agregando Roles 2](./img/2_roles.png)
+
 1.3 Instalación de componentes adicionales
+
+![Agregando Roles 3](./img/3_roles.png)
 
 1.4 Acceder a la configuración de ISS 
 
