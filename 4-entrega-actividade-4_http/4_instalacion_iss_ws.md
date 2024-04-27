@@ -82,7 +82,17 @@ Directorio virtual creado correctamente
 
 ![Creando Error 404 (2)](./img/12_iis.png)
 
-3.7 Que tenga autenticación basic este directorioAñadimos el usuario por defecto en iss para poder acceder al directorio 
+3.7 Que tenga autenticación basic este directorio
+
+![Autenticación Basic 1](./img/13_iis.png)
+
+
+Añadimos el usuario por defecto en iss para poder acceder al directorio 
+
+![Autenticación Basic 1](./img/14_iis.png)
+
+Añadimos el usuario por defecto en iss para poder acceder al directorio 
+
 
 Crear usuario nuevo para acceder al directorio virtual Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos index.html y default.asp , y como este directorio tiene un fichero llamado privado.html .Para solucionar este problema solo hay que buscarlo de esta manera y funcionara correctamente 
 
