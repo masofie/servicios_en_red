@@ -47,10 +47,18 @@
 
 3.1 Crea un sitio virtual por nombre denominado masofieiis.gal :
 
+![Creando Sitio 1](./img/4_iis.png)
+
 
 3.2 Debe tener el raíz en c:/masofieiis.gal . También atender peticiones tanto por ip que por nombre www.masofieiis.gal
 
+![Creando Sitio 2](./img/5_iis.png)
+
 3.3 Crea una carpeta virtual (alias) denominada privado que este situada en c:/privado
+
+![Directorio Virtual](./img/6_iis.png)
+
+
 
 Directorio virtual creado correctamente 
 
