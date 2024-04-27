@@ -25,7 +25,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 ![Portada IIS](./img/portada_iis.png)
 
 ## 1. Instalación :
-<br><br>
+<br>
 
 1.1 Agregar roles y características 
 
@@ -46,7 +46,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 
 
 ## 2. Configuración del sitio global
-<br><br>
+<br>
 
 2.1 Habilitar el examen de directorio para todos los sitios 
 
@@ -58,7 +58,7 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 
 
 ## 3. Creación de nuevo sitio 
-<br><br>
+<br>
 
 3.1 Crea un sitio virtual por nombre denominado masofieiis.gal : <br><br>
 
@@ -124,7 +124,7 @@ Para solucionar este problema solo hay que buscarlo de esta manera y funcionara 
 
 
 ## 4. Re-dirección de http a https 
-<br><br>
+<br>
 
 4.1 Crea un certificado y redije al puerto 443 . Para eso solo hay que ir a la configuración global del servidor y ir a ‘Certificados de Servidor – Certificado Auto-firmado’ y lo creamos de la siguiente manera . <br><br>
 
