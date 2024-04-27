@@ -61,8 +61,6 @@
 ![Directorio Virtual 2](./img/7_iis.png)
 
 
-
-
 Directorio virtual creado correctamente 
 
 ![Directorio Virtual 2](./img/8_iis.png)
@@ -80,6 +78,9 @@ Directorio virtual creado correctamente
 
 
 3.6 Crea un archivo privado.html en el directorio virtual privado que tenga dentro “Bienvenido a esta carpeta PRIVADO del sitio web masofieiis.gal” .
+
+
+![Creando Error 404 (2)](./img/11_iis.png)
 
 3.7 Que tenga autenticación basic este directorioAñadimos el usuario por defecto en iss para poder acceder al directorio 
 
