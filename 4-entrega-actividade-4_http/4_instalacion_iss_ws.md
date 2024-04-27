@@ -4,10 +4,20 @@
 
 - [Instalación y Configuración del Servidor ISS en Windows](#instalación-y-configuración-del-servidor-iss-en-windows)
   - [INDICE](#indice)
+- [Servidor IIS en Windows](#servidor-iis-en-windows)
   - [1. Instalación :](#1-instalación-)
   - [2. Configuración del sitio global](#2-configuración-del-sitio-global)
   - [3. Creación de nuevo sitio](#3-creación-de-nuevo-sitio)
   - [4. Re-dirección de http a https](#4-re-dirección-de-http-a-https)
+
+
+# Servidor IIS en Windows 
+
+El **Servidor IIS (Internet Information Services)** es un componente de **Windows Server** que se utiliza para hospedar y servir páginas web en un entorno **Windows** . **IIS** es un servidor web flexible y robusto que permite a los desarrolladores y administradores de sistemas crear y gestionar sitios web, aplicaciones web y servicios web de manera eficiente y segura.
+
+<br>
+
+IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la integración con bases de datos **SQL Server**, la compatibilidad con **ASP**.**NET** y la capacidad de administrar múltiples sitios web desde una única interfaz de administración. Además, **IIS** proporciona herramientas de diagnóstico y registro para supervisar el rendimiento del servidor y solucionar problemas de forma rápida. En resumen, IIS es una herramienta esencial para hospedar sitios web en entornos **Windows** y garantizar un funcionamiento óptimo y seguro de las aplicaciones web.
 
 
 ## 1. Instalación :
