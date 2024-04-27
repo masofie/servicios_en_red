@@ -39,6 +39,8 @@
 
 2.2 En el archivo por defecto a mostrar para todos los sitios será index.html y default.asp . No habrá más .
 
+![Directorios Predeterminados](./img/3_iis.png)
+
 
 ## 3. Creación de nuevo sitio 
 
