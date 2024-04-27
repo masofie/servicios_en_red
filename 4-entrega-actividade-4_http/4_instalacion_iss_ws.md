@@ -27,7 +27,7 @@
 
 1.4 Acceder a la configuración de ISS 
 
-![Acceso a ISS](./img/1_iss.png)
+![Acceso a ISS](./img/1_iis.png)
 
 
 ## 2. Configuración del sitio global
@@ -35,7 +35,7 @@
 
 2.1 Habilitar el examen de directorio para todos los sitios 
 
-![Examen de Directorios](./img/2_iss.png)
+![Examen de Directorios](./img/2_iis.png)
 
 2.2 En el archivo por defecto a mostrar para todos los sitios será index.html y default.asp . No habrá más .
 
