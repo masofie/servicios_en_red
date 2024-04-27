@@ -89,12 +89,23 @@ Directorio virtual creado correctamente
 
 Añadimos el usuario por defecto en iss para poder acceder al directorio 
 
-![Autenticación Basic 1](./img/14_iis.png)
-
-Añadimos el usuario por defecto en iss para poder acceder al directorio 
+![Autenticación Basic 2](./img/14_iis.png)
 
 
-Crear usuario nuevo para acceder al directorio virtual Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos index.html y default.asp , y como este directorio tiene un fichero llamado privado.html .Para solucionar este problema solo hay que buscarlo de esta manera y funcionara correctamente 
+Crear usuario nuevo para acceder al directorio virtual 
+
+![Autenticación Basic 3](./img/15_iis.png)
+
+Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos index.html y default.asp , y como este directorio tiene un fichero llamado privado.html .
+
+![Autenticación Basic 4](./img/16_iis.png)
+
+
+Para solucionar este problema solo hay que buscarlo de esta manera y funcionara correctamente 
+
+
+![Autenticación Basic 5](./img/17_iis.png)
+
 
 
 ## 4. Re-dirección de http a https 
