@@ -66,6 +66,7 @@ Directorio virtual creado correctamente
 
 3.4 Cuando se produzca un error **404** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto “Cometiste un **ERROR 404**  , no se encontrado ningún resultado en la búsqueda ” .
 ![Creando Error 404 (1)](./img/9_iis.png)
+![Creando Error 404 (2)](./img/10_iis.png)
 
 
 3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” .
@@ -76,7 +77,7 @@ Directorio virtual creado correctamente
 Comprobar error 404
 
 
-![Creando Error 404 (2)](./img/10_iis.png)
+
 
 
 Comprobar sitio principal
