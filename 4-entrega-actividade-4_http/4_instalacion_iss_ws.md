@@ -60,6 +60,9 @@
 
 ![Directorio Virtual 2](./img/7_iis.png)
 
+
+
+
 Directorio virtual creado correctamente 
 
 ![Directorio Virtual 2](./img/8_iis.png)
@@ -73,16 +76,6 @@ Directorio virtual creado correctamente
 3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” .
 
 ![Comprobando Error 404](./img/11_iis.png)
-
-
-Comprobar error 404
-
-
-
-
-
-Comprobar sitio principal
-
 
 
 
