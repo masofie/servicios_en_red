@@ -137,12 +137,12 @@ Creamos un enlace para redirigir , lo hacemos de la siguiente manera
 Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado antes 
 
 
-![Re-dirección de http a https 3](./img/19_iis.png)
+![Re-dirección de http a https 3](./img/20_iis.png)
 
 Ahora volvemos al navegador y escribimos la misma url pero en ves de poner http ponemos https y nos mostrara la siguiente advertencia 
 
-![Re-dirección de http a https 4](./img/19_iis.png)
+![Re-dirección de http a https 4](./img/21_iis.png)
 
 Como podemos ver se ha redirigido correctamente y nos muestra también el certificado que hemos creado antes 
 
-![Re-dirección de http a https 5](./img/19_iis.png)
+![Re-dirección de http a https 5](./img/22_iis.png)
