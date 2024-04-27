@@ -64,10 +64,21 @@ Directorio virtual creado correctamente
 
 ![Directorio Virtual 2](./img/8_iis.png)
 
-3.4 Cuando se produzca un error 404 deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto “Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ” .Comprobar error 404 
+3.4 Cuando se produzca un error **404** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto “Cometiste un **ERROR 404**  , no se encontrado ningún resultado en la búsqueda ” .Comprobar error 404
+
+![Creando Error 404 (1)](./img/9_iis.png)
 
 
-3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” .Comprobar sitio principal
+3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” .
+
+
+![Creando Error 404 (2)](./img/10_iis.png)
+
+
+
+Comprobar sitio principal
+
+![Comprobando Error 404](./img/11_iis.png)
 
 
 3.6 Crea un archivo privado.html en el directorio virtual privado que tenga dentro “Bienvenido a esta carpeta PRIVADO del sitio web masofieiis.gal” .
