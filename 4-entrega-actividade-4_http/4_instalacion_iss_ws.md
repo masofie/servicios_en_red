@@ -114,7 +114,16 @@ Para solucionar este problema solo hay que buscarlo de esta manera y funcionara 
 4.1 Crea un certificado y redije al puerto 443 . Para eso solo hay que ir a la configuración global del servidor y ir a ‘Certificados de Servidor – Certificado Auto-firmado’ y lo creamos de la siguiente manera .
 
 
+![Re-dirección de http a https 1](./img/18_iis.png)
+
+
 Creamos un enlace para redirigir , lo hacemos de la siguiente manera Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado antes 
+
+![Re-dirección de http a https 2](./img/19_iis.png)
+
+Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado antes 
+
+
 
 
 Ahora volvemos al navegador y escribimos la misma url pero en ves de poner http ponemos https y nos mostrara la siguiente advertencia Como podemos ver se ha redirigido correctamente y nos muestra también el certificado que hemos creado antes 
