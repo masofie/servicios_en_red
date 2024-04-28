@@ -47,7 +47,13 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ## 4. Configuración de un nuevo sitio virtual :
 
 1 – Crea un sitio virtual por nombre ciudad.gal que atienda en los puertos ***80*** y ***9999*** .<br>
+
+![Añadir puertos](./img/7_exapache2.png)
+
 2 – Modifica los archivos de logs para que sean específicos . <br>
+
+![Archivos de logs](./img/8_exapache2.png)
+
 3 – Cuando se produzca un error 404 se mostrara el mensaje **“No se ha podido encontrar ningún resultado en la búsqueda”** , que este alojado en el directorio ***/var/www/ciudad.gal/error_404.html*** . <br>
 4 – Cuando se produzca un error 403 se mostrará un mensaje de ***“PROHIBIDO”*** . <br>
 5 – Los archivos de este sitio a mostrar por defecto serán ***index.html*** e ***index.php*** . <br>
