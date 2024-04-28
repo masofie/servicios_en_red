@@ -37,8 +37,12 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ## 3. Configuración del sitio por defecto :
 
 1 – Configura el sitio por defecto que muestre **‘Este es el fichero del sitio por defecto’** .<br>
+
+![Mensaje de Sitio por Defecto](./img/5_exapache2.png)
+
 2 – Debe atender peticiones a mayores , en el puerto ***9999*** . <br>
 
+![Añadir puertos](./img/6_exapache2.png)
 
 ## 4. Configuración de un nuevo sitio virtual :
 
