@@ -16,6 +16,9 @@
 
 La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar sus sitios web, aplicaciones web y servicios en línea de una manera confiable y segura. Con su amplia gama de características y opciones de configuración, ***Apache2*** es capaz de manejar una gran cantidad de tráfico y responder eficientemente a las solicitudes de los usuarios. Además, su integración con el sistema operativo Debian facilita su instalación y mantenimiento, convirtiéndolo en una herramienta indispensable para desarrolladores y administradores de sistemas.
 
+![Portada IIS](./img/portada_apache2.png)
+
+
 ## Configación de Sitios Globales :
 
 1 – Instala el servidor web Apache y PHP . <br>
