@@ -104,7 +104,7 @@ a2enmod userdir
 
 ## 5. Comprobaciones del Sitio Virtual 
 
-Para comprobar que todo esta funcionando correctamente , lo comprobaremos un cliente Windows , desde el navegador web <br><br>
+**Para comprobar que todo esta funcionando correctamente , lo comprobaremos un ***cliente Windows*** , desde el navegador web . Entones vamos hacer las siguintes pruebas desde el navegador :** <br><br>
 
 1 - Desde ***w10*** mostramos el sitio por defecto utilizando la ip del equipo <br>
 
