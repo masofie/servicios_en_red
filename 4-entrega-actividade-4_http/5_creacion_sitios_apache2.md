@@ -112,3 +112,7 @@ a2enmod userdir
 
 
 # Biografia de ***Apache2***
+
+**1. Página Oficial :** ***https://httpd.apache.org/***
+**2. Wikipedia :** ***https://es.wikipedia.org/wiki/Servidor_HTTP_Apache***
+**3. Ionos :** ***https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/**
