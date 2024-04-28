@@ -9,6 +9,7 @@
   - [3. Configuración del sitio por defecto :](#3-configuración-del-sitio-por-defecto-)
   - [4. Configuración de un nuevo sitio virtual :](#4-configuración-de-un-nuevo-sitio-virtual-)
   - [5. Comprobaciones del Sitio Virtual](#5-comprobaciones-del-sitio-virtual)
+- [Biografia de ***Apache2***](#biografia-de-apache2)
 
 
 ## 1. Definición de ***Apache2***
@@ -90,3 +91,5 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ## 5. Comprobaciones del Sitio Virtual 
 
 Para comprobar que todo esta funcionando correctamente , lo comprobaremos un cliente Windows , desde el navegador web 
+
+# Biografia de ***Apache2***
