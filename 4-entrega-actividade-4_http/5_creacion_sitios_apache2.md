@@ -63,8 +63,17 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ![Error 403](./img/10_exapache2.png)
 
 5 – Los archivos de este sitio a mostrar por defecto serán ***index.html*** e ***index.php*** . <br>
+
+![Archivos por defecto](./img/11_exapache2.png)
+
 6 – No se permitirá que se listen los contenidos de las carpetas , al no encontrar ninguno de los documentos por defecto .
+
+![Listado de directorios](./img/12_exapache2.png)
+
 7 – Crea un ‘alias’ que se redirija la **‘url’** ***./docs  ./documentos*** , que se debe crear previamente . <br>
+
+![Creación de alias](./img/13_exapache2.png)
+
 8 – Crea una carpeta denominada carpetacuidad . El acceso a esta carpeta debe ser restringida para los usuarios ***‘user1’*** y ***‘user2’*** con contraseña ***‘abc123.’*** mediante Autenticación Basic . <br>
 9 – Crea un archivo denominado index.html en la carpeta ciudad.gal que tenga en el contenido **‘’Bienvenido al Sitio Virtual ciudad.gal ’’** . <br>
 10 – Habilita en el anterior sitio web un acceso por SSL con la creación de la ***claves RSA***. Debe redirigir las peticiones del puerto 80 al puerto ***443*** . <br>
