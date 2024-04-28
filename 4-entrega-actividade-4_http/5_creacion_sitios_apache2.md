@@ -104,6 +104,9 @@ a2enmod userdir
 
 ## 5. Comprobaciones del Sitio Virtual 
 
-Para comprobar que todo esta funcionando correctamente , lo comprobaremos un cliente Windows , desde el navegador web 
+Para comprobar que todo esta funcionando correctamente , lo comprobaremos un cliente Windows , desde el navegador web <br>
+
+![Desde windows : sito por defecto](./img/1_comprobaciones_exapache2.png)
+
 
 # Biografia de ***Apache2***
