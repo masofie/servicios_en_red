@@ -54,11 +54,11 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ![Archivos de logs](./img/8_exapache2.png)
 
-3 – Cuando se produzca un error 404 se mostrara el mensaje **“No se ha podido encontrar ningún resultado en la búsqueda”** , que este alojado en el directorio ***/var/www/ciudad.gal/error_404.html*** . <br>
+3 – Cuando se produzca un error ***404*** se mostrara el mensaje **“No se ha podido encontrar ningún resultado en la búsqueda”** , que este alojado en el directorio ***/var/www/ciudad.gal/error_404.html*** . <br>
 
 ![Error 404](./img/9_exapache2.png)
 
-4 – Cuando se produzca un error 403 se mostrará un mensaje de ***“PROHIBIDO”*** . <br>
+4 – Cuando se produzca un error ***403*** se mostrará un mensaje de ***“PROHIBIDO”*** . <br>
 
 ![Error 403](./img/10_exapache2.png)
 
@@ -74,7 +74,7 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ![Creación de alias](./img/13_exapache2.png)
 
-8 – Crea una carpeta denominada carpetacuidad . El acceso a esta carpeta debe ser restringida para los usuarios ***‘user1’*** y ***‘user2’*** con contraseña ***‘abc123.’*** mediante Autenticación Basic . <br>
+8 – Crea una carpeta denominada carpetacuidad . El acceso a esta carpeta debe ser restringida para los usuarios ***‘user1’*** y ***‘user2’*** con contraseña ***‘abc123.’*** mediante ***Autenticación Basic*** . <br>
 
 ![Autenticación Basic](./img/14_exapache2.png)
 
@@ -82,6 +82,6 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ![Creación de Index](./img/15_exapache2.png)
 
-10 – Habilita en el anterior sitio web un acceso por SSL con la creación de la ***claves RSA***. Debe redirigir las peticiones del puerto 80 al puerto ***443*** . <br>
+10 – Habilita en el anterior sitio web un acceso por SSL con la creación de la ***claves RSA***. Debe redirigir las peticiones del puerto ***80*** al puerto ***443*** . <br>
 
 ![Redirección https](./img/16_exapache2.png)
