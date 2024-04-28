@@ -24,13 +24,15 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 1 – Instala el servidor web Apache y PHP . <br>
 
 ![Instalación de Apache2](./img/1_exapache2.png)
-![Instalación de PHP](./img/1_exapache2.png)
+![Instalación de PHP](./img/2_exapache2.png)
 
 2 – Modifica el archivo apropiado para que el archivo a mostrar por defecto de un directorio sea ***index.php*** , ***index.asp*** y luego ***index.html*** . <br>
 
-
+![Directorio por Defecto](./img/3_exapache2.png)
 
 3 – Habilita los módulos usertrack y userdir <br>
+
+![Habilitar módulos](./img/4_exapache2.png)
 
 ## 3. Configuración del sitio por defecto :
 
