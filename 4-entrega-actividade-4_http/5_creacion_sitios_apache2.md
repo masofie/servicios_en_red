@@ -70,7 +70,7 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ![Listado de directorios](./img/12_exapache2.png)
 
-7 – Crea un ‘alias’ que se redirija la **‘url’** ***./docs  ./documentos*** , que se debe crear previamente . <br>
+7 – Crea un **‘alias’** que se redirija la **‘url’** ***./docs  ./documentos*** , que se debe crear previamente . <br>
 
 ![Creación de alias](./img/13_exapache2.png)
 
@@ -82,6 +82,6 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ![Creación de Index](./img/15_exapache2.png)
 
-10 – Habilita en el anterior sitio web un acceso por SSL con la creación de la ***claves RSA***. Debe redirigir las peticiones del puerto ***80*** al puerto ***443*** . <br>
+10 – Habilita en el anterior sitio web un acceso por ***SSL*** con la creación de la ***claves RSA***. Debe redirigir las peticiones del puerto ***80*** al puerto ***443*** . <br>
 
 ![Redirección https](./img/16_exapache2.png)
