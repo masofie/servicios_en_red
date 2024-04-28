@@ -75,5 +75,13 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ![Creación de alias](./img/13_exapache2.png)
 
 8 – Crea una carpeta denominada carpetacuidad . El acceso a esta carpeta debe ser restringida para los usuarios ***‘user1’*** y ***‘user2’*** con contraseña ***‘abc123.’*** mediante Autenticación Basic . <br>
-9 – Crea un archivo denominado index.html en la carpeta ciudad.gal que tenga en el contenido **‘’Bienvenido al Sitio Virtual ciudad.gal ’’** . <br>
+
+![Autenticación Basic](./img/14_exapache2.png)
+
+9 – Crea un archivo denominado ***index.html*** en la carpeta ciudad.gal que tenga en el contenido **‘’Bienvenido al Sitio Virtual ciudad.gal ’’** . <br>
+
+![Creación de Index](./img/15_exapache2.png)
+
 10 – Habilita en el anterior sitio web un acceso por SSL con la creación de la ***claves RSA***. Debe redirigir las peticiones del puerto 80 al puerto ***443*** . <br>
+
+![Redirección https](./img/16_exapache2.png)
