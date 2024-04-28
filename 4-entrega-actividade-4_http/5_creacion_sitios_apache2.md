@@ -43,6 +43,11 @@ nano /etc/apache2/mods-avaliables/dir.conf
 
 3 – Habilita los módulos usertrack y userdir <br>
 
+~~~
+a2enmod usertrack
+a2enmod userdir
+~~~
+
 ![Habilitar módulos](./img/4_exapache2.png)
 
 ## 3. Configuración del sitio por defecto :
