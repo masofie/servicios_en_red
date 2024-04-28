@@ -55,7 +55,13 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ![Archivos de logs](./img/8_exapache2.png)
 
 3 – Cuando se produzca un error 404 se mostrara el mensaje **“No se ha podido encontrar ningún resultado en la búsqueda”** , que este alojado en el directorio ***/var/www/ciudad.gal/error_404.html*** . <br>
+
+![Error 404](./img/9_exapache2.png)
+
 4 – Cuando se produzca un error 403 se mostrará un mensaje de ***“PROHIBIDO”*** . <br>
+
+![Error 403](./img/10_exapache2.png)
+
 5 – Los archivos de este sitio a mostrar por defecto serán ***index.html*** e ***index.php*** . <br>
 6 – No se permitirá que se listen los contenidos de las carpetas , al no encontrar ninguno de los documentos por defecto .
 7 – Crea un ‘alias’ que se redirija la **‘url’** ***./docs  ./documentos*** , que se debe crear previamente . <br>
