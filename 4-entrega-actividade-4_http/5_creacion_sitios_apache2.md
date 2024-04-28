@@ -5,9 +5,9 @@
 - [Creación de Sitios Virtuales en Apache2 en Debian](#creación-de-sitios-virtuales-en-apache2-en-debian)
   - [INDICE](#indice)
   - [Definición de ***Apache2***](#definición-de-apache2)
-  - [Configación de Sitios Globales :](#configación-de-sitios-globales-)
-  - [Configuración del sitio por defecto :](#configuración-del-sitio-por-defecto-)
-  - [Configuración de un nuevo sitio virtual :](#configuración-de-un-nuevo-sitio-virtual-)
+  - [1. Configación de Sitios Globales :](#1-configación-de-sitios-globales-)
+  - [2. Configuración del sitio por defecto :](#2-configuración-del-sitio-por-defecto-)
+  - [3. Configuración de un nuevo sitio virtual :](#3-configuración-de-un-nuevo-sitio-virtual-)
 
 
 ## Definición de ***Apache2***
@@ -19,19 +19,19 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 ![Portada IIS](./img/portada_apache2.png)
 
 
-## Configación de Sitios Globales :
+## 1. Configación de Sitios Globales :
 
 1 – Instala el servidor web Apache y PHP . <br>
 2 – Modifica el archivo apropiado para que el archivo a mostrar por defecto de un directorio sea ***index.php*** , ***index.asp*** y luego ***index.html*** . <br>
 3 – Habilita los módulos usertrack y userdir <br>
 
-## Configuración del sitio por defecto :
+## 2. Configuración del sitio por defecto :
 
 1 – Configura el sitio por defecto que muestre **‘Este es el fichero del sitio por defecto’** .<br>
 2 – Debe atender peticiones a mayores , en el puerto ***9999*** . <br>
 
 
-## Configuración de un nuevo sitio virtual :
+## 3. Configuración de un nuevo sitio virtual :
 
 1 – Crea un sitio virtual por nombre ciudad.gal que atienda en los puertos ***80*** y ***9999*** .<br>
 2 – Modifica los archivos de logs para que sean específicos . <br>
