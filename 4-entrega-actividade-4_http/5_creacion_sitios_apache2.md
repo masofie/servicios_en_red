@@ -74,7 +74,7 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ![Creación de alias](./img/13_exapache2.png)
 
-8 – Crea una carpeta denominada carpetacuidad . El acceso a esta carpeta debe ser restringida para los usuarios ***‘user1’*** y ***‘user2’*** con contraseña ***‘abc123.’*** mediante ***Autenticación Basic*** . <br>
+8 – Crea una carpeta denominada ***carpetacuidad**s . El acceso a esta carpeta debe ser restringida para los usuarios ***‘user1’*** y ***‘user2’*** con contraseña ***‘abc123.’*** mediante ***Autenticación Basic*** . <br>
 
 ![Autenticación Basic](./img/14_exapache2.png)
 
