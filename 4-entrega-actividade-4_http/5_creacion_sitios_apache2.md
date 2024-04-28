@@ -4,11 +4,17 @@
 ## INDICE 
 - [Creación de Sitios Virtuales en Apache2 en Debian](#creación-de-sitios-virtuales-en-apache2-en-debian)
   - [INDICE](#indice)
+  - [Definición de ***Apache2***](#definición-de-apache2)
   - [Configación de Sitios Globales :](#configación-de-sitios-globales-)
   - [Configuración del sitio por defecto :](#configuración-del-sitio-por-defecto-)
   - [Configuración de un nuevo sitio virtual :](#configuración-de-un-nuevo-sitio-virtual-)
 
 
+## Definición de ***Apache2***
+
+***Apache2*** es un servidor web de código abierto que forma parte del sistema operativo Debian. Es uno de los servidores web más populares y ampliamente utilizado en el mundo. ***Apache2*** es conocido por su estabilidad, seguridad y flexibilidad, lo que lo convierte en una excelente opción para alojar sitios web de cualquier tamaño.
+
+La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar sus sitios web, aplicaciones web y servicios en línea de una manera confiable y segura. Con su amplia gama de características y opciones de configuración, ***Apache2*** es capaz de manejar una gran cantidad de tráfico y responder eficientemente a las solicitudes de los usuarios. Además, su integración con el sistema operativo Debian facilita su instalación y mantenimiento, convirtiéndolo en una herramienta indispensable para desarrolladores y administradores de sistemas.
 
 ## Configación de Sitios Globales :
 
