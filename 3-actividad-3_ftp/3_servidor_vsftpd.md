@@ -13,13 +13,15 @@
 
 ## Definición 
 
+![Logo](./img/vsftpd/logo_vsftpd.png)
+
 Un servidor ***vsftpd*** es un servidor **FTP (File Transfer Protocol)** de código abierto, rápido y seguro que se puede utilizar para transferir archivos entre un cliente y un servidor a través de una red. 
 
 El servidor ***vsftpd*** se utiliza principalmente para permitir a los usuarios subir y descargar archivos de un servidor remoto de manera segura y eficiente. Proporciona funciones de autenticación segura y soporta conexiones seguras a través de ***SSL/TLS***.
 
 En resumen, un servidor ***vsftpd*** actúa como un intermediario entre los clientes que desean transferir archivos y el servidor remoto donde se almacenan estos archivos, permitiendo una transferencia de archivos rápida, segura y fiable.
 
-![Logo](./img/vsftpd/logo_vsftpd.png)
+
 
 ## 1. Configuración 
 
