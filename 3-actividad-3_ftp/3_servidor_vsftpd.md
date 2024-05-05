@@ -4,12 +4,20 @@
 
 - [Configuración en el Servidor ***vsftpd***](#configuración-en-el-servidor-vsftpd)
   - [Indice](#indice)
+  - [Definición](#definición)
   - [1. Configuración](#1-configuración)
     - [1.1 Servidor](#11-servidor)
     - [1.2 Usuarios anónimos (anonymous)](#12-usuarios-anónimos-anonymous)
     - [1.3 Usuarios Locales](#13-usuarios-locales)
   - [2. Información Adicional](#2-información-adicional)
 
+## Definición 
+
+Un servidor ***vsftpd*** es un servidor **FTP (File Transfer Protocol)** de código abierto, rápido y seguro que se puede utilizar para transferir archivos entre un cliente y un servidor a través de una red. 
+
+El servidor ***vsftpd*** se utiliza principalmente para permitir a los usuarios subir y descargar archivos de un servidor remoto de manera segura y eficiente. Proporciona funciones de autenticación segura y soporta conexiones seguras a través de ***SSL/TLS***.
+
+En resumen, un servidor ***vsftpd*** actúa como un intermediario entre los clientes que desean transferir archivos y el servidor remoto donde se almacenan estos archivos, permitiendo una transferencia de archivos rápida, segura y fiable.
 
 ## 1. Configuración 
 
