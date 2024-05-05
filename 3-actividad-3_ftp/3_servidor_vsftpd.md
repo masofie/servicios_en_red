@@ -4,12 +4,15 @@
 
 - [Servidor vsftpd](#servidor-vsftpd)
   - [Indice](#indice)
-  - [1. Configuración en el Servidor](#1-configuración-en-el-servidor)
-  - [2. Usuarios anónimos (anonymous)](#2-usuarios-anónimos-anonymous)
-  - [3. Usuarios Locales](#3-usuarios-locales)
+  - [1. Configuración](#1-configuración)
+    - [1.1 Servidor](#11-servidor)
+    - [1.2 Usuarios anónimos (anonymous)](#12-usuarios-anónimos-anonymous)
+    - [1.3 Usuarios Locales](#13-usuarios-locales)
 
 
-## 1. Configuración en el Servidor 
+## 1. Configuración 
+
+### 1.1 Servidor 
 
 Ver los logs de ftp , están en el directorio /var/log/vsftpd.log . 
 
@@ -27,13 +30,13 @@ Tiempo de conexión
 
 ![Tiempo de conexion](./img/vsftpd/tiempo_conexion.png)
 
-## 2. Usuarios anónimos (anonymous)
+### 1.2 Usuarios anónimos (anonymous)
 
 Permitir conexión con el usuario anonymous y escritura 
 
 ![Permitir usuarios anonymous](./img/vsftpd/conexiones_anonimas.png)
 
-## 3. Usuarios Locales 
+### 1.3 Usuarios Locales 
 
 Permitir que los conexiones de los usuarios locales y poder escribir en el servidor 
 
