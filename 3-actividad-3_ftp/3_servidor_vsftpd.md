@@ -8,6 +8,7 @@
     - [1.1 Servidor](#11-servidor)
     - [1.2 Usuarios anónimos (anonymous)](#12-usuarios-anónimos-anonymous)
     - [1.3 Usuarios Locales](#13-usuarios-locales)
+  - [Información Adicional](#información-adicional)
 
 
 ## 1. Configuración 
@@ -55,3 +56,30 @@ Creamos un certificado y añadimos las rutas de la clave privada y la publica y 
 
 
 ![Añadir Certificado](./img/vsftpd/certificado.png)
+
+
+## Información Adicional
+
+Instalar servidor ***vsftpd*** en Debian
+
+~~~
+sudo apt install vsftpd
+~~~
+
+Fichero principal de configuración
+
+~~~
+nano /etc/vsftpd.conf
+~~~
+
+Reiniciar servidor 
+
+~~~
+systemctl restart vsftpd.service
+~~~
+
+Ver el estado el servidor 
+
+~~~
+systemctl status vsftpd.service
+~~~
