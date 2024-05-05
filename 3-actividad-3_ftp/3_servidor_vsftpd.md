@@ -2,6 +2,13 @@
 
 ## Indice 
 
+- [Servidor vsftpd](#servidor-vsftpd)
+  - [Indice](#indice)
+  - [1. Configuración en el Servidor](#1-configuración-en-el-servidor)
+  - [2. Usuarios anónimos (anonymous)](#2-usuarios-anónimos-anonymous)
+  - [3. Usuarios Locales](#3-usuarios-locales)
+
+
 ## 1. Configuración en el Servidor 
 
 Ver los logs de ftp , están en el directorio /var/log/vsftpd.log . 
