@@ -5,6 +5,7 @@
 - [Servidor FTP Filezilla Server](#servidor-ftp-filezilla-server)
   - [Indice](#indice)
   - [Definición](#definición)
+  - [](#)
   - [Configuración](#configuración)
 
 
@@ -18,6 +19,7 @@ En resumen, un servidor **FTP** Filezilla Server es una herramienta que permite 
 
 ![Logo de Filezilla Server](./img/filezillaserver/logo_filezilla.png)
 
+##
 ## Configuración 
 
 Cambiar contraseña y puerto del servidor 
