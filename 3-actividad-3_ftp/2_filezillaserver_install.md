@@ -5,6 +5,7 @@
 - [Servidor FTP Filezilla Server](#servidor-ftp-filezilla-server)
   - [Indice](#indice)
   - [Definición](#definición)
+  - [Configuración](#configuración)
 
 
 ## Definición 
@@ -14,3 +15,22 @@ Claro, un servidor **FTP Filezilla Server** es un software de servidor ***FTP (P
 **Filezilla Server** es una aplicación de servidor **FTP** de código abierto que es ampliamente utilizado debido a su facilidad de uso y fiabilidad. Permite la configuración de usuarios con distintos niveles de acceso, la encriptación de las conexiones para mayor seguridad, y la supervisión de las transferencias de archivos en tiempo real.
 
 En resumen, un servidor **FTP** Filezilla Server es una herramienta que permite a los usuarios compartir y transferir archivos de forma segura a través de Internet utilizando el protocolo **FTP**.
+
+## Configuración 
+
+Cambiar contraseña y puerto del servidor 
+
+![Password and port](./img/filezillaserver/cambio_puerto.png)
+
+
+Tiempo global o general para login y actividad en el servidor 
+
+![Tiempo login-actividad](./img/filezillaserver/timpo_global.png)
+
+Mensaje de Bienvenida al servidor 
+
+![Mensaje del Baner](./img/filezillaserver/mensaje_bienvenida.png)
+
+Crear usuarios en el servidor con sus directorios
+
+![Mensaje del Baner](./img/filezillaserver/crear_user.png)
