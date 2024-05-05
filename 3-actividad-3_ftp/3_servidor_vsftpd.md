@@ -10,6 +10,7 @@
     - [1.2 Usuarios anónimos (anonymous)](#12-usuarios-anónimos-anonymous)
     - [1.3 Usuarios Locales](#13-usuarios-locales)
   - [2. Información Adicional](#2-información-adicional)
+  - [Biografia](#biografia)
 
 ## Definición 
 
@@ -95,3 +96,7 @@ Ver el estado el servidor
 ~~~
 systemctl status vsftpd.service
 ~~~
+
+## Biografia 
+
+Página Oficial Debian : **https://wiki.debian.org/vsftpd**
