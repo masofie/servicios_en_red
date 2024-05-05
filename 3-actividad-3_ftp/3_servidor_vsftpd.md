@@ -12,6 +12,14 @@ Añadir el mensaje de bienvenida al conectarse en el servidor
 
 ![Mensaje del Baner](./img/vsftpd/mensaje_baner.png)
 
+Máximo número de conexiones  
+
+![Maximo clientes](./img/vsftpd/maximo_clientes.png)
+
+Tiempo de conexión
+
+![Tiempo de conexion](./img/vsftpd/tiempo_conexion.png)
+
 ## 2. Usuarios anónimos (anonymous)
 
 Permitir conexión con el usuario anonymous y escritura 
