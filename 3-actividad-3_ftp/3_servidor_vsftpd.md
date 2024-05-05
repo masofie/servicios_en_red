@@ -19,6 +19,8 @@ El servidor ***vsftpd*** se utiliza principalmente para permitir a los usuarios 
 
 En resumen, un servidor ***vsftpd*** actúa como un intermediario entre los clientes que desean transferir archivos y el servidor remoto donde se almacenan estos archivos, permitiendo una transferencia de archivos rápida, segura y fiable.
 
+![Logo](./img/vsftpd/logo_vsftpd.png)
+
 ## 1. Configuración 
 
 ### 1.1 Servidor 
