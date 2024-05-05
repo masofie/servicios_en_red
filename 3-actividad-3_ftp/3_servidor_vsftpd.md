@@ -14,7 +14,7 @@
 
 ### 1.1 Servidor 
 
-Ver los logs de ftp , están en el directorio /var/log/vsftpd.log . 
+Ver los logs de ftp , están en el directorio ***/var/log/vsftpd.log*** . 
 
 ![Logs del Servidor](./img/vsftpd/logs_servidor.png)
 
