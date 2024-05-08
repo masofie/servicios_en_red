@@ -2,7 +2,7 @@
 
 ## Explicación del Fichero
 
-<br><br>
+<br>
 
 Estas son algunas especificaciones que podemos utilizar para la configuración del servidor ***vsftpd*** , con esto podemos configurar el servidor de una manera básica y bastante facil .
 
