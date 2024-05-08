@@ -6,8 +6,9 @@
 Estas son algunas especificaciones que podemos utilizar para la configuración del servidor ***vsftpd*** , con esto podemos configurar el servidor de una manera básica y bastante facil .
 
 - **Advertencia :** ***no funcionara si no se reincia nuestor servicio***
-
+##
 ## Fichero Básico de ***vsftpd.conf***
+
 
 ~~~
 # Configuración del servidor vsftpd
