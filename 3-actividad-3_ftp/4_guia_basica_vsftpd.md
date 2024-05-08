@@ -7,6 +7,7 @@ Estas son algunas especificaciones que podemos utilizar para la configuración d
 
 - **Advertencia :** ***no funcionara si no se reincia nuestor servicio***
 
+## Fichero Básico de ***vsftpd.conf***
 
 ~~~
 # Configuración del servidor vsftpd
