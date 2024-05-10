@@ -52,3 +52,12 @@ En el siguiente fichero podemos definir los registos que tendrá la ***zona dire
 
 ![Registro de la Zona Directa](./img/bind9_primario/4_registros_de_zonas_directa.png)
 
+### 1.5 Añadiendo Registro Zona Inversa
+
+En el fichero de la ***zona inversa*** lo primero que hay que hacer es añadir el registo ***NS*** para dar autoridad a la zona . Y los otros registos son de tipo ***PTR*** y ninguno otro más 
+
+~~~
+nano /var/cache/bind/db.18.168.192
+~~~
+
+![Registro de la Zona Inversa](./img/bind9_primario/5_registros_de_zonas_inversa.png)
