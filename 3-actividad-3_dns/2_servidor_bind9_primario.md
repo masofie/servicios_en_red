@@ -1,6 +1,17 @@
 # Servidor ***BIND*** Primario (Maestro)
 
 ## Indice 
+- [Servidor ***BIND*** Primario (Maestro)](#servidor-bind-primario-maestro)
+  - [Indice](#indice)
+  - [Definición](#definición)
+    - [1. Configuración de ***bind***](#1-configuración-de-bind)
+    - [1.1 Añadiendo Reenviadores](#11-añadiendo-reenviadores)
+    - [1.2 Definimos la Zona Directa e Inversa](#12-definimos-la-zona-directa-e-inversa)
+    - [1.3 Crear Zonas](#13-crear-zonas)
+    - [1.4 Añadiendo Registro Zona Directa](#14-añadiendo-registro-zona-directa)
+    - [1.5 Añadiendo Registro Zona Inversa](#15-añadiendo-registro-zona-inversa)
+  - [2. Comprobaciones en Cliente Windows](#2-comprobaciones-en-cliente-windows)
+
 
 ## Definición 
 
