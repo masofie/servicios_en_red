@@ -22,7 +22,7 @@ nano /etc/bind/named.conf.options
 
 ![Fichero de Reenviadores](./img/bind9_primario/1_reenviadores.png)
 
-### 1.2 Definimos la zona Directa e Inversa
+### 1.2 Definimos la Zona Directa e Inversa
 
 Para definir las zona directa e inversa del servidor dns se puede encontrar en el siguiente fichero 
 
@@ -31,3 +31,10 @@ nano /etc/bind/named.conf.local
 ~~~
 
 ![Definir Zonas Directa e Invera](./img/bind9_primario/2_definirzonas.png)
+
+
+### 1.3 Crear Zonas 
+
+Para crear las zonas directa e inversa podemos hacer una copia de los siguientes ficheros por defecto que tenemos y lo podemos hacer de la siguiente manera 
+
+![Crear Zonas Directa e Invera](./img/bind9_primario/3_crear_zonas_directa_inversa.png)
