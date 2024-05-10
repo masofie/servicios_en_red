@@ -10,9 +10,9 @@ El ***servidor primario o maestro*** proporciona servicios de administración de
 
 En resumen, un ***servidor primario o maestro*** es esencial en una red de computadoras para coordinar y gestionar la comunicación entre los diferentes dispositivos de la red y facilitar el acceso a los recursos compartidos.
 
-### Configuración de ***bind***
+### 1. Configuración de ***bind***
 
-### Añadiendo Reenviadores 
+### 1.1 Añadiendo Reenviadores 
 
 EL primer fichero ha configurar es fichero de renviadores que esta en la siguiente ruta 
 
@@ -21,3 +21,11 @@ nano /etc/bind/named.conf.options
 ~~~
 
 ![Fichero de Reenviadores](./img/bind9_primario/1_reenviadores.png)
+
+### 1.2 Definimos la zona Directa e Inversa
+
+~~~
+nano /etc/bind/named.conf.local
+~~~
+
+![Definir Zonas Directa e Invera](./img/bind9_primario/2_definirzonas.png)
