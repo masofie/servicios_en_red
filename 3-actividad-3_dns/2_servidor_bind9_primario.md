@@ -14,3 +14,10 @@ En resumen, un ***servidor primario o maestro*** es esencial en una red de compu
 
 ### Añadiendo Reenviadores 
 
+EL primer fichero ha configurar es fichero de renviadores que esta en la siguiente ruta 
+
+~~~
+nano /etc/bind/named.conf.options
+~~~
+
+![Fichero de Reenviadores](./img/bind9_primario/1_reenviadores.png)
