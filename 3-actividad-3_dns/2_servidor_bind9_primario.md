@@ -50,5 +50,5 @@ cp /etc/db.127 /var/cache/bind/db.18.168.192
 
 En el siguiente fichero podemos definir los registos que tendrá la ***zona directa*** , hay que tener en cuenta que el registro ***SOA*** añadimos el registro ***NS*** (es el servidor con autoridad de la zona)
 
-[Crear Zonas Directa e Invera](./img/bind9_primario/4_registros_de_zonas_directa.png)
+[Registro de la Zona Directa](./img/bind9_primario/4_registros_de_zonas_directa.png)
 
