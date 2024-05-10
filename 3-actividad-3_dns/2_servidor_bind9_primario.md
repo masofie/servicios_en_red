@@ -11,6 +11,8 @@
     - [1.4 Añadiendo Registro Zona Directa](#14-añadiendo-registro-zona-directa)
     - [1.5 Añadiendo Registro Zona Inversa](#15-añadiendo-registro-zona-inversa)
   - [2. Comprobaciones en Cliente Windows](#2-comprobaciones-en-cliente-windows)
+    - [2.1 Zona Directa e Inversa](#21-zona-directa-e-inversa)
+    - [2.2 Registro ***NS***](#22-registro-ns)
 
 
 ## Definición 
@@ -79,10 +81,15 @@ nano /var/cache/bind/db.18.168.192
 
 ## 2. Comprobaciones en Cliente Windows 
 
-1 - Comprobando zona ***directa e inversa*** de la siguiente manera 
+### 2.1 Zona Directa e Inversa
+
+Comprobando zona ***directa e inversa*** de la siguiente manera 
 
 ![Comprobaciones de Zona Directa e Inversa](./img/bind9_primario/6_w10_comprobaciones_directa_inversa.png)
 
-2 - Comprobar regristo ***NS*** , para ver el servidor con autoridad 
+
+### 2.2 Registro ***NS***
+
+Comprobar regristo ***NS*** , para ver el servidor con autoridad 
 
 ![Comprobacion de Registro NS](./img/bind9_primario/7_w10_comprobaciones_registro_ns.png)
