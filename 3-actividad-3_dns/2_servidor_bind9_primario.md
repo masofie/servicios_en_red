@@ -68,6 +68,10 @@ nano /var/cache/bind/db.18.168.192
 
 ## 2. Comprobaciones en Cliente Windows 
 
-Comprobando zona ***directa e inversa*** de la siguiente manera 
+1 - Comprobando zona ***directa e inversa*** de la siguiente manera 
 
 ![Comprobaciones de Zona Directa e Inversa](./img/bind9_primario/6_w10_comprobaciones_directa_inversa.png)
+
+2 - Comprobar regristo ***NS*** , para ver el servidor con autoridad 
+
+![Comprobacion de Registro NS](./img/bind9_primario/7_w10_comprobaciones_registro_ns.png)
