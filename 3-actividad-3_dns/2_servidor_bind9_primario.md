@@ -24,6 +24,8 @@ nano /etc/bind/named.conf.options
 
 ### 1.2 Definimos la zona Directa e Inversa
 
+Para definir las zona directa e inversa del servidor dns se puede encontrar en el siguiente fichero 
+
 ~~~
 nano /etc/bind/named.conf.local
 ~~~
