@@ -37,4 +37,14 @@ nano /etc/bind/named.conf.local
 
 Para crear las zonas directa e inversa podemos hacer una copia de los siguientes ficheros por defecto que tenemos y lo podemos hacer de la siguiente manera 
 
+~~~
+cp /etc/db.local /var/cache/bind/db.masofie.eus
+~~~
+~~~
+cp /etc/db.127 /var/cache/bind/db.18.168.192
+~~~
+
 ![Crear Zonas Directa e Invera](./img/bind9_primario/3_crear_zonas_directa_inversa.png)
+
+### 1.4 Añadiendo Registro Zona Directa
+
