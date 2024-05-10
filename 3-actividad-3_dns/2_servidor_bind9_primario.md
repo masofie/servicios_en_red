@@ -4,7 +4,7 @@
 - [Servidor ***BIND*** Primario (Maestro)](#servidor-bind-primario-maestro)
   - [Indice](#indice)
   - [Definición](#definición)
-    - [1. Configuración de ***bind***](#1-configuración-de-bind)
+  - [1. Configuración de ***bind***](#1-configuración-de-bind)
     - [1.1 Añadiendo Reenviadores](#11-añadiendo-reenviadores)
     - [1.2 Definimos la Zona Directa e Inversa](#12-definimos-la-zona-directa-e-inversa)
     - [1.3 Crear Zonas](#13-crear-zonas)
@@ -25,7 +25,7 @@ El ***servidor primario o maestro*** proporciona servicios de administración de
 
 En resumen, un ***servidor primario o maestro*** es esencial en una red de computadoras para coordinar y gestionar la comunicación entre los diferentes dispositivos de la red y facilitar el acceso a los recursos compartidos.
 
-### 1. Configuración de ***bind***
+## 1. Configuración de ***bind***
 
 ### 1.1 Añadiendo Reenviadores 
 
