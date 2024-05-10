@@ -14,7 +14,7 @@
     - [2.1 Zona Directa e Inversa](#21-zona-directa-e-inversa)
     - [2.2 Registro ***NS***](#22-registro-ns)
     - [2.3 Registro ***TXT***](#23-registro-txt)
-  - [2.4 Registor ***MX***](#24-registor-mx)
+    - [2.4 Registor ***MX***](#24-registor-mx)
 
 
 ## Definición 
@@ -102,7 +102,7 @@ Ahora comprobamos el registro ***TXT*** , para ver si esta funcionando correctam
 
 ![Comprobacion de Registro TXT](./img/bind9_primario/8_w10_comprobaciones_registro_txt.png)
 
-## 2.4 Registor ***MX***
+### 2.4 Registor ***MX***
 
 Si queremos comprobar el registro ***MS*** ,  solo hay que hacer lo siguiente comando 
 
