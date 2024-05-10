@@ -13,7 +13,8 @@
   - [2. Comprobaciones en Cliente Windows](#2-comprobaciones-en-cliente-windows)
     - [2.1 Zona Directa e Inversa](#21-zona-directa-e-inversa)
     - [2.2 Registro ***NS***](#22-registro-ns)
-    - [2.2 Registro ***TXT***](#22-registro-txt)
+    - [2.3 Registro ***TXT***](#23-registro-txt)
+  - [2.4 Registor ***MX***](#24-registor-mx)
 
 
 ## Definición 
@@ -95,8 +96,14 @@ Comprobar regristo ***NS*** , para ver el servidor con autoridad
 
 ![Comprobacion de Registro NS](./img/bind9_primario/7_w10_comprobaciones_registro_ns.png)
 
-### 2.2 Registro ***TXT***
+### 2.3 Registro ***TXT***
 
 Ahora comprobamos el registro ***TXT*** , para ver si esta funcionando correctamente 
 
 ![Comprobacion de Registro TXT](./img/bind9_primario/8_w10_comprobaciones_registro_txt.png)
+
+## 2.4 Registor ***MX***
+
+Si queremos comprobar el registro ***MS*** ,  solo hay que hacer lo siguiente comando 
+
+![Comprobacion de Registro MX](./img/bind9_primario/9_w10_comprobaciones_registro_mx.png)
