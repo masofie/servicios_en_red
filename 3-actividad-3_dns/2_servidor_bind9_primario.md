@@ -65,3 +65,9 @@ nano /var/cache/bind/db.18.168.192
 ~~~
 
 ![Registro de la Zona Inversa](./img/bind9_primario/5_registros_de_zonas_inversa.png)
+
+## 2. Comprobaciones en Cliente Windows 
+
+Comprobando zona ***directa e inversa*** de la siguiente manera 
+
+![Comprobaciones de Zona Directa e Inversa](./img/bind9_primario/6_w10_comprobaciones_directa_inversa.png)
