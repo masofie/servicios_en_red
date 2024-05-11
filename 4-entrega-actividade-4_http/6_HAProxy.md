@@ -10,7 +10,7 @@
 
 ## 1. HAProxy SSL Terminador
 
-## 1.2 Instalación y Comprobación
+### 1.1 Instalación y Comprobación
 
 Creamos una máquina nueva e instalamos el paquete haproxy 
 
@@ -35,3 +35,37 @@ cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original
 ~~~
 
 ![Copia de Fichero](./img/HAProxy/3_copia_fichero.png)
+
+
+### 1.2 Instalación de Apache2
+
+Ahora instalamos apache en la máquina del sitio web (www1)
+
+~~~
+apt install apache2
+~~~
+
+![Instalación de Apache2](./img/HAProxy/4_instalacion_apache2.png)
+
+
+### 1.3 Instalación de Módulos PHP
+
+E instalamos el modulo de php
+
+~~~
+sudo apt-get install apache2 php libapache2-mod-php
+~~~
+
+![Instalación de Apache2](./img/HAProxy/5_instalacion_php.png)
+
+
+Reiniciamos el servicio de apache2 para guardar cambios
+
+~~~
+systemclt restart apache2
+~~~
+~~~
+systemclt status apache2
+~~~
+
+![Instalación de Apache2](./img/HAProxy/6_reinciar_status_apache2.png)
