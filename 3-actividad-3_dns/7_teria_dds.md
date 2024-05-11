@@ -1,4 +1,4 @@
-# DDNS utilidad y Proveedores que los proporcionan
+# DDNS utilidad y Proveedores que los Proporcionan
 
 ## Indice 
 
