@@ -24,3 +24,17 @@ sitio web .
 
 
 ![Función Principal](./img/ddns/2_funcion_principal.png)
+
+
+### 1.3 Funcionamiento entre Servidor y Cliente
+
+El funcionamiento del **DDNS** básico es un software cliente instalado en un dispositivo que esta asociado a un
+nombre de dominio . Lo que hace este software es detectar cambios en las direcciones ip asignadas a los
+dispositivos y notificar los cambios a un servidor **DDNS** , y este a su vez actualizan la información almacenada en la
+base de datos **DNS** . <br>
+
+**Ejemplo :** <br>
+
+Cuando un usuario intenta acceder al dispositivos que utiliza el nombre de dominio , el sistema de resolución DNS
+se encarga de traducir estos nombres en la dirección ip correspondiente y así es como se establece la conexión con
+el dispositivo deseado .
