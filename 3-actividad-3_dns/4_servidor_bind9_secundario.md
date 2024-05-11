@@ -27,3 +27,8 @@ allow-transfer { 192.168.18.109; };
 
 ![Fichero de Reenviadores](./img/bind9_secundario/2_primario_reenviaores.png)
 
+
+### 1.2 Cambios en Zonas 
+
+![Cambios en Zonas 1](./img/bind9_secundario/3_primario_definicion_zona_directa.png)
+![Cambios en Zonas 1](./img/bind9_secundario/4_primario_definicion_zona_invenso.png)
