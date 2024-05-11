@@ -2,6 +2,15 @@
 
 ## Indice
 
+- [Montar Apache, PHP y MariaDB](#montar-apache-php-y-mariadb)
+  - [Indice](#indice)
+  - [Definición](#definición)
+  - [1. Sitio Web con Phpmyadmin](#1-sitio-web-con-phpmyadmin)
+    - [1.1 Instalación de MariaDB y Comprobación](#11-instalación-de-mariadb-y-comprobación)
+    - [1.2 Instalación de PHP y Comprobación](#12-instalación-de-php-y-comprobación)
+    - [1.3 Instalación de PHPmyadmin y Comprobación](#13-instalación-de-phpmyadmin-y-comprobación)
+
+
 ## Definición
 
 ***Apache*** : Es un servidor web de código abierto que permite publicar páginas web en Internet. Es muy popular y es ampliamente utilizado en la mayoría de los sistemas operativo
