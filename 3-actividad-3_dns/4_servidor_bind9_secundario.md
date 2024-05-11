@@ -14,5 +14,16 @@ Además de servir como ***respaldo***, los servidores secundarios también puede
 
 Utilizamos la siguiente clausula en el fichero de definción de zonas y de definición de los reenviadores , tiene que estar de la siguiente forma 
 
+~~~
+allow-transfer { 192.168.18.109; };
+forwardes{};
+~~~
+
 ![Fichero de Definiir Zonas](./img/bind9_secundario/1_primario_allow_transfer.png)
+
+~~~
+allow-transfer { 192.168.18.109; };
+~~~
+
 ![Fichero de Reenviadores](./img/bind9_secundario/2_primario_reenviaores.png)
+
