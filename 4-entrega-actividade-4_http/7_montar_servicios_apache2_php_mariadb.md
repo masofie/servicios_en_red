@@ -52,3 +52,18 @@ apt install php libapache2-mod-php php-mysql php-gd php-intl php-xml
 En el cliente comprobamos que esta el php instalado
 
 ![Especificaciones PHP](./img/montar_servicios/5_especificaciones_php.png)
+
+
+### 1.3 Instalación de PHPmyadmin y Comprobación
+
+Instalamos el phpmyadmin
+
+~~~
+apt install phpmyadmin
+~~~
+
+![Instalar phpmyadmin](./img/montar_servicios/6_install_phpmyadmin.png)
+
+Vamos al cliente para probar si funciona bien el phpmyadmin
+
+![Comprobar w10](./img/montar_servicios/7_comprobar_w10.png)
