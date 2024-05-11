@@ -128,3 +128,19 @@ frontend apache_backend_serves
 Reiniciamos el servicio de haproxy y miramos el estado para ver si esta todo correcto 
 
 ![Reiniciamos servicio](./img/HAProxy/13_reinicio.png)
+
+
+### 2.2 Comprobaciones
+
+Tenemos las tres máquinas encendidas haproxy , www1 y www2 y vamos al cliente y accedemos al a sitio el servidor que nos responde es el www1
+
+
+![Comprobaciones desde Windows 1](./img/HAProxy/14_comprobacion_w10.png)
+
+Luego apagamos el servidor www1 y hacemos la misma comprobación y nos responde el www2
+
+![Comprobaciones desde Windows 2](./img/HAProxy/15_comprobacion_w10.png)
+
+Ahora apagamos el servidor www2 y solo tenemos encendió haproxy , y como podemos ver no funciona
+
+![Comprobaciones desde Windows 3](./img/HAProxy/16_comprobacion_w10.png)
