@@ -15,5 +15,12 @@ Creamos una máquina nueva e instalamos el paquete haproxy
 ~~~
 apt install haproxy
 ~~~
-
 ![Comando de Instalación](./img/HAProxy/1_aproxy_instalacion.png)
+
+
+Mostramos la versión que hemos instalamos
+
+~~~
+haproxy -v
+~~~
+![Comando de Instalación](./img/HAProxy/2_aproxy_version.png)
