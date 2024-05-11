@@ -6,4 +6,4 @@
 4. [Instalación y Configuración del Servidor ISS en Windows ](4_instalacion_iss_ws.md)
 5. [Creación de Sitios Virtuales en Apache2 en Debian](5_creacion_sitios_apache2.md)
 6. [Alta Disponibilidad con HAProxy en Debian](6_HAProxy.md)
-7. [Montar Apache, PHP y MariaDB Debian](7_montar_servicios(apache2, php y mariadb).md)
+7. [Montar Apache, PHP y MariaDB Debian](7_montar_servicios_apache2_php_mariadb.md)
