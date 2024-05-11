@@ -12,3 +12,28 @@
 
 
 ![Logo de Servicios](./img/montar_servicios/logo.png)
+
+## 1. Sitio Web con Phpmyadmin
+
+### 1.1 Instalación de MariaDB y Comprobación
+
+Primero instalamos mariadb-server , en nuestra máquina www
+
+~~~
+apt install mariadb-server
+~~~
+
+![Instalar MariaDB Server](./img/montar_servicios/1_install_mariadb_server.png)
+
+
+Para comprobar que se instalo correctamente visualizamos los puertos y si esta el 3306 es porque esta instalado e iniciamos sesión en mysql
+
+~~~
+ss -ltn
+~~~
+
+![Ver Puertos](./img/montar_servicios/2_ver_puertos.png)
+
+<br>
+
+![Iniciar MYSQL](./img/montar_servicios/3_iniciar_mysql.png)
