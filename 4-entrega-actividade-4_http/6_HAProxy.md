@@ -123,3 +123,8 @@ frontend apache_backend_serves
 ~~~
 
 ![Crear Fcihero Haproxy](./img/HAProxy/12_fichero_haproxy.png)
+
+
+Reiniciamos el servicio de haproxy y miramos el estado para ver si esta todo correcto 
+
+![Reiniciamos servicio](./img/HAProxy/13_reinicio.png)
