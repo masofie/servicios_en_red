@@ -114,7 +114,7 @@ Lo primero que hay que hacer es ir al haproxy , visualizamos la ip . Eliminamos 
 
 
 ![Mostrar ip](./img/HAProxy/10_ver_ip.png)
-![Fichero host en windows](./img/HAProxy/11_fichero_hosts_w10.png)
+![Fichero host en windows](./img/HAProxy/11_fichero_hostss_w10.png)
 
 
 Abrimos el siguiente fichero y añadimos las siguientes lineas al final del fichero
