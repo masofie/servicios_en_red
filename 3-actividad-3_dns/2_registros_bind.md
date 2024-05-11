@@ -1,8 +1,8 @@
-# Registros Básicos en ***BIND**
+# Registros Básicos en ***BIND***
 
 ## Indice 
 
-- [Registros Básicos en \***BIND**](#registros-básicos-en-bind)
+- [Registros Básicos en ***BIND***](#registros-básicos-en-bind)
   - [Indice](#indice)
   - [1. Tipos de Registros DNS](#1-tipos-de-registros-dns)
     - [1.1 Registro de recursos ***A (Address)***](#11-registro-de-recursos-a-address)
