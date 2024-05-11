@@ -1,4 +1,4 @@
-# Servidor ***BIND*** Secundario (Respaldo)
+# DDNS utilidad y Proveedores que los proporcionan
 
 ## Indice 
 
