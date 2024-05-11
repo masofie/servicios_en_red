@@ -1,6 +1,14 @@
-# Servidor BIND Secundario (Respaldo)
+# Servidor ***BIND*** Secundario (Respaldo)
 
 ## Indice 
+
+- [Servidor ***BIND*** Secundario (Respaldo)](#servidor-bind-secundario-respaldo)
+  - [Indice](#indice)
+  - [Definición](#definición)
+  - [1. Cambios en el Servidor Primario](#1-cambios-en-el-servidor-primario)
+    - [1.2 Clausula ***allow-transfer***](#12-clausula-allow-transfer)
+    - [1.2 Cambios en Zonas](#12-cambios-en-zonas)
+
 
 ## Definición 
 
