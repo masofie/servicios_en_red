@@ -23,4 +23,13 @@ Mostramos la versión que hemos instalamos
 ~~~
 haproxy -v
 ~~~
-![Comando de Instalación](./img/HAProxy/2_aproxy_version.png)
+![Comando de Versión](./img/HAProxy/2_aproxy_version.png)
+
+
+Copiamos el fichero original de haproxy para tener una copia de seguridad
+
+~~~
+cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original
+~~~
+
+![Copia de Fichero](./img/HAProxy/3_copia_fichero.png)
