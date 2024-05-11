@@ -38,3 +38,5 @@ base de datos **DNS** . <br>
 Cuando un usuario intenta acceder al dispositivos que utiliza el nombre de dominio , el sistema de resolución DNS
 se encarga de traducir estos nombres en la dirección ip correspondiente y así es como se establece la conexión con
 el dispositivo deseado .
+
+![Cliente/Servidor](./img/ddns/3_cliente_servidor.png)
