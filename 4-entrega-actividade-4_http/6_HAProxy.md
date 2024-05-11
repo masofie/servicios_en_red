@@ -68,4 +68,28 @@ systemclt restart apache2
 systemclt status apache2
 ~~~
 
-![Instalación de Apache2](./img/HAProxy/6_reinciar_status_apache2.png)
+![Reiniciar y Estado de Apache2](./img/HAProxy/6_reinciar_status_apache2.png)
+
+
+Copiamos el sitio por defecto y cambiamos el nombre
+
+~~~
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/www.seriprobas.eu.conf
+~~~
+
+![Copia de Fichero de Sitios](./img/HAProxy/7_copia_sites_avaliables.png)
+
+
+Creamos un fichero index.php alusivo al sitio web de seriprobas.eu
+
+~~~
+nano var/www/www.seriprobas.eu/index.php
+~~~
+
+![Copia de Fichero de Sitios](./img/HAProxy/8_crear_fichero_index.png)
+
+
+Vamos al navegador del cliente y comprobamos que podemos acceder al sitio web
+
+
+![Copia de Fichero de Sitios](./img/HAProxy/9_comprobar_index_w10.png)
