@@ -30,7 +30,7 @@ Es un nombre uniforme de recursos y su alcance es identificar los recursos de ma
 
 **Url** es una cadena que localiza los recursos de de **Internet** como , páginas web , imágenes etc. URI es un cadena que identifica el recurso que estamos buscando y nos da el método para acceder a el , pero no proporciona pero no los localiza como la url . Y la URN no proporciona ninguna información sobre la localización solo que lo identifica como iguala URI puro , incluso después de que ese recurso ya no existe .
 
-![Esquema de la URL](./img/esquema_url.png)
+![Esquema de la URL](./img/recursos_protocolos_http/esquema_url.png)
 
 ##
 ## 2. Intenta Buscar 3 conceptos sobre el mundo de la web 
@@ -84,7 +84,7 @@ Fue la primera guerra del navegador en el año **1995-2001** que enfrento Micros
  
 La ventaja que nos dio estas ventajas fue que han llevado a una mejora significativa en la velocidad de carga de las páginas , el rendimiento general del navegador y la compatibilidad con estándares web . Esto beneficiando a los usuarios al darle más opciones y mejorando constantemente su experiencia en línea 
 
-![Pelea de Navegadores](./img/pelea_navegadores.png)
+![Pelea de Navegadores](./img/recursos_protocolos_http/pelea_navegadores.png)
 
 
 ### 4.2 Características de los navegadores
@@ -114,15 +114,15 @@ Lo principal que tenemos que tener en cuenta es la comodidad de los usuarios .
 
 1 – Accedemos a nuestro navegador y ejecutamos F10 para que en la parte superior nos aparezca la barra de ajustes . Ahí seleccionamos la pestaña de Herramientas-Ajustes .<br><br> 
 
-![Cookies Globale 1](./img/1_cookies_globales.png)
+![Cookies Globale 1](./img/recursos_protocolos_http/1_cookies_globales.png)
 
 2 – También podemos acceder con la combinación de letra F12 y le damos a Inspeccionar , como se muestra en la imagen . Nos aparecerá la siguiente ventaba y seleccionamos una url y nos abre una ventana a la derecha y seleccionamos cookies . Y ahí las tenemos correctamente <br><br>  
 
-![Cookies Globale 2](./img/2_cookies_globales.png)
+![Cookies Globale 2](./img/recursos_protocolos_http/2_cookies_globales.png)
 
 1 – En Chrome también lo podemos encontrar de la siguiente manera en el navegador como esta en la imagen <br><br> 
 
-![Cookies Globale 3](./img/3_cookies_globales.png)
+![Cookies Globale 3](./img/recursos_protocolos_http/3_cookies_globales.png)
 
 ##
 ## 6. Navegación Web
@@ -130,7 +130,7 @@ Lo principal que tenemos que tener en cuenta es la comodidad de los usuarios .
 
 1 – Primero vamos al navegador y accedemos a la url de as.com y ejecutamos el **Wireshark** y filtramos la palabra http y en una de ellas damos clic derecho y accedemos a **SEGUIR-TCP STREAM** , como se muestra en la imagen .<br><br>
 
-![Capturando Red](./img/capturando_red.png)
+![Capturando Red](./img/recursos_protocolos_http/capturando_red.png)
 <br><br>
 
 **1. Qué versión HTTP emplea ? Que método se empleo en la primera petición HTTP?**
