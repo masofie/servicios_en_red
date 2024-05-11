@@ -103,3 +103,23 @@ Lo primero que hay que hacer es ir al haproxy , visualizamos la ip . Eliminamos 
 
 ![Mostrar ip](./img/HAProxy/10_ver_ip.png)
 ![Fichero host en windows](./img/HAProxy/11_fichero_hosts_w10.png)
+
+
+Abrimos el siguiente fichero y añadimos las siguientes lineas al final del fichero
+
+~~~
+
+frontend apache_front
+	bind *:80
+	acl host_www_seriprobas.eu hdr(host) -i www.seriprobas.eu
+	use_bckend apache_backend_servers if hos_www_seriprobas.eu
+	option forwardfor
+
+frontend apache_backend_serves
+	balance roundrobin
+	server backend01 172.16.10.96:80 check
+	server backend01 172.16.10.91:80 check
+
+~~~
+
+![Crear Fcihero Haproxy](./img/HAProxy/12_fichero_haproxy.png)
