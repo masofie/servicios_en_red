@@ -40,3 +40,44 @@ se encarga de traducir estos nombres en la dirección ip correspondiente y así 
 el dispositivo deseado .
 
 ![Cliente/Servidor](./img/ddns/3_cliente_servidor.png)
+
+
+### 1.4 Pasos de Comunicación entre Cliente y Servidor
+
+- **Paso 1 ( Registrar Dominio ) :** El cliente se registra en un servicio DDNS y selecciona un dominio a su
+gusto .
+
+- **Paso 2 ( Instalación del Cliente DDNS ) :** Cuando ya este registro el cliente en el servicio DDNS , este instala
+el software o aplicación DDNS . El software se encargara de actualizar automáticamente las direcciones ip ’ s
+del servidor cada vez que se cambie .
+
+- **Paso 3 ( Obtener Dirección inicial ) :** Después inicia en el software o aplicación descargado anteriormente y
+obtenemos la dirección ip actual del servidor .
+
+- **Paso 4 ( Enviar dirección ip al Servidor DDNS ) :** Luego software DDNS envía la dirección ip al servidor
+DDNS , eso lo hace a través de una conexión cifrada , que puede ser por HTTPS .
+
+- **Paso 5 ( Restar Dirección ip en el Servidor DDNS ) :** El servido DDNS registra la dirección ip proporcionada
+por el cliente junto con el dominio asociado en la base de datos de la aplicación .
+
+- **Paso 6 ( Actualizaciones ) :** El software DDNS se ejecuta en segundo plano en el servidor y hace una
+verificación periódicamente . Esto lo hace para ver si la dirección ip ha cambiado .
+
+
+- **Paso 7 ( Detectar cambio de dirección ip ) :** Entonces si la dirección ip del servidor cambia , el software
+DDNS lo detecta y actualiza automáticamente la dirección ip en el servidor .
+
+- **Paso 8 ( Petición de resolución DNS ) :** Ahora cunado el usuario intenta acceder al servidor a través del
+dominio registrado en el servicio DDNS , el dispositivo realiza una petición de resolución de DNS .
+•
+- **Paso 9 ( Recuperación de dirección ip actualizada ) :** El servidor DNS proveedor DDNS recibe , a petición
+de resolución DNS y este busca en su base de datos el dominio solicitado .
+•
+- **Paso 10 ( Respuesta de dirección ip actualizada ) :** Después el servidor DNS responde al dispositivo del
+usuarios con la dirección ip actualizada del servidor .
+•
+- **Paso 11 ( Establecimiento de la conexión ) :** Este dispositivo del usuarios utiliza la dirección ip recibida para
+establecer una conexión con el servidor .
+•
+- **Paso 12 ( Comunicación entre el servidor y el cliente ) :** La conexión se establece correctamente , el cliente
+y el servidor pueden comunicarse entre si , utilizando protocolos como , ( HTTPS , FTP , SSH , etc )
