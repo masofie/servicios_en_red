@@ -2,6 +2,18 @@
 
 ## Indice
 
+- [Alta Disponibilidad con ***HAProxy***](#alta-disponibilidad-con-haproxy)
+  - [Indice](#indice)
+  - [Definición](#definición)
+  - [1. HAProxy SSL Terminador](#1-haproxy-ssl-terminador)
+    - [1.1 Instalación y Comprobación](#11-instalación-y-comprobación)
+    - [1.2 Instalación de Apache2](#12-instalación-de-apache2)
+    - [1.3 Instalación de Módulos PHP](#13-instalación-de-módulos-php)
+  - [2. Configuración de HAProxy](#2-configuración-de-haproxy)
+    - [2.1 Crear Servidores de Copias](#21-crear-servidores-de-copias)
+    - [2.2 Comprobaciones](#22-comprobaciones)
+
+
 ## Definición 
 
 ***HAProxy*** es un software de código abierto que proporciona balanceo de carga y proxy inverso para servidores web. Es utilizado comúnmente en entornos de alta disponibilidad para distribuir la carga entre varios servidores y garantizar la disponibilidad y rendimiento de los servicios web. En **Debian**, ***HAProxy*** se puede instalar a través del gestor de paquetes ***apt-get***.
