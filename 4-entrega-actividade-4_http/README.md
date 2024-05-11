@@ -1,4 +1,4 @@
-# Instalación y Configuración Servicio HTTTP/HTPPS
+# Instalación y Configuración Servicio HTTP/HTTPS
 
 1. [Instalación y Configuración de Apache en XAMMP](1-instalacion-configuracion-apache-windows.md)
 2. [Despligue de Tromcat en XAMPP](2-despligue-tromcat.md)
