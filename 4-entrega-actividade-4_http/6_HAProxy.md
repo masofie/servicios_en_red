@@ -92,4 +92,14 @@ nano var/www/www.seriprobas.eu/index.php
 Vamos al navegador del cliente y comprobamos que podemos acceder al sitio web
 
 
-![Copia de Fichero de Sitios](./img/HAProxy/9_comprobar_index_w10.png)
+![Visitar navegador](./img/HAProxy/9_comprobar_index_w10.png)
+
+## 2. Configuración de HAProxy
+
+### 2.1 Crear Servidores de Copias
+
+Lo primero que hay que hacer es ir al haproxy , visualizamos la ip . Eliminamos la ip que teníamos antes en el fichero hosts y añadimos la de la máquina haproxy .
+
+
+![Mostrar ip](./img/HAProxy/10_ver_ip.png)
+![Fichero host en windows](./img/HAProxy/11_fichero_hosts_w10.png)
