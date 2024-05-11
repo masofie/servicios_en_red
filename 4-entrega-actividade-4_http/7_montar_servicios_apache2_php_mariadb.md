@@ -37,3 +37,18 @@ ss -ltn
 <br>
 
 ![Iniciar MYSQL](./img/montar_servicios/3_iniciar_mysql.png)
+
+
+### 1.2 Instalación de PHP y Comprobación
+
+Instalamos los servicios php que vamos a necesitar
+
+~~~
+apt install php libapache2-mod-php php-mysql php-gd php-intl php-xml
+~~~
+
+![Instalar PHP](./img/montar_servicios/4_install_php.png)
+
+En el cliente comprobamos que esta el php instalado
+
+![Especificaciones PHP](./img/montar_servicios/5_especificaciones_php.png)
