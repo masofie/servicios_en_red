@@ -18,7 +18,7 @@ Tromcat es un módulo web que permite la integración de **Tomcat en XAMPP**, un
 
 Tomcat es un servidor web de código abierto que se utiliza principalmente para ejecutar aplicaciones Java en un entorno web. Al integrar Tomcat en XAMPP, los usuarios pueden acceder a funcionalidades avanzadas para ejecutar aplicaciones Java y servlets en su servidor web local. Esto es útil para desarrolladores que trabajan con aplicaciones Java y desean probarlas en un entorno seguro y controlado antes de implementarlas en un entorno de producción.
 
-![Logo Tromcat](./img/logo_tromcat.png)
+![Logo Tromcat](./img/despligue_tromcat/logo_tromcat.png)
 
 
 ## 1.1 Error al Iniciar el Tromcat 
@@ -28,7 +28,7 @@ Este es el error que nos da al iniciar el **TROMCAT** porque le hace falta una v
 <br><br>
 
 
-![Error al Iniciar Tromcat](./img/1_error_tromcat.png)
+![Error al Iniciar Tromcat](./img/despligue_tromcat/1_crear_usuarios_tromcat.png)
 <br><br>
 
 ## 1.2 Solucionar Error de Tromcat 
@@ -46,13 +46,13 @@ Java Development Kit >> JavaHome >> ruta del jdk
 
 
 
-![Creción de Directorios](./img/1_variable_java_home.png)
+![Creción de Directorios](./img/despligue_tromcat/1_crear_usuarios_tromcat.png)
 <br><br>
 
 Volvemos comprobar que **tromcat** se ha iniciado correctamente
 <br>
 
-![Tromcat iniciado correctamente](./img/2_variable_java_home.png)
+![Tromcat iniciado correctamente](./img/despligue_tromcat/2_variable_java_home.png)
 
 
 
@@ -63,19 +63,19 @@ Volvemos comprobar que **tromcat** se ha iniciado correctamente
 Para poder manejaer como administrador podemos crear un usaurio para iniciar sesión, modificando el siguiente fichero :
 <br><br>
 
-![Tromcat crear usuario 1](./img/1_crear_usuarios_tromcat.png)
+![Tromcat crear usuario 1](./img/despligue_tromcat/1_crear_usuarios_tromcat.png)
 <br><br>
 
 Volvemos ha la página principal y damos clic a **Manager App** . 
 <br><br>
 
-![Tromcat crear usuario 2](./img/2_crear_usuarios_tromcat.png)
+![Tromcat crear usuario 2](./img/despligue_tromcat/1_variable_java_home.png)
 <br><br>
 
 Iniciamos con el usuario que hemos agreagado antes y como podemos ver inicia correctamente 
 <br><br>
 
-![Tromcat crear usuario 3](./img/3_crear_usuarios_tromcat.png)
+![Tromcat crear usuario 3](./img/despligue_tromcat/3_crear_usuarios_tromcat.png)
 <br><br><br>
 
 
