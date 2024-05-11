@@ -151,12 +151,12 @@ Tenemos las tres máquinas encendidas haproxy , www1 y www2 y vamos al cliente y
 ![Comprobaciones desde Windows 1](./img/HAProxy/14_comprobacion_w10.png)
 
 Luego apagamos el servidor www1 y hacemos la misma comprobación y nos responde el www2
-<br>
+<br><br>
 
 ![Comprobaciones desde Windows 2](./img/HAProxy/15_comprobacion_w10.png)
 
 Ahora apagamos el servidor www2 y solo tenemos encendió haproxy , y como podemos ver no funciona
 
-<br>
+<br><br>
 
 ![Comprobaciones desde Windows 3](./img/HAProxy/16_comprobacion_w10.png)
