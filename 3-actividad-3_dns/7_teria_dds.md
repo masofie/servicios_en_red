@@ -1,6 +1,14 @@
 # DDNS utilidad y Proveedores que los Proporcionan
 
 ## Indice 
+- [DDNS utilidad y Proveedores que los Proporcionan](#ddns-utilidad-y-proveedores-que-los-proporcionan)
+  - [Indice](#indice)
+  - [1 . DDNS](#1--ddns)
+    - [1.1 Qué es DDNS y cual es su utilizad ?](#11-qué-es-ddns-y-cual-es-su-utilizad-)
+    - [1.2 Función Principal](#12-función-principal)
+    - [1.3 Funcionamiento entre Servidor y Cliente](#13-funcionamiento-entre-servidor-y-cliente)
+    - [1.4 Pasos de Comunicación entre Cliente y Servidor](#14-pasos-de-comunicación-entre-cliente-y-servidor)
+
 
 ## 1 . DDNS
 
