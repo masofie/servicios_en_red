@@ -18,4 +18,4 @@
 
 Para comprobar los usuarios creados anteriormente usamsos ***filezillaclient*** de la siguiente manera . Mostramos uno para comprobar 
 
-![Iniciar Sesión Creados](./img/filezillaserver/crear_user.png)
+![Iniciar Sesión Creados](./img/filezillaclient/1_iniciar_sesion_usuarios.png)
