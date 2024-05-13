@@ -99,3 +99,11 @@ get fichero_remoto
 ~~~
 
 ![Descargar Fichero](./img/comandos_terminal/8_descarga_fichero.png)
+
+Ahora comprobamos el fichero remoto que hemos descagado del servidor **ftp** 
+
+~~~
+!dir
+~~~
+
+![Comprobar Descargar Fichero](./img/comandos_terminal/8_comprobar_descarga_fichero.png)
