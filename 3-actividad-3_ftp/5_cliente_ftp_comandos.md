@@ -14,6 +14,7 @@
     - [1.5 Estado del ***ftp***](#15-estado-del-ftp)
     - [1.6 Tipo de Formato](#16-tipo-de-formato)
     - [1.7 Descargar Fichero](#17-descargar-fichero)
+  - [2. Terminal de Debian](#2-terminal-de-debian)
 
 
 ## Defición 
@@ -107,3 +108,5 @@ Ahora comprobamos el fichero remoto que hemos descagado del servidor **ftp**
 ~~~
 
 ![Comprobar Descargar Fichero](./img/comandos_terminal/8_comprobar_descarga_fichero.png)
+
+## 2. Terminal de Debian 
