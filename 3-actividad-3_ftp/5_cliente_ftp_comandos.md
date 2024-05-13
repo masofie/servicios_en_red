@@ -10,6 +10,7 @@
     - [1.2 Métodos de Acceso](#12-métodos-de-acceso)
       - [1.2.1 Primer Métodos de Acceso](#121-primer-métodos-de-acceso)
       - [1.2.2 Segundo Métodos de Acceso](#122-segundo-métodos-de-acceso)
+    - [Subir Fichero](#subir-fichero)
 
 
 ## Defición 
@@ -45,3 +46,13 @@ Podemos haceder de forma interactiva , usando primero el comando y después eñ 
 El segundo método es utilizar el comando ***ftp*** en una sola linea , de la siguiente manera 
 
 ![Segundo Métodos de Acceso](./img/comandos_terminal/3_segundo_metodo_inicio.png)
+
+### Subir Fichero 
+
+Primero miramos el fichero que queremos subir desde el equipo local usando el ***(!)*** y usamos el comando ***put*** para subir el fichero al servidor remoto
+
+~~~
+put fichero_local
+~~~
+
+![Subir Fichero](./img/comandos_terminal//4_subir_fichero.png)
