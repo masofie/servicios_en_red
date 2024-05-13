@@ -8,6 +8,7 @@
   - [Configuración](#configuración)
     - [Administrar Servidor](#administrar-servidor)
     - [Creación Usuarios](#creación-usuarios)
+    - [Creación de Grupos](#creación-de-grupos)
 
 
 ## Definición 
@@ -41,5 +42,12 @@ Mensaje de Bienvenida al servidor
 
 Crear usuarios en el servidor con sus directorios
 
-![Mensaje del Baner](./img/filezillaserver/crear_user.png)
+![Crear Usuarios](./img/filezillaserver/crear_user.png)
 
+
+### Creación de Grupos 
+
+Hay quw crear los grupos con sus despectivas ***pahs***
+
+
+![Crear Grupos](./img/filezillaserver/crear_grupos.png)
