@@ -115,3 +115,5 @@ Ahora comprobamos el fichero remoto que hemos descagado del servidor **ftp**
 ## 3. Biografia 
 
 - **Página Oficial Microsof :** https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/ftp
+- **Página ***IONOS*** :** https://www.ionos.es/digitalguide/servidores/know-how/comandos-ftp/
+- **dpgsmr.wordpress.com :** https://dpgsmr.wordpress.com/wp-content/uploads/2017/10/comandos-ftp.pdf
