@@ -2,6 +2,9 @@
 
 ## Indice 
 
+## Definición
+
+***WinSCP*** es un cliente de transferencia de archivos gratuito y de código abierto para los protocolos de transferencia de archivos **SCP (Secure Copy Protocol)** y **SFTP (SSH File Transfer Protocol)**. Permite a los usuarios conectarse de forma segura a servidores remotos para transferir archivos de forma rápida y segura. ***WinSCP*** ofrece una interfaz de usuario intuitiva y funciones avanzadas como la sincronización de directorios, la edición remota de archivos y la gestión de sitios favoritos.
 
 ## 1. Comprobaciones
 
