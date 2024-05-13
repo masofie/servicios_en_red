@@ -1,12 +1,21 @@
-# Realizando Pruebas en Cliente FTP Clients
-
+# Realizando Pruebas en Cliente 
 ## Indice 
 
-- [Realizando Pruebas en Cliente FTP Clients](#realizando-pruebas-en-cliente-ftp-clients)
+- [Realizando Pruebas en Cliente](#realizando-pruebas-en-cliente)
   - [Indice](#indice)
   - [Definición](#definición)
+  - [Comprobar Configuración de Filezilla Server](#comprobar-configuración-de-filezilla-server)
+    - [Iniciar Sesión](#iniciar-sesión)
 
 
 ## Definición 
 
 ***FileZilla Client*** es un software de código abierto y gratuito que se utiliza como cliente de **FTP (File Transfer Protocol)** y **SFTP (Secure File Transfer Protocol)** para transferir archivos entre un servidor y un ordenador. Permite la transferencia de archivos de manera rápida y segura, así como la gestión de sitios remotos y la edición de archivos directamente en el servidor. ***FileZilla*** es ampliamente utilizado por administradores de sitios web y desarrolladores para subir y bajar archivos a sus servidores de forma eficiente.
+
+## Comprobar Configuración de Filezilla Server
+
+### Iniciar Sesión
+
+Para comprobar los usuarios creados anteriormente usamsos ***filezillaclient*** de la siguiente manera . Mostramos uno para comprobar 
+
+![Iniciar Sesión Creados](./img/filezillaserver/crear_user.png)
