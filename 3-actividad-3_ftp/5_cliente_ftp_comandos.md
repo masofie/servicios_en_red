@@ -7,8 +7,9 @@
   - [Defición](#defición)
   - [1. Terminal Windows](#1-terminal-windows)
     - [1.1 Ayuda **FTP**](#11-ayuda-ftp)
-    - [Métodos de Acceso](#métodos-de-acceso)
-      - [Primer Métodos de Acceso](#primer-métodos-de-acceso)
+    - [1.2 Métodos de Acceso](#12-métodos-de-acceso)
+      - [1.2.1 Primer Métodos de Acceso](#121-primer-métodos-de-acceso)
+      - [1.2.2 Segundo Métodos de Acceso](#122-segundo-métodos-de-acceso)
 
 
 ## Defición 
@@ -30,10 +31,17 @@ Para consultar la ayuda del ***ftp*** en el terminal de windows podemos hacaer e
 ![Ayuda FTP](./img/comandos_terminal/1_ayuda_terminal.png)
 
 
-### Métodos de Acceso
+### 1.2 Métodos de Acceso
 
-#### Primer Métodos de Acceso
+#### 1.2.1 Primer Métodos de Acceso
 
 Podemos haceder de forma interactiva , usando primero el comando y después eñ servidor 
 
 ![Primer Métodos de Acceso](./img/comandos_terminal/2_primer_metodo_inicio.png)
+
+
+#### 1.2.2 Segundo Métodos de Acceso
+
+El segundo método es utilizar el comando ***ftp*** en una sola linea , de la siguiente manera 
+
+![Segundo Métodos de Acceso](./img/comandos_terminal/3_segundo_metodo_inicio.png)
