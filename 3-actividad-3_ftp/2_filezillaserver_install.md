@@ -48,6 +48,10 @@ Crear usuarios en el servidor con sus directorios
 
 ![Crear Usuarios](./img/filezillaserver/crear_user.png)
 
+Para admitir solo usuarios desde una **IP** podemos hacerlo de la siguiente , en este caso la vanos ha admitir 
+
+
+![Admitir una ip](./img/filezillaserver/admitir_ip.png)
 
 ### Creación de Grupos 
 
