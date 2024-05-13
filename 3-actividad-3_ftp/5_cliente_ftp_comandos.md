@@ -2,6 +2,15 @@
 
 ## Indice 
 
+- [Cliente FTP desde lineas de Comandos (Terminal)](#cliente-ftp-desde-lineas-de-comandos-terminal)
+  - [Indice](#indice)
+  - [Defición](#defición)
+  - [1. Terminal Windows](#1-terminal-windows)
+    - [1.1 Ayuda **FTP**](#11-ayuda-ftp)
+    - [Métodos de Acceso](#métodos-de-acceso)
+      - [Primer Métodos de Acceso](#primer-métodos-de-acceso)
+
+
 ## Defición 
 
 Para usar un terminal que usa **FTP** como cliente, primero debes asegurarte de que el cliente de **FTP** esté instalado en tu terminal. Luego, puedes abrir una sesión de terminal y utilizar los comandos de **FTP** para conectarte a un servidor remoto y transferir archivos.
