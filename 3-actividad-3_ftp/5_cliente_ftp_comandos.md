@@ -19,3 +19,12 @@ Para consultar la ayuda del ***ftp*** en el terminal de windows podemos hacaer e
 ~~~
 
 ![Ayuda FTP](./img/comandos_terminal/1_ayuda_terminal.png)
+
+
+### Métodos de Acceso
+
+#### Primer Métodos de Acceso
+
+Podemos haceder de forma interactiva , usando primero el comando y después eñ servidor 
+
+![Primer Métodos de Acceso](./img/comandos_terminal/2_primer_metodo_inicio.png)
