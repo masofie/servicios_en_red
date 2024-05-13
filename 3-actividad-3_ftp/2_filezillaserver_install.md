@@ -7,6 +7,7 @@
   - [Definición](#definición)
   - [Configuración](#configuración)
     - [Administrar Servidor](#administrar-servidor)
+    - [Creación Usuarios](#creación-usuarios)
 
 
 ## Definición 
@@ -35,6 +36,10 @@ Mensaje de Bienvenida al servidor
 
 ![Mensaje del Baner](./img/filezillaserver/mensaje_bienvenida.png)
 
+
+### Creación Usuarios
+
 Crear usuarios en el servidor con sus directorios
 
 ![Mensaje del Baner](./img/filezillaserver/crear_user.png)
+
