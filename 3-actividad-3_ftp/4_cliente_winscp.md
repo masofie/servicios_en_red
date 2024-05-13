@@ -16,3 +16,4 @@ Para inciar sesión a un servidor ***ftp*** desde **winscp** podemos crear un si
 Para sincronizar directorios locales y remotos , lo podemos hacer de la siguiente manera 
 
 ![Sincronizar Directorios 1](./img/winscp/2_sincronizar_directorios_1.png)
+![Sincronizar Directorios 2](./img/winscp//3_sincronizar_directorios_2.png)
