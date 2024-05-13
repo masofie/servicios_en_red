@@ -11,6 +11,7 @@
       - [1.2.1 Primer Métodos de Acceso](#121-primer-métodos-de-acceso)
       - [1.2.2 Segundo Métodos de Acceso](#122-segundo-métodos-de-acceso)
     - [Subir Fichero](#subir-fichero)
+    - [Estado del ***ftp***](#estado-del-ftp)
 
 
 ## Defición 
@@ -63,3 +64,13 @@ Volvemos ha ver los ficheros remotos con el servidor , para comprobar que se sub
 dir 
 ~~~
 ![Comprobar Subir Fichero](./img/comandos_terminal/5_comprobar_subir_fichero.png)
+
+### Estado del ***ftp***
+
+Para comprobar el estado hay que usar el sigueinte comando 
+
+~~~
+status
+~~~
+
+![Estado](./img/comandos_terminal/6_ver_estado_ftp.png)
