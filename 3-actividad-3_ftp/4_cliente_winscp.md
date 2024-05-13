@@ -7,7 +7,7 @@
   - [Definición](#definición)
   - [1. Comprobaciones](#1-comprobaciones)
     - [1.1 Iniciar Sesión](#11-iniciar-sesión)
-    - [Sincronizar Directorios](#sincronizar-directorios)
+    - [1.2 Sincronizar Directorios](#12-sincronizar-directorios)
 
 
 ## Definición
@@ -24,7 +24,7 @@ Para inciar sesión a un servidor ***ftp*** desde **winscp** podemos crear un si
 
 ![Iniciar Seseión con Usuarios](./img/winscp/1_inciar_sesion.png)
 
-### Sincronizar Directorios 
+### 1.2 Sincronizar Directorios 
 
 Para sincronizar directorios locales y remotos , lo podemos hacer de la siguiente manera .
 
