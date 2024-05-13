@@ -1,7 +1,7 @@
-# Realizando Pruebas en Cliente 
+# Realizando Pruebas en Clientes 
 ## Indice 
 
-- [Realizando Pruebas en Cliente](#realizando-pruebas-en-cliente)
+- [Realizando Pruebas en Clientes](#realizando-pruebas-en-clientes)
   - [Indice](#indice)
   - [Definición](#definición)
   - [Comprobar Configuración de Filezilla Server](#comprobar-configuración-de-filezilla-server)
