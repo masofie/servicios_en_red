@@ -38,6 +38,10 @@ Mensaje de Bienvenida al servidor
 ![Mensaje del Baner](./img/filezillaserver/mensaje_bienvenida.png)
 
 
+Para ver los ***logs*** modemos verlo desde la siguiente ruta 
+
+![Ver Logs](./img/filezillaserver/ver_logs.png)
+
 ### Creación Usuarios
 
 Crear usuarios en el servidor con sus directorios
