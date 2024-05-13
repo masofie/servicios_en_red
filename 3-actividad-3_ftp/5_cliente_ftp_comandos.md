@@ -12,6 +12,7 @@
       - [1.2.2 Segundo Métodos de Acceso](#122-segundo-métodos-de-acceso)
     - [1.4 Subir Fichero](#14-subir-fichero)
     - [1.5 Estado del ***ftp***](#15-estado-del-ftp)
+    - [1.6 Tipo de Formato](#16-tipo-de-formato)
 
 
 ## Defición 
@@ -74,3 +75,16 @@ status
 ~~~
 
 ![Estado](./img/comandos_terminal/6_ver_estado_ftp.png)
+
+### 1.6 Tipo de Formato
+
+Para comprobar el formarto de archivo ***ftp** hay dos tipos que son los siguientes 
+
+~~~
+binary
+~~~
+~~~
+ascii
+~~~
+
+![Tipo de Formato](./img/comandos_terminal/7_formato_ftp.png)
