@@ -13,6 +13,7 @@
     - [1.4 Subir Fichero](#14-subir-fichero)
     - [1.5 Estado del ***ftp***](#15-estado-del-ftp)
     - [1.6 Tipo de Formato](#16-tipo-de-formato)
+    - [1.7 Descargar Fichero](#17-descargar-fichero)
 
 
 ## Defición 
@@ -88,3 +89,13 @@ ascii
 ~~~
 
 ![Tipo de Formato](./img/comandos_terminal/7_formato_ftp.png)
+
+### 1.7 Descargar Fichero
+
+Para descargar ficheo de un servidor **ftp** usamos el comando ***get*** de la siguiente manera 
+
+~~~
+get fichero_remoto
+~~~
+
+![Descargar Fichero](./img/comandos_terminal/8_descarga_fichero.png)
