@@ -37,6 +37,10 @@ Mensaje de Bienvenida al servidor
 
 ![Mensaje del Baner](./img/filezillaserver/mensaje_bienvenida.png)
 
+Para crear un certicado podemos hacerlo de la siguiente manea , es un certicado personal 
+
+![Certicado cn](./img/filezillaserver/crear_certificado_cm.png)
+
 
 Para ver los ***logs*** modemos verlo desde la siguiente ruta 
 
