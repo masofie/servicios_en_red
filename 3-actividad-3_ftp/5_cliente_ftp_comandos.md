@@ -55,4 +55,11 @@ Primero miramos el fichero que queremos subir desde el equipo local usando el **
 put fichero_local
 ~~~
 
-![Subir Fichero](./img/comandos_terminal//4_subir_fichero.png)
+![Subir Fichero](./img/comandos_terminal/4_subir_fichero.png)
+
+Volvemos ha ver los ficheros remotos con el servidor , para comprobar que se subido correctamente el fichero al servidor remoto 
+
+~~~
+dir 
+~~~
+![Comprobar Subir Fichero](./img/comandos_terminal/5_comprobar_subir_fichero.png)
