@@ -12,6 +12,7 @@
     - [2.1 Definición de zonas](#21-definición-de-zonas)
     - [2.2 Mostrar Transferencia de Zonas](#22-mostrar-transferencia-de-zonas)
     - [2.3 Cambio de Formato de Texto](#23-cambio-de-formato-de-texto)
+  - [3. Comprobaciones en Cliente Windows](#3-comprobaciones-en-cliente-windows)
 
 
 ## Definición 
@@ -96,3 +97,6 @@ named-compilezone -f raw -F text -o db.masofie.eus masofie.eus db.masofie.eus
 Comprobamos el fichero de zona para ver si acambiado el formato y este mas legible para nosotros 
 
 ![Fichero Legible](./img/bind9_secundario/9_secundario_texto_ilegible_bien.png)
+
+
+## 3. Comprobaciones en Cliente Windows
