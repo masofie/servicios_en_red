@@ -8,6 +8,8 @@
   - [1. Cambios en el Servidor Primario](#1-cambios-en-el-servidor-primario)
     - [1.2 Clausula ***allow-transfer***](#12-clausula-allow-transfer)
     - [1.2 Cambios en Zonas](#12-cambios-en-zonas)
+  - [2. Configuración en Servidor Secundario](#2-configuración-en-servidor-secundario)
+    - [2.1 Definición de zonas](#21-definición-de-zonas)
 
 
 ## Definición 
@@ -52,3 +54,12 @@ ns2 IN  A   192.168.18.109
 ~~~
 
 ![Cambios en Zonas 1](./img/bind9_secundario/4_primario_definicion_zona_invenso.png)
+
+
+## 2. Configuración en Servidor Secundario
+
+### 2.1 Definición de zonas 
+
+Aqui vamos ha defir las zonas directas e inversas y que van a tener una directiva ***slave*** o sea esclavo o secundario de otro directorio y otra directiva llamada ***masters*** para ahí añadir los servidores maestros 
+
+![Definición de zonas](./img/bind9_secundario/5_secundario_definicion_zonas.png)
