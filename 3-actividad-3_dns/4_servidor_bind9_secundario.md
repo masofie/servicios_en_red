@@ -10,6 +10,7 @@
     - [1.2 Cambios en Zonas](#12-cambios-en-zonas)
   - [2. Configuración en Servidor Secundario](#2-configuración-en-servidor-secundario)
     - [2.1 Definición de zonas](#21-definición-de-zonas)
+    - [2.3 Mostrar Transferencia de Zonas](#23-mostrar-transferencia-de-zonas)
 
 
 ## Definición 
@@ -63,3 +64,14 @@ ns2 IN  A   192.168.18.109
 Aqui vamos ha defir las zonas directas e inversas y que van a tener una directiva ***slave*** o sea esclavo o secundario de otro directorio y otra directiva llamada ***masters*** para ahí añadir los servidores maestros 
 
 ![Definición de zonas](./img/bind9_secundario/5_secundario_definicion_zonas.png)
+
+
+### 2.3 Mostrar Transferencia de Zonas
+
+Para transferir las zonas reiniciamos nuestro servicio de **bind9** , de la siguiente manera y accedemos a la ruta donde estan las zonas por defecto y como podes ver se ha trasferido correctamente 
+
+~~~
+systemctl restart bind9
+~~~
+
+![Mostrar Transferencia de Zonas](./img/bind9_secundario/6_secundario_transferencia_zonas1.png)
