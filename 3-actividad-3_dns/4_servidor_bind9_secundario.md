@@ -10,7 +10,8 @@
     - [1.2 Cambios en Zonas](#12-cambios-en-zonas)
   - [2. Configuración en Servidor Secundario](#2-configuración-en-servidor-secundario)
     - [2.1 Definición de zonas](#21-definición-de-zonas)
-    - [2.3 Mostrar Transferencia de Zonas](#23-mostrar-transferencia-de-zonas)
+    - [2.2 Mostrar Transferencia de Zonas](#22-mostrar-transferencia-de-zonas)
+    - [2.3 Cambio de Formato de Texto](#23-cambio-de-formato-de-texto)
 
 
 ## Definición 
@@ -66,7 +67,7 @@ Aqui vamos ha defir las zonas directas e inversas y que van a tener una directiv
 ![Definición de zonas](./img/bind9_secundario/5_secundario_definicion_zonas.png)
 
 
-### 2.3 Mostrar Transferencia de Zonas
+### 2.2 Mostrar Transferencia de Zonas
 
 Para transferir las zonas reiniciamos nuestro servicio de **bind9** , de la siguiente manera y accedemos a la ruta donde estan las zonas por defecto y como podes ver se ha trasferido correctamente 
 
@@ -75,3 +76,9 @@ systemctl restart bind9
 ~~~
 
 ![Mostrar Transferencia de Zonas](./img/bind9_secundario/6_secundario_transferencia_zonas1.png)
+
+### 2.3 Cambio de Formato de Texto
+
+Hay un problema que cuando se trasfire las zonas nos las manda en iun formato inlegible , ose nos aprece ce la siguiente manera si habrimos el fichero de una de las zonas 
+
+![Cambio de Formato de Texto](./img/bind9_secundario/7_secundario_texto_ilegible.png)
