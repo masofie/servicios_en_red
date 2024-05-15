@@ -95,4 +95,4 @@ named-compilezone -f raw -F text -o db.masofie.eus masofie.eus db.masofie.eus
 
 Comprobamos el fichero de zona para ver si acambiado el formato y este mas legible para nosotros 
 
-![Fichero Legible](./img/bind9_secundario/9_secundario_texto_ilegible_bien.pngg)
+![Fichero Legible](./img/bind9_secundario/9_secundario_texto_ilegible_bien.png)
