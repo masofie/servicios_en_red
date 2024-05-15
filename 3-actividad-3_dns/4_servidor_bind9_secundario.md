@@ -82,3 +82,12 @@ systemctl restart bind9
 Hay un problema que cuando se trasfire las zonas nos las manda en iun formato inlegible , ose nos aprece ce la siguiente manera si habrimos el fichero de una de las zonas 
 
 ![Cambio de Formato de Texto](./img/bind9_secundario/7_secundario_texto_ilegible.png)
+
+Para solucionar este problema podemos hacer el siguiente comando
+
+~~~
+named-compilezone -f raw -F text -o db.masofie.eus masofie.eus db.masofie.eus
+~~~
+
+
+![Corregido Formato de Texto](./img/bind9_secundario/8_secundario_texto_ilegible_arreglado.png)
