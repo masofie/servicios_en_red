@@ -23,7 +23,7 @@ apt -y install gnupg wget curl
 ![Instalación de Paquetes](./img/bind9_webmin/1_install_paquestes_necesarios.png)
 
 
-### Descarga de ***GPG Keys***
+### 1.2 Descarga de ***GPG Keys***
 
 Descargamos el configurable de repositorio GPG keys
 
@@ -42,3 +42,14 @@ sh setup-repos.sh
 
 
 ![Ejecutar de GPG Keys](./img/bind9_webmin/3_ejecutar_keys_curl.png)
+
+
+### 1.3 Instalación de ***Webmin***
+
+Ahora instalamos el ***Webmin*** cuando este todo configurado antes
+
+~~~
+apt install webmin
+~~~
+
+![Instalación de Webmin](./img/bind9_webmin/4_descarga_webmin.png)
