@@ -14,6 +14,7 @@
     - [2.3 Cambio de Formato de Texto](#23-cambio-de-formato-de-texto)
   - [3. Comprobaciones en Cliente Windows](#3-comprobaciones-en-cliente-windows)
     - [3.1 Registro ***NS***](#31-registro-ns)
+    - [3.1 Comprobar Dominio](#31-comprobar-dominio)
 
 
 ## Definición 
@@ -112,3 +113,18 @@ nslookup -type=NS masofie.eus 192.168.18.107
 
 
 ![Registro NS](./img/bind9_secundario/10_w10_registro_ns.png)
+
+
+
+### 3.1 Comprobar Dominio
+
+Para comprobar el dominio vamos ha preguntarle tanto al servidor primerio y al secundario para ver si responden correctamente
+
+~~~
+nslookup masofie.eus 192.168.18.107
+~~~
+~~~
+nslookup masofie.eus 192.168.18.109
+~~~
+
+![Comprobar Dominio](./img/bind9_secundario/11_w10_mostrar_dominio.png)
