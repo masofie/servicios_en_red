@@ -1,3 +1,3 @@
-# Ejercicios DNS (Consultas , Recursos ,cAdministradores , Dominios TLD , Registradores , Servidores Raíz)
+# Instalación de ***Webmin*** en Servidor Primario
 
 ## Indice 
