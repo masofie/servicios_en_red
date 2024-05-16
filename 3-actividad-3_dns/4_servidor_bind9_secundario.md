@@ -137,3 +137,8 @@ Vamos ha realizar una prueba , para comprobar que el servidor secundario esta fu
 Como podemos ver no funciona 
 
 ![Caida de Dominio Principal](./img/bind9_secundario/12_w10_priemario_apagado.png)
+
+
+Luego le preguntamos al servidor secundario , en este caso esta funcionando correctamente 
+
+![Caida de Dominio Principal 2](./img/bind9_secundario/13_w10_priemario_apagado2.png)
