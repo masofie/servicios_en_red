@@ -10,6 +10,7 @@
     - [1.4 Pasos de Comunicación entre Cliente y Servidor](#14-pasos-de-comunicación-entre-cliente-y-servidor)
     - [1.5 Ventajas](#15-ventajas)
     - [1.6 Desventajas](#16-desventajas)
+    - [1.7 Requisitos](#17-requisitos)
 
 
 ## 1 . DDNS
@@ -95,23 +96,34 @@ y el servidor pueden comunicarse entre si , utilizando protocolos como , ( HTTPS
 
 ### 1.5 Ventajas
 
-- Facilidad de acceso : Es mas fácil a la hora de acceder al servicio DDNS a los servicios - en red locales .
-- Usar nombres : Nos permite utilizar nombres de dominio en lugar de direcciones ip ’ s que es mucho más
+- **Facilidad de acceso :** Es mas fácil a la hora de acceder al servicio DDNS a los servicios - en red locales .
+- **Usar nombres :** Nos permite utilizar nombres de dominio en lugar de direcciones ip ’ s que es mucho más
 fácil de recordar para los usuarios .
-- Actualizaciones : Permite actualizar de manera automática la dirección ip en el caso que cambie .
-- Mejor Gestión : Es mucho más fácil controlar los servicios desde una única interfaz .
-- Nivel Económico : es más rentable y barato que estar poniendo direcciones ip ’ s estáticas .
+- **Actualizaciones :** Permite actualizar de manera automática la dirección ip en el caso que cambie .
+- **Mejor Gestión :** Es mucho más fácil controlar los servicios desde una única interfaz .
+- **Nivel Económico :** es más rentable y barato que estar poniendo direcciones ip ’ s estáticas .
 
 
 ### 1.6 Desventajas
 
 
-- Seguridad : Al usar un DDNS se requiere de muchos dispositivos se autentiquen en el servidor DDNS .
+- **Seguridad :** Al usar un DDNS se requiere de muchos dispositivos se autentiquen en el servidor DDNS .
 Puede haber posibles atacantes .
-- Fiabilidad : Estos servicios pueden ser menos confiables . Esto se debe a que los proveedores pueden sufrir
+- **Fiabilidad :** Estos servicios pueden ser menos confiables . Esto se debe a que los proveedores pueden sufrir
 interrupciones por problemas técnicos que afectan a capacidad de acceder a los dispositivos .
-- Dependencia de Proveedor DDNS : Esto implica que los usuarios dependen de los proveedores externos
+- **Dependencia de Proveedor DDNS :** Esto implica que los usuarios dependen de los proveedores externos
 para mantener la resolución DNS de una dirección ip . O sea si el proveedor deja de funcionar no se podrá
 acceder a los datos de forma remota .
-- Latencia : La latencia puede aumentar , porque se debe a que el proceso de actualización de la dirección ip
+- **Latencia :** La latencia puede aumentar , porque se debe a que el proceso de actualización de la dirección ip
 a través del servicio DDNS . Por eso se pueden producir retrasos en la conexión .
+
+
+### 1.7 Requisitos
+
+- **Conexión a Internet :** Conexión fiable para acceder al servicio DDNS .
+- **Router Compatible :** El router debe ser compatible con los servicios DDNS que vamos ha utilizar .
+- **Cuenta en DDNS :** Hay que tener una cuenta en un servicio DDNS .
+- **Configurar Router :** Tenemos que añadir la la configuración al router para permitir que las direcciones se actualicen
+automáticamente .
+- **Configuración de Dispositivos :** Hay que tener un dispositivo para acceder a la red local a través de una dirección
+DDNS .
