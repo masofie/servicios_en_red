@@ -13,6 +13,7 @@
     - [2.2 Mostrar Transferencia de Zonas](#22-mostrar-transferencia-de-zonas)
     - [2.3 Cambio de Formato de Texto](#23-cambio-de-formato-de-texto)
   - [3. Comprobaciones en Cliente Windows](#3-comprobaciones-en-cliente-windows)
+    - [3.1 Registro ***NS***](#31-registro-ns)
 
 
 ## Definición 
@@ -100,3 +101,14 @@ Comprobamos el fichero de zona para ver si acambiado el formato y este mas legib
 
 
 ## 3. Comprobaciones en Cliente Windows
+
+### 3.1 Registro ***NS***
+
+Lo primero que hay que hacer es comprobar el registro ***ns*** esto para ver si encuentra el servidor secundario .***(Hacemos la pregunta al servidor primario)***
+
+~~~
+nslookup -type=NS masofie.eus 192.168.18.107
+~~~
+
+
+![Registro NS](./img/bind9_secundario/10_w10_registro_ns.png)
