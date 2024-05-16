@@ -19,6 +19,7 @@
     - [3.1 Duck DNS](#31-duck-dns)
     - [3.2 Con-ip](#32-con-ip)
     - [3.3 DNS Exit](#33-dns-exit)
+  - [3.4 FreeDNS](#34-freedns)
 
 
 ## 1 . DDNS
@@ -196,3 +197,8 @@ la seguridad y el control de la red , en su versión gratuita sólo permite la c
 
 Es una herramienta que nos proporciona servicios que permiten a los usuarios gestionar y optimizar la forma en que
 se accede y se redirige el tráfico de sus nombres de dominio , osea servicio de alojamiento web en Ohio
+
+## 3.4 FreeDNS
+
+Es un servicio gratuito que te permite asignar nombres de dominio a direcciones ip , lo cual es muy útil para tener
+sitios web , redireccionar dominios y acceder a dispositivos de una forma remotos .
