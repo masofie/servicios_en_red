@@ -192,6 +192,8 @@ remoto a dispositivos en la red local . También es gratuito y simplemente la me
 Dispone de aplicaciones y script para multitud de sistemas operativos . Además , se preocupan por garantizar
 nuestra privacidad .
 
+![Duck DNS](./img/ddns/5_servidores_gratis_duck_dns.png)
+
 ### 3.2 Con-ip
 
 Sirve para controlar y gestionar el acceso a la red basándose en las direcciones ip de los dispositivos , así mejorando
