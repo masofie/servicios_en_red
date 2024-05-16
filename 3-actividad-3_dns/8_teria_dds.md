@@ -213,6 +213,8 @@ Es una herramienta que nos proporciona servicios que permiten a los usuarios ges
 Es un servicio gratuito que te permite asignar nombres de dominio a direcciones ip , lo cual es muy útil para tener
 sitios web , redireccionar dominios y acceder a dispositivos de una forma remotos .
 
+![FreeDNS](./img/ddns/8_servidores_gratis_free_dns.png)
+
 ## 4. Creación de Cuentas en DNS Exit
 
 ### 4.1 Cuenta Nueva
