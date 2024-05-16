@@ -32,3 +32,13 @@ Descargamos el configurable de repositorio GPG keys
 ~~~
 
 ![Descarga de GPG Keys](./img/bind9_webmin/2_descarga_keys_curl.png)
+
+
+Ejecutamos el configurable que acabamos de descargar
+
+~~~
+sh setup-repos.sh
+~~~
+
+
+![Ejecutar de GPG Keys](./img/bind9_webmin/3_ejecutar_keys_curl.png)
