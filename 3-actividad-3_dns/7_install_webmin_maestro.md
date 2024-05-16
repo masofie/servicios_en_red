@@ -2,6 +2,16 @@
 
 ## Indice 
 
+- [Instalación de ***Webmin*** en Servidor Primario](#instalación-de-webmin-en-servidor-primario)
+  - [Indice](#indice)
+  - [Definición](#definición)
+  - [1.  Herramienta Webmin](#1--herramienta-webmin)
+    - [1.1 Instalación de Paquetes](#11-instalación-de-paquetes)
+    - [1.2 Descarga de ***GPG Keys***](#12-descarga-de-gpg-keys)
+    - [1.3 Instalación de ***Webmin***](#13-instalación-de-webmin)
+    - [1.4 Acceder a ***Webmin***](#14-acceder-a-webmin)
+
+
 ## Definición
 
 ***Webmin*** es una herramienta de administración basada en la web que se utiliza para gestionar servidores de forma remota, incluido el servidor ***DNS BIND9*** . Con ***Webmin***, los administradores pueden realizar tareas de configuración, monitoreo y mantenimiento en servidores de forma sencilla a través de una interfaz web intuitiva.
