@@ -2,6 +2,16 @@
 
 ## Indice 
 
+- [Servidor ***BIND*** Secundario con **Clave TSIG**](#servidor-bind-secundario-con-clave-tsig)
+  - [Indice](#indice)
+  - [Definición](#definición)
+  - [1. Cambios en Servidor Principal](#1-cambios-en-servidor-principal)
+    - [1.1 Conexión ***ssh***](#11-conexión-ssh)
+    - [1.2 Creación de ***Clave TSIG***](#12-creación-de-clave-tsig)
+  - [2. Cambios en Servidor Secundario](#2-cambios-en-servidor-secundario)
+    - [2.1 Conexión ***ssh***](#21-conexión-ssh)
+    - [2.2 Copiando ***Clave TSIG***](#22-copiando-clave-tsig)
+  - [3. Comprobación en Cliente W10](#3-comprobación-en-cliente-w10)
 
 
 ## Definición
