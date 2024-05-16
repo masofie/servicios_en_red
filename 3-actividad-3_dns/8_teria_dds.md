@@ -15,6 +15,8 @@
   - [2. Diferencia entre DDNS y DNS](#2-diferencia-entre-ddns-y-dns)
     - [2.1 DDNS](#21-ddns)
     - [2.2 DNS](#22-dns)
+  - [3. Servidores DDNS Gratuitos](#3-servidores-ddns-gratuitos)
+    - [3.1 Duck DNS](#31-duck-dns)
 
 
 ## 1 . DDNS
@@ -173,3 +175,12 @@ recordarlas mejor . <br><br>
 Los servidores DNS están organizados en forma jerárquica , donde el principal se llama servidor raíz , que son
 servidores a nivel mundial que contienen información sobre la ubicación de los servidores de dominio a nivel
 superior , como . com , . org . es . net entre otros .
+
+## 3. Servidores DDNS Gratuitos
+
+### 3.1 Duck DNS
+
+Nos sirve para asignar un nombre de dominio permanente a una dirección ip dinámica , esto nos facilita el acceso
+remoto a dispositivos en la red local . También es gratuito y simplemente la mejor opción que existe actualmente .
+Dispone de aplicaciones y script para multitud de sistemas operativos . Además , se preocupan por garantizar
+nuestra privacidad .
