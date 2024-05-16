@@ -46,3 +46,15 @@ nano /etc/bind/named.conf.local
 ~~~
 
 ![Añadiendo de Clave TSIG 2](./img/bind9_clave_tsig/4_primario_añadiendo_clave_local.png)
+
+No olviden reinciar y ver el estado del servicio de bind para que se guarden los cambios ellos anteriormente 
+
+~~~
+systemct restart bind9
+~~~
+~~~
+systemct status bind9
+~~~
+
+
+## 2. Cambios en Servidor Secundario
