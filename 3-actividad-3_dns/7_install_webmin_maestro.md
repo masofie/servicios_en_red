@@ -9,3 +9,15 @@
 En el caso de **BIND9**, ***Webmin*** ofrece funcionalidades como la configuración de zonas **DNS**, la gestión de registros de recursos, la configuración de servidores de nombres secundarios, la monitorización del rendimiento del servidor **DNS**, entre otras tareas relacionadas con la gestión de un servidor **BIND9**.
 
 En resumen, ***Webmin*** es una herramienta útil para facilitar la administración y el mantenimiento de servidores **DNS**, como **BIND9**, a través de una interfaz web fácil de usar.
+
+## 1.  Herramienta Webmin
+
+### 1.1 Instalación de Paquetes 
+
+Primero tenemos que instalar algunos paquetes necesarios para la instalación y administración de ***webmin*** , ejecuta el siguiente comando 
+
+~~~
+apt -y install gnupg wget curl
+~~~
+
+![Instalación de Paquetes](./img/bind9_webmin/1_install_paquestes_necesarios.png)
