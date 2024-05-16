@@ -199,6 +199,9 @@ nuestra privacidad .
 Sirve para controlar y gestionar el acceso a la red basándose en las direcciones ip de los dispositivos , así mejorando
 la seguridad y el control de la red , en su versión gratuita sólo permite la configuración de tres dominios .
 
+
+![DCon-ip](./img/ddns/6_servidores_gratis_con_ip.png)
+
 ### 3.3 DNS Exit
 
 Es una herramienta que nos proporciona servicios que permiten a los usuarios gestionar y optimizar la fCuenta Nuevay se redirige el tráfico de sus nombres de dominio , osea servicio de alojamiento web en Ohio
