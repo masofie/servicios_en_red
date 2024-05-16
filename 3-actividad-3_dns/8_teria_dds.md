@@ -9,6 +9,7 @@
     - [1.3 Funcionamiento entre Servidor y Cliente](#13-funcionamiento-entre-servidor-y-cliente)
     - [1.4 Pasos de Comunicación entre Cliente y Servidor](#14-pasos-de-comunicación-entre-cliente-y-servidor)
     - [1.5 Ventajas](#15-ventajas)
+    - [1.6 Desventajas](#16-desventajas)
 
 
 ## 1 . DDNS
@@ -100,3 +101,17 @@ fácil de recordar para los usuarios .
 - Actualizaciones : Permite actualizar de manera automática la dirección ip en el caso que cambie .
 - Mejor Gestión : Es mucho más fácil controlar los servicios desde una única interfaz .
 - Nivel Económico : es más rentable y barato que estar poniendo direcciones ip ’ s estáticas .
+
+
+### 1.6 Desventajas
+
+
+- Seguridad : Al usar un DDNS se requiere de muchos dispositivos se autentiquen en el servidor DDNS .
+Puede haber posibles atacantes .
+- Fiabilidad : Estos servicios pueden ser menos confiables . Esto se debe a que los proveedores pueden sufrir
+interrupciones por problemas técnicos que afectan a capacidad de acceder a los dispositivos .
+- Dependencia de Proveedor DDNS : Esto implica que los usuarios dependen de los proveedores externos
+para mantener la resolución DNS de una dirección ip . O sea si el proveedor deja de funcionar no se podrá
+acceder a los datos de forma remota .
+- Latencia : La latencia puede aumentar , porque se debe a que el proceso de actualización de la dirección ip
+a través del servicio DDNS . Por eso se pueden producir retrasos en la conexión .
