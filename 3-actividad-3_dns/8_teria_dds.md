@@ -20,6 +20,8 @@
     - [3.2 Con-ip](#32-con-ip)
     - [3.3 DNS Exit](#33-dns-exit)
   - [3.4 FreeDNS](#34-freedns)
+  - [4. Creación de Cuentas en DNS Exit](#4-creación-de-cuentas-en-dns-exit)
+    - [4.1 Cuenta Nueva](#41-cuenta-nueva)
 
 
 ## 1 . DDNS
@@ -202,3 +204,27 @@ se accede y se redirige el tráfico de sus nombres de dominio , osea servicio de
 
 Es un servicio gratuito que te permite asignar nombres de dominio a direcciones ip , lo cual es muy útil para tener
 sitios web , redireccionar dominios y acceder a dispositivos de una forma remotos .
+
+## 4. Creación de Cuentas en DNS Exit
+
+### 4.1 Cuenta Nueva
+
+Primero vamos a la página web de DNS Exit y creamos una cuenta de la siguiente manera , nombre de usuario
+contraseña y un correo .
+
+
+Esperamos un momento a que nos compruebe y le damos clic en continuar
+
+
+Después de crear la cuenta iniciamos sesión con el nombre que añadimos y la contraseña .
+
+
+Como podemos ver se ha iniciado correspondiente en el proveedor DDNS gratuito
+
+Aquí también tenemos acceso a la información sobre nuestra cuenta en el proveedor
+
+También podemos nos da la posibilidad de añadir algunos servicios adicionales .
+
+Tenemos un panel de control de para ajustes de nuestro servidor
+
+Y hay un contacto de soporte por si pasa algún problema con el servicio , nos podemos comunicar .
