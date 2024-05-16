@@ -11,6 +11,7 @@
     - [1.5 Ventajas](#15-ventajas)
     - [1.6 Desventajas](#16-desventajas)
     - [1.7 Requisitos](#17-requisitos)
+    - [1.8 Proveedores de Servicios DDNS](#18-proveedores-de-servicios-ddns)
 
 
 ## 1 . DDNS
@@ -127,3 +128,13 @@ a través del servicio DDNS . Por eso se pueden producir retrasos en la conexió
 automáticamente .
 - **Configuración de Dispositivos :** Hay que tener un dispositivo para acceder a la red local a través de una dirección
 DDNS .
+
+### 1.8 Proveedores de Servicios DDNS
+
+Para poder hacer uso del servidor DDNS , es necesario contar con un proveedor de servicios DNS que los podemos
+encontrar en la web . Así como también nos da la posibilidad de administración y actualización de los registros DNS
+correspondientes a nuestras necesidades . <br>
+Existen muchos proveedores de servicios DDNS tanto gratuitos como de pago , estos ofreciendo diferentes
+características , los de pago tiene más funcionalidades y son más seguros a la hora de usarlos , si tienes un
+problema van ha responder más rápido tu consulta . <br>
+Más información de los proveedor gratuitos de DDNS : Provedores Gratuitos
