@@ -81,3 +81,17 @@ server 192.168.18.107 {
 ~~~
 
 ![Copiando Clave TSIG](./img/bind9_clave_tsig/6_secundario_copiar_clave.png)
+
+
+### 3. Comprobación en Cliente W10
+
+Hacemos una petición desde el cliente al dominio desde el cliete preguntandole tanto al primario y al secundario 
+
+~~~
+nslookup masofie.eus 192.168.18.107
+~~~
+~~~
+nslookup masofie.eus 192.168.18.109
+~~~
+
+![Comprobación en Cliente W10](./img/bind9_clave_tsig/7_w10_comprobacion.png)
