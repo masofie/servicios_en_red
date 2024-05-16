@@ -82,6 +82,16 @@ server 192.168.18.107 {
 
 ![Copiando Clave TSIG](./img/bind9_clave_tsig/6_secundario_copiar_clave.png)
 
+Solo nos queda reinciar y ver ele estado para guradar los cambios 
+
+
+~~~
+systemct restart bind9
+~~~
+~~~
+systemct status bind9
+~~~
+
 
 ### 3. Comprobación en Cliente W10
 
