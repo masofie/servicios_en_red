@@ -1,4 +1,4 @@
-# Servidor ***BIND*** Secundario (Respaldo)
+# Servidor ***BIND*** Secundario (Respaldo) con **Clave TSIG**
 
 ## Indice 
 
