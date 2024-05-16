@@ -69,3 +69,14 @@ ss -ltn
 ~~~
 
 ![Puerto de Webmin](./img/bind9_webmin/6_puerto_webmin.png)
+
+
+### 1.4 Acceder a ***Webmin***
+
+Para acceder lo vamos hacer desde el navegador de w10 añadindo la ip y el puerto , de la siguiente manera 
+
+~~~
+192.168.18.107:10000
+~~~
+
+![Acceder a Webmin](./img/bind9_webmin/7_accediendo_webmin.png)
