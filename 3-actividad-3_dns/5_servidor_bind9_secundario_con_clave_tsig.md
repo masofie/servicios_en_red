@@ -37,4 +37,12 @@ Una vez creada la clave la copiamos y la añadimos al fichero ***named.conf.opti
 nano /etc/bind/named.conf.options
 ~~~
 
-![Añadiendo de Clave TSIG](./img/bind9_clave_tsig//3_primario_añadiendo_clave.png)
+![Añadiendo de Clave TSIG](./img/bind9_clave_tsig/3_primario_añadiendo_clave.png)
+
+También tenemos que hacer cambios en el fichero ***named.conf.local*** , cambimos el la ip del secundario por la clave creadad 
+
+~~~
+nano /etc/bind/named.conf.local
+~~~
+
+![Añadiendo de Clave TSIG 2](./img/bind9_clave_tsig/4_primario_añadiendo_clave_local.png)
