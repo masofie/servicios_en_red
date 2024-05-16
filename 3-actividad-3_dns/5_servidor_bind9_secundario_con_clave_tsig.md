@@ -28,3 +28,13 @@ Creamos la clave en el servidor primario con el siguiente comando en el terminal
 ~~~
 
 ![Creación de Clave TSIG](./img/bind9_clave_tsig/2_crear_clave_tsig.png)
+
+
+Una vez creada la clave la copiamos y la añadimos al fichero ***named.conf.options*** , de la siguiente manera . ***Tiene que estar antes de la directiva **options** ***
+
+
+~~~
+nano /etc/bind/named.conf.options
+~~~
+
+![Añadiendo de Clave TSIG](./img/bind9_clave_tsig//3_primario_añadiendo_clave.png)
