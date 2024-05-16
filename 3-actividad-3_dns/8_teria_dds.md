@@ -206,6 +206,8 @@ la seguridad y el control de la red , en su versión gratuita sólo permite la c
 
 Es una herramienta que nos proporciona servicios que permiten a los usuarios gestionar y optimizar la fCuenta Nuevay se redirige el tráfico de sus nombres de dominio , osea servicio de alojamiento web en Ohio
 
+![DNS Exit](./img/ddns/7_servidores_gratis_dns_exit.png)
+
 ## 3.4 FreeDNS
 
 Es un servicio gratuito que te permite asignar nombres de dominio a direcciones ip , lo cual es muy útil para tener
