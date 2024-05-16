@@ -18,6 +18,7 @@
   - [3. Servidores DDNS Gratuitos](#3-servidores-ddns-gratuitos)
     - [3.1 Duck DNS](#31-duck-dns)
     - [3.2 Con-ip](#32-con-ip)
+    - [3.3 DNS Exit](#33-dns-exit)
 
 
 ## 1 . DDNS
@@ -190,3 +191,8 @@ nuestra privacidad .
 
 Sirve para controlar y gestionar el acceso a la red basándose en las direcciones ip de los dispositivos , así mejorando
 la seguridad y el control de la red , en su versión gratuita sólo permite la configuración de tres dominios .
+
+### 3.3 DNS Exit
+
+Es una herramienta que nos proporciona servicios que permiten a los usuarios gestionar y optimizar la forma en que
+se accede y se redirige el tráfico de sus nombres de dominio , osea servicio de alojamiento web en Ohio
