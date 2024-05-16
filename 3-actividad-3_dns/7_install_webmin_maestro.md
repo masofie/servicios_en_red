@@ -80,3 +80,9 @@ Para acceder lo vamos hacer desde el navegador de w10 añadindo la ip y el puert
 ~~~
 
 ![Acceder a Webmin](./img/bind9_webmin/7_accediendo_webmin.png)
+
+
+Como podemos ver hemos iniciado correctamente a nuesta herramienta desde el navegador
+
+
+![Desde el Webmin](./img/bind9_webmin/8_adentro_webmin.png)
