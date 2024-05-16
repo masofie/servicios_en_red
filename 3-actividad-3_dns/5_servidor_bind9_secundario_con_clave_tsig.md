@@ -68,3 +68,16 @@ ssh root@192.168.18.109
 ~~~
 
 ![Conexión ssh](./img/bind9_clave_tsig/5_secundario_ssh.png)
+
+
+### 2.2 Copiando ***Clave TSIG***
+
+Copiamos la clave en el fichero ***named.conf.options*** y añadimos unas lineas a mayores para especificar el servidor primario que es dueño la clave 
+
+~~~
+server 192.168.18.107 {
+    keys { clave_ns1 };
+};
+~~~
+
+![Copiando Clave TSIG](./img/bind9_clave_tsig/6_secundario_copiar_clave.png)
