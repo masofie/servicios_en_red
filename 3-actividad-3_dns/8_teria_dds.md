@@ -147,7 +147,7 @@ correspondientes a nuestras necesidades . <br><br>
 Existen muchos proveedores de servicios DDNS tanto gratuitos como de pago , estos ofreciendo diferentes
 características , los de pago tiene más funcionalidades y son más seguros a la hora de usarlos , si tienes un
 problema van ha responder más rápido tu consulta . <br><br>
-Más información de los proveedor gratuitos de DDNS : Provedores Gratuitos
+
 
 ![Proveedores de Servicios DDNS](./img/ddns/4_ddns_proveedores.png)
 
