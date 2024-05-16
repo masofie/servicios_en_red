@@ -19,7 +19,7 @@
     - [3.1 Duck DNS](#31-duck-dns)
     - [3.2 Con-ip](#32-con-ip)
     - [3.3 DNS Exit](#33-dns-exit)
-  - [3.4 FreeDNS](#34-freedns)
+    - [3.4 FreeDNS](#34-freedns)
   - [4. Creación de Cuentas en DNS Exit](#4-creación-de-cuentas-en-dns-exit)
     - [4.1 Cuenta Nueva](#41-cuenta-nueva)
 
@@ -208,7 +208,7 @@ Es una herramienta que nos proporciona servicios que permiten a los usuarios ges
 
 ![DNS Exit](./img/ddns/7_servidores_gratis_dns_exit.png)
 
-## 3.4 FreeDNS
+### 3.4 FreeDNS
 
 Es un servicio gratuito que te permite asignar nombres de dominio a direcciones ip , lo cual es muy útil para tener
 sitios web , redireccionar dominios y acceder a dispositivos de una forma remotos .
