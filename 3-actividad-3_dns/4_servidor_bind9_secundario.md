@@ -15,6 +15,7 @@
   - [3. Comprobaciones en Cliente Windows](#3-comprobaciones-en-cliente-windows)
     - [3.1 Registro ***NS***](#31-registro-ns)
     - [3.1 Comprobar Dominio](#31-comprobar-dominio)
+    - [3.2 Caida de Dominio Principal (Prueba)](#32-caida-de-dominio-principal-prueba)
 
 
 ## Definición 
@@ -128,3 +129,11 @@ nslookup masofie.eus 192.168.18.109
 ~~~
 
 ![Comprobar Dominio](./img/bind9_secundario/11_w10_mostrar_dominio.png)
+
+
+### 3.2 Caida de Dominio Principal (Prueba)
+
+Vamos ha realizar una prueba , para comprobar que el servidor secundario esta funcionando correctamente . Para eso apagamos el servidor principal y hacemos una pregunta desde el cliente .
+Como podemos ver no funciona 
+
+![Caida de Dominio Principal](./img/bind9_secundario/12_w10_priemario_apagado.png)
