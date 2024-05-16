@@ -94,9 +94,9 @@ y el servidor pueden comunicarse entre si , utilizando protocolos como , ( HTTPS
 
 ### 1.5 Ventajas
 
-1. Facilidad de acceso : Es mas fácil a la hora de acceder al servicio DDNS a los servicios en red locales .
-2. Usar nombres : Nos permite utilizar nombres de dominio en lugar de direcciones ip ’ s que es mucho más
+- Facilidad de acceso : Es mas fácil a la hora de acceder al servicio DDNS a los servicios - en red locales .
+- Usar nombres : Nos permite utilizar nombres de dominio en lugar de direcciones ip ’ s que es mucho más
 fácil de recordar para los usuarios .
-3. Actualizaciones : Permite actualizar de manera automática la dirección ip en el caso que cambie .
-4. Mejor Gestión : Es mucho más fácil controlar los servicios desde una única interfaz .
-5. Nivel Económico : es más rentable y barato que estar poniendo direcciones ip ’ s estáticas .
+- Actualizaciones : Permite actualizar de manera automática la dirección ip en el caso que cambie .
+- Mejor Gestión : Es mucho más fácil controlar los servicios desde una única interfaz .
+- Nivel Económico : es más rentable y barato que estar poniendo direcciones ip ’ s estáticas .
