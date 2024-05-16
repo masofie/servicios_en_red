@@ -93,7 +93,7 @@ systemct status bind9
 ~~~
 
 
-### 3. Comprobación en Cliente W10
+## 3. Comprobación en Cliente W10
 
 Hacemos una petición desde el cliente al dominio desde el cliete preguntandole tanto al primario y al secundario 
 
