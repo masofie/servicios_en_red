@@ -21,3 +21,14 @@ apt -y install gnupg wget curl
 ~~~
 
 ![Instalación de Paquetes](./img/bind9_webmin/1_install_paquestes_necesarios.png)
+
+
+### Descarga de ***GPG Keys***
+
+Descargamos el configurable de repositorio GPG keys
+
+~~~
+ curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
+~~~
+
+![Descarga de GPG Keys](./img/bind9_webmin/2_descarga_keys_curl.png)
