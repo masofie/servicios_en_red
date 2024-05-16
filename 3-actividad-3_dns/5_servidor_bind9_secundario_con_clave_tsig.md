@@ -58,3 +58,13 @@ systemct status bind9
 
 
 ## 2. Cambios en Servidor Secundario
+
+### 2.1 Conexión ***ssh***
+
+Nos conectamos por ***ssh*** para poder copiar la clave del servidor primario 
+
+~~~
+ssh root@192.168.18.109
+~~~
+
+![Conexión ssh](./img/bind9_clave_tsig/5_secundario_ssh.png)
