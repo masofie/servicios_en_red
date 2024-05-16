@@ -8,6 +8,7 @@
     - [1.2 Función Principal](#12-función-principal)
     - [1.3 Funcionamiento entre Servidor y Cliente](#13-funcionamiento-entre-servidor-y-cliente)
     - [1.4 Pasos de Comunicación entre Cliente y Servidor](#14-pasos-de-comunicación-entre-cliente-y-servidor)
+    - [1.5 Ventajas](#15-ventajas)
 
 
 ## 1 . DDNS
@@ -89,3 +90,13 @@ establecer una conexión con el servidor .
 •
 - **Paso 12 ( Comunicación entre el servidor y el cliente ) :** La conexión se establece correctamente , el cliente
 y el servidor pueden comunicarse entre si , utilizando protocolos como , ( HTTPS , FTP , SSH , etc )
+
+
+### 1.5 Ventajas
+
+1. Facilidad de acceso : Es mas fácil a la hora de acceder al servicio DDNS a los servicios en red locales .
+2. Usar nombres : Nos permite utilizar nombres de dominio en lugar de direcciones ip ’ s que es mucho más
+fácil de recordar para los usuarios .
+3. Actualizaciones : Permite actualizar de manera automática la dirección ip en el caso que cambie .
+4. Mejor Gestión : Es mucho más fácil controlar los servicios desde una única interfaz .
+5. Nivel Económico : es más rentable y barato que estar poniendo direcciones ip ’ s estáticas .
