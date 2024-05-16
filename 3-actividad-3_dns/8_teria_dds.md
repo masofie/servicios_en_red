@@ -17,6 +17,7 @@
     - [2.2 DNS](#22-dns)
   - [3. Servidores DDNS Gratuitos](#3-servidores-ddns-gratuitos)
     - [3.1 Duck DNS](#31-duck-dns)
+    - [3.2 Con-ip](#32-con-ip)
 
 
 ## 1 . DDNS
@@ -184,3 +185,8 @@ Nos sirve para asignar un nombre de dominio permanente a una dirección ip diná
 remoto a dispositivos en la red local . También es gratuito y simplemente la mejor opción que existe actualmente .
 Dispone de aplicaciones y script para multitud de sistemas operativos . Además , se preocupan por garantizar
 nuestra privacidad .
+
+### 3.2 Con-ip
+
+Sirve para controlar y gestionar el acceso a la red basándose en las direcciones ip de los dispositivos , así mejorando
+la seguridad y el control de la red , en su versión gratuita sólo permite la configuración de tres dominios .
