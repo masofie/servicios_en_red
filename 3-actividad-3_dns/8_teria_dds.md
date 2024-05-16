@@ -12,6 +12,8 @@
     - [1.6 Desventajas](#16-desventajas)
     - [1.7 Requisitos](#17-requisitos)
     - [1.8 Proveedores de Servicios DDNS](#18-proveedores-de-servicios-ddns)
+  - [2. Diferencia entre DDNS y DNS](#2-diferencia-entre-ddns-y-dns)
+    - [2.1 DDNS](#21-ddns)
 
 
 ## 1 . DDNS
@@ -138,3 +140,20 @@ Existen muchos proveedores de servicios DDNS tanto gratuitos como de pago , esto
 características , los de pago tiene más funcionalidades y son más seguros a la hora de usarlos , si tienes un
 problema van ha responder más rápido tu consulta . <br>
 Más información de los proveedor gratuitos de DDNS : Provedores Gratuitos
+
+## 2. Diferencia entre DDNS y DNS
+
+### 2.1 DDNS
+
+Las siglas significan Sistemas de Nombres de Dominio Dinámico . Este es una extensión del DNS que nos permite
+asignar nombres de dominios a direcciones ip que pueden cambiar periódicamente o pueden ser dinámicas por
+defecto . <br><br>
+Es muy útil porque en situaciones en que una conexión a internet no tiene dirección ip fija como redes domesticas ,
+en lugar de tener que recordar o acceder a direcciones ip ’ s , se puede utilizar un nombre de dominio que se
+actualiza automáticamente cada vez que cambia la dirección ip de otros dispositivos . <br><br>
+Ejemplo :
+Una casa con conexión a internet que tiene una dirección ip dinámica , en lugar de tener que recordar siempre la
+dirección ip cada ves que tengamos que acceder a un dispositivo de la casa , se puede utilizar un nombre de
+dominio asignado a través de un proveedor DDNS de internet . Entonces el proveedor se encargara de actualizar
+automáticamente el nombre de dominio cada ve que cambie la dirección ip del la casa . Así permitiendo el acceso
+mas sencillo a la red .
