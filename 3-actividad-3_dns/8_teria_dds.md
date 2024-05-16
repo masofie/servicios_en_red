@@ -14,6 +14,7 @@
     - [1.8 Proveedores de Servicios DDNS](#18-proveedores-de-servicios-ddns)
   - [2. Diferencia entre DDNS y DNS](#2-diferencia-entre-ddns-y-dns)
     - [2.1 DDNS](#21-ddns)
+    - [2.2 DNS](#22-dns)
 
 
 ## 1 . DDNS
@@ -157,3 +158,18 @@ dirección ip cada ves que tengamos que acceder a un dispositivo de la casa , se
 dominio asignado a través de un proveedor DDNS de internet . Entonces el proveedor se encargara de actualizar
 automáticamente el nombre de dominio cada ve que cambie la dirección ip del la casa . Así permitiendo el acceso
 mas sencillo a la red .
+
+
+### 2.2 DNS
+
+Sus siglas significan Sistema de Nombres de Dominio . Es un sistema que se encarga de traducir los nombres de
+dominio en direcciones ip ’ s . <br><br>
+Ejemplo : www . google . es > 8 . 8 . 8 . 8 ( introducimos un nombre ( www . google . es ) en el navegador web . El DNS
+se encarga de buscar la dirección ip asociada este nombre de dominio y si el navegador sabe a quien
+pertenece este enviá la solicitud para mostrar la página web ) <br><br>
+Ha sido una parte fundamental de internet desde que inicio , esto permitiendo que los usuarios no tengan que
+recordar las direcciones ip , sino que pueden usar nombres de dominios para traducirlas más fácilmente y así
+recordarlas mejor . <br><br>
+Los servidores DNS están organizados en forma jerárquica , donde el principal se llama servidor raíz , que son
+servidores a nivel mundial que contienen información sobre la ubicación de los servidores de dominio a nivel
+superior , como . com , . org . es . net entre otros .
