@@ -223,10 +223,17 @@ Primero vamos a la página web de DNS Exit y creamos una cuenta de la siguiente 
 contraseña y un correo .
 
 
+![Cuenta Nueva 1](./img/ddns/9_crear_cuenta_dns.png)
+
+
 Esperamos un momento a que nos compruebe y le damos clic en continuar
 
 
+![Cuenta Nueva 2](./img/ddns/10_crear_cuenta_dns.png)
+
 Después de crear la cuenta iniciamos sesión con el nombre que añadimos y la contraseña .
+
+![Cuenta Nueva 3](./img/ddns/11_crear_cuenta_dns.png)
 
 
 Como podemos ver se ha iniciado correspondiente en el proveedor DDNS gratuito
