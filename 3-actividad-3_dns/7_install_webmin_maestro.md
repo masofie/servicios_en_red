@@ -53,3 +53,19 @@ apt install webmin
 ~~~
 
 ![Instalación de Webmin](./img/bind9_webmin/4_descarga_webmin.png)
+
+
+Después reiniciamos el servidor de Webmin y mostramos el puerto que utiliza , usamos los siguientes comandos
+
+~~~
+systemctl status webmin.service
+~~~
+
+
+![Reiniciamos el Webmin](./img/bind9_webmin/5_estado_webmin.png)
+
+~~~
+ss -ltn
+~~~
+
+![Puerto de Webmin](./img/bind9_webmin/6_puerto_webmin.png)
