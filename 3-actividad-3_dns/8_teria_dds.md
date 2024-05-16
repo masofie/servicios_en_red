@@ -143,10 +143,10 @@ DDNS .
 
 Para poder hacer uso del servidor DDNS , es necesario contar con un proveedor de servicios DNS que los podemos
 encontrar en la web . Así como también nos da la posibilidad de administración y actualización de los registros DNS
-correspondientes a nuestras necesidades . <br>
+correspondientes a nuestras necesidades . <br><br>
 Existen muchos proveedores de servicios DDNS tanto gratuitos como de pago , estos ofreciendo diferentes
 características , los de pago tiene más funcionalidades y son más seguros a la hora de usarlos , si tienes un
-problema van ha responder más rápido tu consulta . <br>
+problema van ha responder más rápido tu consulta . <br><br>
 Más información de los proveedor gratuitos de DDNS : Provedores Gratuitos
 
 ## 2. Diferencia entre DDNS y DNS
@@ -197,8 +197,7 @@ la seguridad y el control de la red , en su versión gratuita sólo permite la c
 
 ### 3.3 DNS Exit
 
-Es una herramienta que nos proporciona servicios que permiten a los usuarios gestionar y optimizar la forma en que
-se accede y se redirige el tráfico de sus nombres de dominio , osea servicio de alojamiento web en Ohio
+Es una herramienta que nos proporciona servicios que permiten a los usuarios gestionar y optimizar la fCuenta Nuevay se redirige el tráfico de sus nombres de dominio , osea servicio de alojamiento web en Ohio
 
 ## 3.4 FreeDNS
 
