@@ -149,6 +149,8 @@ características , los de pago tiene más funcionalidades y son más seguros a l
 problema van ha responder más rápido tu consulta . <br><br>
 Más información de los proveedor gratuitos de DDNS : Provedores Gratuitos
 
+![Proveedores de Servicios DDNS](./img/ddns/4_ddns_proveedores.png)
+
 ## 2. Diferencia entre DDNS y DNS
 
 ### 2.1 DDNS
