@@ -24,5 +24,12 @@ Añadimos el rol para instalar el servidor dns en nuestro sistema operativo
 
 ![Nombre Busqueda Directa](./img/ws_maestro/5_ws_maestro_zona_directa3.png)
 
-
 ![Creada Busqueda Directa](./img/ws_maestro/6_ws_maestro_zona_directa4.png)
+
+### 2.2 Creación de Zona Busqueda Inversa
+
+![Nueva Busqueda Inversa](./img/ws_maestro/7_ws_maestro_zona_inversa1.png)
+
+![Nombre Busqueda Inversa](./img/ws_maestro/8_ws_maestro_zona_inversa2.png)
+
+![Creada Busqueda Inversa](./img/ws_maestro/9_ws_maestro_zona_inversa3.png)
