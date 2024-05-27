@@ -33,3 +33,8 @@ Añadimos el rol para instalar el servidor dns en nuestro sistema operativo
 ![Nombre Busqueda Inversa](./img/ws_maestro/8_ws_maestro_zona_inversa2.png)
 
 ![Creada Busqueda Inversa](./img/ws_maestro/9_ws_maestro_zona_inversa3.png)
+
+
+### 2.2 Añadir Registros Directa/Iversa
+
+![Añadir Registros Directa/Iversa](./img/ws_maestro/10_ws_maestro_registros.png)
