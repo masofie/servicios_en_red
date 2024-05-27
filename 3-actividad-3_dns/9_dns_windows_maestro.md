@@ -22,7 +22,7 @@ Añadimos el rol para instalar el servidor dns en nuestro sistema operativo
 
 ![Tipo Busqueda Directa](./img/ws_maestro/4_ws_maestro_zona_directa2.png)
 
-![Nombre Busqueda Directa](./img/ws_maestro/4_ws_maestro_zona_directa3.png)
+![Nombre Busqueda Directa](./img/ws_maestro/5_ws_maestro_zona_directa3.png)
 
 
-![Creada Busqueda Directa](./img/ws_maestro/4_ws_maestro_zona_directa4.png)
+![Creada Busqueda Directa](./img/ws_maestro/6_ws_maestro_zona_directa4.png)
