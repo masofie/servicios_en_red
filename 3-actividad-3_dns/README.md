@@ -7,4 +7,5 @@
 6. [Creación de Subdominios ](./6_creacion_subdominios.md)
 7. [Instalación de Webmin en Servidor Primario](./7_install_webmin_maestro.md)
 8. [DDNS utilidad y Proveedores que los proporcionan](./8_teria_dds.md)
+9. [Servidor DNS Maestro en Winodws Server](./9_dns_windows_maestro.md)
 
