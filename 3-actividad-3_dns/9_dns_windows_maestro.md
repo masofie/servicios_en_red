@@ -9,3 +9,9 @@
 Añadimos el rol para instalar el servidor dns en nuestro sistema operativo 
 
 ![Agregar Rol DNS](./img/ws_maestro/1_ws_maestro_roles.png)
+
+## 2. Configuración DNS
+
+### 2.1 Reenviadores 
+
+![Reenviadores](./img/ws_maestro/1_ws_maestro_reenviadres.png)
