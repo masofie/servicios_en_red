@@ -38,3 +38,11 @@ Añadimos el rol para instalar el servidor dns en nuestro sistema operativo
 ### 2.2 Añadir Registros Directa/Iversa
 
 ![Añadir Registros Directa/Iversa](./img/ws_maestro/10_ws_maestro_registros.png)
+
+
+## 3. Compracioneas con ***nslookup***
+
+### 3.1 Cliente Windows 
+
+
+![Compracioneas en Cliente Windows](./img/ws_maestro/11_ws_maestro_comprobaciones.png)
