@@ -24,3 +24,12 @@ Para crear un dominio virtual se usa la clausula **'$ORIGIN'** para definir el d
 Para consultar el subdominios usamos el comando ***nslookup*** 
 
 ![Consultar Subdominio](./img/sub_dominios/2_subdominios_virtual_consulta.png)
+
+## 2. Creación Dominio Delegado
+
+### 2.1 Definir Registro en Servidor Principal 
+
+Definimos el el sudomnio delegado en el servidor principal de la siguiente manera , para los delegados simpre tiene que tener un registro ***NS*** **(SI)**
+
+![Definir Registro](./img/sub_dominios/3_subdominios_delegado_registro_principal.png)
+
