@@ -1,6 +1,18 @@
 # Creación de Subdominios
 
 ## Indice 
+- [Creación de Subdominios](#creación-de-subdominios)
+  - [Indice](#indice)
+  - [Definición](#definición)
+  - [1. Dominio Virtual](#1-dominio-virtual)
+    - [1.1 Definir Registro](#11-definir-registro)
+    - [1.2 Consultar Subdominio](#12-consultar-subdominio)
+  - [2. Dominio Delegado](#2-dominio-delegado)
+    - [2.1 Definir Registro en Servidor Principal](#21-definir-registro-en-servidor-principal)
+    - [2.2 Creación de Zonas](#22-creación-de-zonas)
+    - [2.1 Definir Registros de Zonas](#21-definir-registros-de-zonas)
+    - [2.2 Comprobaciones](#22-comprobaciones)
+
 
 ## Definición 
 
