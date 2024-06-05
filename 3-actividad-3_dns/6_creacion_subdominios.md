@@ -11,7 +11,7 @@ Por otro lado, un ***delegado** es una persona o entidad designada para actuar e
 En resumen, la diferencia entre un ***subdominio virtual*** y un ***delegado*** radica en que un subdominio virtual es un dominio dentro de un dominio principal, mientras que un delegado es una entidad designada para administrar ciertos aspectos de un dominio, como los registros **DNS**.
 
 
-## 1. Creación Dominio Virtual 
+## 1. Dominio Virtual 
 
 ### 1.1 Definir Registro 
 
@@ -25,7 +25,7 @@ Para consultar el subdominios usamos el comando ***nslookup***
 
 ![Consultar Subdominio](./img/sub_dominios/2_subdominios_virtual_consulta.png)
 
-## 2. Creación Dominio Delegado
+## 2. Dominio Delegado
 
 ### 2.1 Definir Registro en Servidor Principal 
 
@@ -33,3 +33,9 @@ Definimos el el sudomnio delegado en el servidor principal de la siguiente maner
 
 ![Definir Registro](./img/sub_dominios/3_subdominios_delegado_registro_principal.png)
 
+
+### 2.2 Creación de Zonas 
+
+Creamos las zonas directa e inversa en el equipo ns3 , hay que tener en cuenta que un subdominio delegado también pueden definirse en otro equipo , asi como lo estamos haciendo 
+
+![Creación de Zonas](./img/sub_dominios/4_subdominios_delegado_zonas_ns3.png)
