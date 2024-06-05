@@ -39,3 +39,13 @@ Definimos el el sudomnio delegado en el servidor principal de la siguiente maner
 Creamos las zonas directa e inversa en el equipo ns3 , hay que tener en cuenta que un subdominio delegado también pueden definirse en otro equipo , asi como lo estamos haciendo 
 
 ![Creación de Zonas](./img/sub_dominios/4_subdominios_delegado_zonas_ns3.png)
+
+### 2.1 Definir Registros de Zonas
+
+**ZONA DIRECTA**
+
+![Zona Directa](./img/sub_dominios/5_subdominios_delegado_registros1_ns3.png)
+
+**ZONA INVERSA**
+
+![Zona Inversa](./img/sub_dominios/6_subdominios_delegado_registros2_ns3.png)
