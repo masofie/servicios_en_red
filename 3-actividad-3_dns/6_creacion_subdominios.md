@@ -18,3 +18,9 @@ En resumen, la diferencia entre un ***subdominio virtual*** y un ***delegado*** 
 Para crear un dominio virtual se usa la clausula **'$ORIGIN'** para definir el dominio , se hace de la siguiente manera , sin tener en cuenta el registo ***NS*** **(NO)**
 
 ![Añadiendo Registro A](./img/sub_dominios/1_subdominios_registros.png)
+
+### 1.2 Consultar Subdominio 
+
+Para consultar el subdominios usamos el comando ***nslookup*** 
+
+![Consultar Subdominio](./img/sub_dominios/2_subdominios_virtual_consulta.png)
