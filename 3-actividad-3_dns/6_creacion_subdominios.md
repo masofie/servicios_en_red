@@ -49,3 +49,10 @@ Creamos las zonas directa e inversa en el equipo ns3 , hay que tener en cuenta q
 **ZONA INVERSA**
 
 ![Zona Inversa](./img/sub_dominios/6_subdominios_delegado_registros2_ns3.png)
+
+
+### 2.2 Comprobaciones 
+
+Hacemos las consultas al subdominios para ver si responde corretamente tanto en el servidor principal y en el subdominios 
+
+![Comprobaciones](./img/sub_dominios/7_subdominios_delegado_consulta.png)
