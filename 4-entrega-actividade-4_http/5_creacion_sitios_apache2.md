@@ -23,7 +23,7 @@ La utilización de ***Apache2*** en **Debian** permite a los usuarios hospedar s
 
 ## 2. Configación de Sitios Globales :
 
-1 – Instala el servidor web Apache y PHP . <br>
+1 – Instala el servidor web **Apache** y **PHP** . <br>
 
 ~~~
 apt install apache2
