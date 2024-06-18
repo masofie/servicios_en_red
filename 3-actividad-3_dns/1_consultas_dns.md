@@ -1,6 +1,16 @@
 # Resulución de Nombres con Comandos ***nslookup*** , ***dig*** , ***hosts***
 
 ## Indice 
+- [Resulución de Nombres con Comandos ***nslookup*** , ***dig*** , ***hosts***](#resulución-de-nombres-con-comandos-nslookup--dig--hosts)
+  - [Indice](#indice)
+  - [1. Definición de Comandos](#1-definición-de-comandos)
+    - [1.1 ***nslookup***](#11-nslookup)
+    - [1.2 ***dig***](#12-dig)
+    - [1.3 ***host***](#13-host)
+  - [2. Ejecución de  Comandos](#2-ejecución-de--comandos)
+    - [2.1 Comandos ***nslookup***](#21-comandos-nslookup)
+    - [2.2 Comandos ***dig***](#22-comandos-dig)
+
 
 ## 1. Definición de Comandos 
 
