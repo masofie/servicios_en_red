@@ -37,3 +37,8 @@ dig @8.8.8.8 dns.google
 ~~~
 
 ![Comando dig - Nombre e ip](./img/consulta_nombre/3_dig_nombre_ip.png)
+
+
+Para ver los registros del dominio se puede hacer de esta manera , ejemplo 
+
+![Comando dig - Registro NS](./img/consulta_nombre/4_dig_ns.png)
