@@ -26,3 +26,14 @@ nslookup -type=NS dns.google
 ~~~
 
 ![Comando Nslokup - Registro NS](./img/consulta_nombre/2_nslookup_ns.png)
+
+
+### 1.2 Comandos ***dig***
+
+El comando dig podemos añadir la ip y el dominio al mismo tiempo , se peude hacer de la siguiente manera 
+
+~~~
+dig @8.8.8.8 dns.google
+~~~
+
+![Comando dig - Nombre e ip](./img/consulta_nombre/3_dig_nombre_ip.png)
