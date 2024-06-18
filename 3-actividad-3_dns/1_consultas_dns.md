@@ -1,3 +1,3 @@
-# Ejercicios DNS (Consultas , Recursos ,cAdministradores , Dominios TLD , Registradores , Servidores Raíz)
+# Resulución de Nombres con Comandos ***nslookup*** , ***dig*** , ***hosts***
 
 ## Indice 
