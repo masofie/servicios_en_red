@@ -18,3 +18,11 @@ nslookup dns.google
 
 
 ![Comando Nslokup - Nombre e ip](./img/consulta_nombre/1_nslookup_ip_nombre.png)
+
+También podemos ver los registros de recursos . Se puede ver de con el los servidores ***NS*** de google de la sigueinte manera 
+
+~~~
+nslookup -type=NS dns.google
+~~~
+
+![Comando Nslokup - Registro NS](./img/consulta_nombre/2_nslookup_ns.png)
