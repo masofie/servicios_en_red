@@ -20,7 +20,7 @@ un servidor en línea..
 
 Primero vamos a descargar el **jdk** para java que lo vamos a utilizar para iniciar nuestro xampp , lo puedes consultar en la siguiente url :
 
-**ENLACE :** **https://www.oracle.com/es/java/technologies/downloads/#jdk22-windows**
+- ***ENLACE :*** ***https://www.oracle.com/es/java/technologies/downloads/#jdk22-windows***
 
 
 
@@ -32,7 +32,7 @@ Primero vamos a descargar el **jdk** para java que lo vamos a utilizar para inic
 En este caso apara instalar xammp utilizaremos un formato zip , para configuralo desde cero . Lo podemos encontrar
 en el siguiente enlace 
 
-**ENLACE :** **https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/**
+- ***ENLACE :*** ***https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/***
 
 ![Descarga de XAMMP](./img/install_xampp/2_xammp_windows.png)
 
