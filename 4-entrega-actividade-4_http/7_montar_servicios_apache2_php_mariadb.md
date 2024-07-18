@@ -65,7 +65,7 @@ En el cliente comprobamos que esta el php instalado
 
 ### 1.3 Instalación de PHPmyadmin y Comprobación
 
-Instalamos el phpmyadmin
+Instalamos el phpmyadmin en el equipo utilizando el siguiente comando en el terminal 
 
 ~~~
 apt install phpmyadmin
