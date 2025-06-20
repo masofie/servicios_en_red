@@ -1,5 +1,4 @@
 # ⚙️🐧🔒 Creación de Sitio Virtual con HTTP/HTTPS en Apache2 sobre Debian 
-<br>
 
 **📑 Indice**
 
@@ -11,16 +10,15 @@
   - [✅🔎 5. Comprobaciones del Sitio Virtual](#-5-comprobaciones-del-sitio-virtual)
 - [📚📖 Biografía de Apache2](#-biografía-de-apache2)
 
-
+<br>
 
 ## 🧠 ¿Qué es Apache2? 
 
-**Apache2** es un servidor web de código abierto que forma parte del sistema operativo Debian. Es uno de los servidores web más populares y ampliamente utilizado en el mundo. **``apache2``** es conocido por su estabilidad, seguridad y flexibilidad, lo que lo convierte en una excelente opción para alojar sitios web de cualquier tamaño.
+>**Apache2** es un servidor web de código abierto que forma parte del sistema operativo Debian. Es uno de los servidores web más populares y ampliamente utilizado en el mundo. **``apache2``** es conocido por su estabilidad, seguridad y flexibilidad, lo que lo convierte en una excelente opción para alojar sitios web de cualquier tamaño.
 
-La utilización de **``apache2``** en **Debian** permite a los usuarios hospedar sus sitios web, aplicaciones web y servicios en línea de una manera confiable y segura. Con su amplia gama de características y opciones de configuración, **``apache2``** es capaz de manejar una gran cantidad de tráfico y responder eficientemente a las solicitudes de los usuarios. Además, su integración con el sistema operativo Debian facilita su instalación y mantenimiento, convirtiéndolo en una herramienta indispensable para desarrolladores y administradores de sistemas.
+>La utilización de **``apache2``** en **Debian** permite a los usuarios hospedar sus sitios web, aplicaciones web y servicios en línea de una manera confiable y segura. Con su amplia gama de características y opciones de configuración, **``apache2``** es capaz de manejar una gran cantidad de tráfico y responder eficientemente a las solicitudes de los usuarios. Además, su integración con el sistema operativo Debian facilita su instalación y mantenimiento, convirtiéndolo en una herramienta indispensable para desarrolladores y administradores de sistemas.
 
-![Portada Apache](./img/sitios_virtuales_apache2/portada_apache2.png)
-
+<br>
 
 ## 🛠️🌍 1. Configuración de Sitios Globales 
 
