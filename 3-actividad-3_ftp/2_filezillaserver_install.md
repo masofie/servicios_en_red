@@ -66,3 +66,12 @@ Hay quw crear los grupos con sus despectivas ***pahs***
 
 
 ![Crear Grupos](./img/filezillaserver/crear_grupos.png)
+
+<br>
+
+**🧠💡 Consejo Final**
+
+> Recuerda siempre configurar correctamente los permisos de usuario y grupo para evitar accesos no autorizados.
+> Además, si tu servidor **FTP** va a estar expuesto a internet, considera usar **FTP** sobre **TLS (FTPS)** para mantener la transferencia de archivos segura. 🔐🌐
+>
+> Un servidor bien configurado es clave para evitar errores y garantizar una experiencia fluida. ✅📁
