@@ -1,7 +1,7 @@
-# 🧭🔎 Resulución de Nombres con Comandos ***nslookup*** , ***dig*** , ***hosts***
+# 🚀 Guía con **`nslookup`**, **`dig`** y **`host`**
 
 **📑 Indice** 
-- [🧭🔎 Resulución de Nombres con Comandos ***nslookup*** , ***dig*** , ***hosts***](#-resulución-de-nombres-con-comandos-nslookup--dig--hosts)
+- [🚀 Guía con **`nslookup`**, **`dig`** y **`host`**](#-guía-con-nslookup-dig-y-host)
   - [📘 1. Definición de Comandos](#-1-definición-de-comandos)
     - [🧩 1.1 **`nslookup`**](#-11-nslookup)
     - [🧪 1.2 **`dig`**](#-12-dig)
