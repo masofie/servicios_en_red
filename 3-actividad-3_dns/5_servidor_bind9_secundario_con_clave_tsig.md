@@ -20,7 +20,8 @@ Una ***Clave TSIG (Transaction Signature)*** es una forma de autenticación util
 
 <br>
 
-## 🛠️ 1. Cambios en Servidor Principal 
+## 🛠️ 1. Cambios en Servidor Principal
+<br> 
 
 ### 🔗 1.1 Conexión vía SSH
 
@@ -72,7 +73,7 @@ systemct status bind9
 
 
 ## 🔧 2. Cambios en el Servidor Secundario
-
+<br>
 ### 🔗 2.1 Conexión vía SSH
 
 Nos conectamos por **`ssh`** para poder copiar la clave del servidor primario 
@@ -108,6 +109,7 @@ systemct status bind9
 
 
 ## 🧪 3. Comprobación desde Cliente Windows 10
+<br>
 
 Hacemos una petición desde el cliente al dominio desde el cliete preguntandole tanto al primario y al secundario 
 
