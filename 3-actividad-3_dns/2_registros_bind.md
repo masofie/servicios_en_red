@@ -13,6 +13,7 @@
     - [⚙️ 1.8. Registro de recursos ***SRV (Service)***](#️-18-registro-de-recursos-srv-service)
 
 <br>
+
 ## 📌 1. Tipos de Registros DNS
 
 ### 🏠 1.1 Registro de recursos ***A (Address)***
