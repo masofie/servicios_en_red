@@ -1,17 +1,17 @@
-# Servidor ***FTP*** en Filezilla Server
+# 🖥️📂 Servidor FTP en FileZilla Server
 
-## Indice 
+**📑 Indice**
 
-- [Servidor ***FTP*** en Filezilla Server](#servidor-ftp-en-filezilla-server)
-  - [Indice](#indice)
-  - [Definición](#definición)
-  - [Configuración](#configuración)
-    - [Administrar Servidor](#administrar-servidor)
-    - [Creación Usuarios](#creación-usuarios)
-    - [Creación de Grupos](#creación-de-grupos)
+- [🖥️📂 Servidor FTP en FileZilla Server](#️-servidor-ftp-en-filezilla-server)
+  - [🧾 Definición](#-definición)
+  - [⚙️ 1. Configuración](#️-1-configuración)
+    - [🛠️ 1.1 Administrar Servidor](#️-11-administrar-servidor)
+    - [👤 Creación de Usuarios](#-creación-de-usuarios)
+    - [👥 Creación de Grupos](#-creación-de-grupos)
 
+<br>
 
-## Definición 
+## 🧾 Definición
 
 Claro, un servidor **FTP Filezilla Server** es un software de servidor ***FTP (Protocolo de Transferencia de Archivos)*** que permite a los usuarios conectarse y transferir archivos a través de Internet de forma segura. 
 
@@ -21,8 +21,12 @@ En resumen, un servidor **FTP** Filezilla Server es una herramienta que permite 
 
 ![Logo de Filezilla Server](./img/filezillaserver/logo_filezilla.png)
 
-## Configuración 
-### Administrar Servidor 
+<br>
+
+##  ⚙️ 1. Configuración 
+<br>
+
+### 🛠️ 1.1 Administrar Servidor
 
 Cambiar contraseña y puerto del servidor 
 
@@ -46,7 +50,7 @@ Para ver los ***logs*** modemos verlo desde la siguiente ruta
 
 ![Ver Logs](./img/filezillaserver/ver_logs.png)
 
-### Creación Usuarios
+### 👤 Creación de Usuarios
 
 Crear usuarios en el servidor con sus directorios
 
@@ -57,8 +61,7 @@ Para admitir solo usuarios desde una **IP** podemos hacerlo de la siguiente , en
 
 ![Admitir una ip](./img/filezillaserver/admitir_ip.png)
 
-### Creación de Grupos 
-
+### 👥 Creación de Grupos
 Hay quw crear los grupos con sus despectivas ***pahs***
 
 
