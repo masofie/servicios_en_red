@@ -36,7 +36,7 @@ apt install mariadb-server
 ![Instalar MariaDB Server](./img/montar_servicios/1_install_mariadb_server.png)
 
 
-Para comprobar que se instalo correctamente visualizamos los puertos y si esta el 3306 es porque esta instalado e iniciamos sesión en mysql
+Para comprobar que se instalo correctamente visualizamos los puertos y si esta el **``3306``** es porque esta instalado e iniciamos sesión en **``mysql``**
 
 ~~~~~~~~
 ss -ltn
