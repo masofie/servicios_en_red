@@ -4,9 +4,9 @@
 - [🖥️ Montar Apache, PHP y MariaDB](#️-montar-apache-php-y-mariadb)
   - [📘 Definición](#-definición)
   - [🧰 1. Sitio Web con **``phpMyAdmin``**](#-1-sitio-web-con-phpmyadmin)
-    - [🛢️ 1.1 Instalación de **``MariaDB``** y Verificación de su Funcionamiento](#️-11-instalación-de-mariadb-y-verificación-de-su-funcionamiento)
-    - [⚙️ 1.2 Instalación de **``php``** y Comprobación en Servidor](#️-12-instalación-de-php-y-comprobación-en-servidor)
-    - [🧑‍💻 1.3 Instalación de **``phpMyAdmin``** y Pruebas Finales de Acceso](#-13-instalación-de-phpmyadmin-y-pruebas-finales-de-acceso)
+    - [🛢️ 1.1 Instalación de **``MariaDB``** y verificación de su funcionamiento](#️-11-instalación-de-mariadb-y-verificación-de-su-funcionamiento)
+    - [⚙️ 1.2 Instalación de **``php``** y comprobación en servidor](#️-12-instalación-de-php-y-comprobación-en-servidor)
+    - [🧑‍💻 1.3 Instalación de **``phpMyAdmin``** y pruebas finales de acceso](#-13-instalación-de-phpmyadmin-y-pruebas-finales-de-acceso)
 
 <br>
 
@@ -23,8 +23,9 @@
 <br>
 
 ## 🧰 1. Sitio Web con **``phpMyAdmin``**
+<br>
 
-### 🛢️ 1.1 Instalación de **``MariaDB``** y Verificación de su Funcionamiento
+### 🛢️ 1.1 Instalación de **``MariaDB``** y verificación de su funcionamiento
 
 Primero instalamos **``mariadb-server``** , en nuestra máquina www
 
@@ -48,7 +49,7 @@ ss -ltn
 ![Iniciar MYSQL](./img/montar_servicios/3_iniciar_mysql.png)
 
 
-### ⚙️ 1.2 Instalación de **``php``** y Comprobación en Servidor
+### ⚙️ 1.2 Instalación de **``php``** y comprobación en servidor
 
 Instalamos los servicios **``php``** que vamos a necesitar
 
@@ -64,7 +65,7 @@ En el cliente comprobamos que esta el php instalado
 ![Especificaciones PHP](./img/montar_servicios/5_especificaciones_php.png)
 
 
-### 🧑‍💻 1.3 Instalación de **``phpMyAdmin``** y Pruebas Finales de Acceso
+### 🧑‍💻 1.3 Instalación de **``phpMyAdmin``** y pruebas finales de acceso
 
 Instalamos el **``phpmyadmin``** en el equipo utilizando el siguiente comando en el terminal 
 
