@@ -1,4 +1,5 @@
 # 📁🖧 Instalación y Configuración del Servicio FTP
+<br>
 
 El protocolo **FTP (File Transfer Protocol)** permite transferir archivos entre equipos a través de una red, ya sea local o en internet. 📤📥
 
