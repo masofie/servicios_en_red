@@ -3,21 +3,22 @@
 **📑 Indice**
 
 - [📘 Guía Básica de VSFTPD](#-guía-básica-de-vsftpd)
-  - [Explicación del Fichero](#explicación-del-fichero)
+  - [📝 Explicación del Fichero](#-explicación-del-fichero)
 - [📄 1. Fichero Básico: vsftpd.conf](#-1-fichero-básico-vsftpdconf)
   - [📁 1.1 Configuración del Servidor](#-11-configuración-del-servidor)
-  - [👤 2. Configuración del usuario anonymous](#-2-configuración-del-usuario-anonymous)
+  - [👤 2. Configuración del Usuario **`anonymous`**](#-2-configuración-del-usuario-anonymous)
   - [👨‍💻 3. Configuración de Usuarios Locales](#-3-configuración-de-usuarios-locales)
 
 <br>
 
-## Explicación del Fichero
+## 📝 Explicación del Fichero
 
-🔧 En esta guía veremos algunas de las opciones esenciales del archivo de configuración vsftpd.conf, que nos permiten dejar listo un servidor FTP de forma básica y funcional, sin complicaciones.
+En esta guía veremos algunas de las opciones esenciales del archivo de configuración vsftpd.conf, que nos permiten dejar listo un servidor FTP de forma básica y funcional, sin complicaciones.
 
 🗂️ Estas configuraciones son ideales para comenzar y comprender cómo opera el servicio **VSFTPD** paso a paso.
 
 > ⚠️ Advertencia: ¡Recuerda reiniciar el servicio después de cada cambio! Si no lo haces, los ajustes no tendrán efecto.
+> 
 > 📌 Comando útil: sudo systemctl restart vsftpd
 
 <br>
@@ -67,7 +68,7 @@ xferlog_std_format=YES
 xferlog_file=/var/log/vsftpd.log
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-## 👤 2. Configuración del usuario anonymous
+## 👤 2. Configuración del Usuario **`anonymous`**
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 🚫 Acceso anónimo desactivado (por seguridad)
