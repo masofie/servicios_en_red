@@ -75,29 +75,29 @@ Creamos un certificado y añadimos las rutas de la clave privada y la publica y 
 
 ## ℹ️ 2. Información Adiciona
 
-Instalar servidor **`vsftpd`** en Debian
+- Instalar servidor **`vsftpd`** en Debian
 
-~~~
-sudo apt install vsftpd
-~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~
+  sudo apt install vsftpd
+  ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Fichero principal de configuración
+- Fichero principal de configuración
 
-~~~
-nano /etc/vsftpd.conf
-~~~
+  ~~~~~~~~~~~~~~~~~~~~~
+  nano /etc/vsftpd.conf
+  ~~~~~~~~~~~~~~~~~~~~~
 
-Reiniciar servidor 
+- Reiniciar servidor 
 
-~~~
-systemctl restart vsftpd.service
-~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  systemctl restart vsftpd.service
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ver el estado el servidor 
+- Ver el estado el servidor 
 
-~~~
-systemctl status vsftpd.service
-~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  systemctl status vsftpd.service
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## 📚 Biografía
 
