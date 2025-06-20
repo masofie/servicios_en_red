@@ -12,7 +12,7 @@
 ## 1. 🔐 scp – Copia segura entre máquinas Linux
 <br>
 
-El comando scp se usa para transferir archivos de forma segura entre dos equipos mediante SSH.
+El comando **`scp`** se usa para transferir archivos de forma segura entre dos equipos mediante SSH.
 Sirve para enviar archivos a un servidor o copiarlos desde él.
 
 **📌 Ejemplo básico :**
