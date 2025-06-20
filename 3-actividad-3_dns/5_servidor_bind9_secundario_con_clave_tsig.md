@@ -34,6 +34,7 @@ ssh root@192.168.18.107
 
 ![Conexión ssh](./img/bind9_clave_tsig/1_primario_ssh.png)
 
+<br>
 ### 🧾 1.2 Creación de la Clave TSIG
 
 Creamos la clave en el servidor primario con el siguiente comando en el terminal , primero se añade el comando y luego el nombre de la clave  
@@ -74,6 +75,7 @@ systemct status bind9
 
 ## 🔧 2. Cambios en el Servidor Secundario
 <br>
+
 ### 🔗 2.1 Conexión vía SSH
 
 Nos conectamos por **`ssh`** para poder copiar la clave del servidor primario 
