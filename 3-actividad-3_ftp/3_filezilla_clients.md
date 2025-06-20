@@ -15,7 +15,7 @@
 
 ![Logo Filezilla Client](./img/filezillaclient/logo_filezilla_client.png)
 
-<br>
+<br>º
 
 ## 🔧 1.1 Comprobar Configuración de FileZilla Server
 <br>
@@ -25,3 +25,11 @@
 Para comprobar los usuarios creados anteriormente usamos ***filezillaclient*** de la siguiente manera . Mostramos uno para comprobar 
 
 ![Iniciar Sesión Creados](./img/filezillaclient/1_iniciar_sesion_usuarios.png)
+
+
+<br>
+
+**💡 Consejo Final**
+
+>Antes de iniciar las pruebas, asegúrate de que el firewall y las reglas de red permiten las conexiones FTP.
+>Usa diferentes cuentas de usuario para verificar permisos y acceso. Si encuentras errores, revisa los registros del servidor para identificar problemas fácilmente. 📋🔎
