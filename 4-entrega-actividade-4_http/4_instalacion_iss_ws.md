@@ -1,30 +1,29 @@
-# Instalación y Configuración del Servidor ISS en Windows 
+# 🪟🌐 Instalación y Configuración del Servidor IIS en Windows 
 
-## INDICE
-
-- [Instalación y Configuración del Servidor ISS en Windows](#instalación-y-configuración-del-servidor-iss-en-windows)
-  - [INDICE](#indice)
-- [Servidor IIS en Windows](#servidor-iis-en-windows)
-  - [1. Instalación :](#1-instalación-)
-  - [2. Configuración del sitio global](#2-configuración-del-sitio-global)
-  - [3. Creación de nuevo sitio](#3-creación-de-nuevo-sitio)
-  - [4. Re-dirección de http a https](#4-re-dirección-de-http-a-https)
-
-
-# Servidor IIS en Windows 
-<br>
-
-El **Servidor IIS (Internet Information Services)** es un componente de **Windows Server** que se utiliza para hospedar y servir páginas web en un entorno **Windows** . **IIS** es un servidor web flexible y robusto que permite a los desarrolladores y administradores de sistemas crear y gestionar sitios web, aplicaciones web y servicios web de manera eficiente y segura.
+**📑 Indice**
+- [🪟🌐 Instalación y Configuración del Servidor IIS en Windows](#-instalación-y-configuración-del-servidor-iis-en-windows)
+- [💡 Servidor IIS en Windows](#-servidor-iis-en-windows)
+  - [🏗️ 1. Instalación del Servidor IIS](#️-1-instalación-del-servidor-iis)
+  - [2. ⚙️🌍 Configuración del Sitio Global](#2-️-configuración-del-sitio-global)
+  - [🧱🌐 3. Creación de un Nuevo Sitio Web](#-3-creación-de-un-nuevo-sitio-web)
+  - [🔁🔒 4. Redirección de HTTP a HTTPS](#-4-redirección-de-http-a-https)
 
 <br>
 
-IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la integración con bases de datos **SQL Server**, la compatibilidad con ***ASP.NET*** y la capacidad de administrar múltiples sitios web desde una única interfaz de administración. Además, **IIS** proporciona herramientas de diagnóstico y registro para supervisar el rendimiento del servidor y solucionar problemas de forma rápida. En resumen, IIS es una herramienta esencial para hospedar sitios web en entornos **Windows** y garantizar un funcionamiento óptimo y seguro de las aplicaciones web.
+# 💡 Servidor IIS en Windows 
+<br>
+
+> El **Servidor IIS (Internet Information Services)** es un componente de **Windows Server** que se utiliza para hospedar y servir páginas web en un entorno **Windows** . **IIS** es un servidor web flexible y robusto que permite a los desarrolladores y administradores de sistemas crear y gestionar sitios web, aplicaciones web y servicios web de manera eficiente y segura.
+
+<br>
+
+> IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la integración con bases de datos **SQL Server**, la compatibilidad con ***ASP.NET*** y la capacidad de administrar múltiples sitios web desde una única interfaz de administración. Además, **IIS** proporciona herramientas de diagnóstico y registro para supervisar el rendimiento del servidor y solucionar problemas de forma rápida. En resumen, IIS es una herramienta esencial para hospedar sitios web en entornos **Windows** y garantizar un funcionamiento óptimo y seguro de las aplicaciones web.
 
 <br>
 
 ![Portada IIS](./img/iis_http/portada_iis.png)
 
-## 1. Instalación :
+##  🏗️ 1. Instalación del Servidor IIS 
 <br>
 
 1.1 Agregar roles y características 
@@ -45,19 +44,19 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 ![Acceso a ISS](./img/iis_http/1_iis.png)
 
 
-## 2. Configuración del sitio global
+## 2. ⚙️🌍 Configuración del Sitio Global 
 <br>
 
 2.1 Habilitar el examen de directorio para todos los sitios 
 
 ![Examen de Directorios](./img/iis_http/2_iis.png)
 
-2.2 En el archivo por defecto a mostrar para todos los sitios será  ***index.html*** y ***default.asp***. No habrá más .
+2.2 En el archivo por defecto a mostrar para todos los sitios será  **``index.html``** y **``default.asp``**. No habrá más .
 
 ![Directorios Predeterminados](./img/iis_http/3_iis.png)
 
 
-## 3. Creación de nuevo sitio 
+##  🧱🌐 3. Creación de un Nuevo Sitio Web 
 <br>
 
 3.1 Crea un sitio virtual por nombre denominado masofieiis.gal : <br><br>
@@ -65,11 +64,11 @@ IIS ofrece funciones avanzadas, como la gestión de servidores virtuales, la int
 ![Creando Sitio 1](./img/iis_http/4_iis.png)
 
 
-3.2 Debe tener el raíz en ***c:/masofieiis.gal*** . También atender peticiones tanto por ip que por nombre **www.masofieiis.gal** <br><br>
+3.2 Debe tener el raíz en **``c:/masofieiis.gal``** . También atender peticiones tanto por ip que por nombre **``www.masofieiis.gal``** <br><br>
 
 ![Creando Sitio 2](./img/iis_http/5_iis.png)
 
-3.3 Crea una carpeta virtual (alias) denominada privado que este situada en ***c:/privado*** <br><br>
+3.3 Crea una carpeta virtual (alias) denominada privado que este situada en **``c:/privado``** <br><br>
 
 ![Directorio Virtual](./img/iis_http/6_iis.png)
 
@@ -80,7 +79,7 @@ Directorio virtual creado correctamente <br><br>
 
 ![Directorio Virtual 2](./img/iis_http/8_iis.png)
 
-3.4 Cuando se produzca un error **404** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto **“Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ”**. <br><br>
+3.4 Cuando se produzca un error **``404``** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto **“Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ”**. <br><br>
 
 ![Creando Error 404 (1)](./img/iis_http/9_iis.png)
 ![Creando Error 404 (2)](./img/iis_http/10_iis.png)
@@ -111,7 +110,7 @@ Crear usuario nuevo para acceder al directorio virtual <br><br>
 
 ![Autenticación Basic 3](./img/iis_http/15_iis.png)
 
-Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos ***index.html*** y ***default.asp*** , y como este directorio tiene un fichero llamado ***privado.html** . <br><br>
+Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos **``index.html``** y ***default.asp*** , y como este directorio tiene un fichero llamado **``privado.html``** . <br><br>
 
 ![Autenticación Basic 4](./img/iis_http/16_iis.png)
 
@@ -123,10 +122,10 @@ Para solucionar este problema solo hay que buscarlo de esta manera y funcionara 
 
 
 
-## 4. Re-dirección de http a https 
+## 🔁🔒 4. Redirección de HTTP a HTTPS 
 <br>
 
-4.1 Crea un certificado y redije al puerto **443** . Para eso solo hay que ir a la configuración global del servidor y ir a ***‘Certificados de Servidor – Certificado Auto-firmado’*** y lo creamos de la siguiente manera . <br><br>
+4.1 Crea un certificado y redije al puerto **``443``** . Para eso solo hay que ir a la configuración global del servidor y ir a **‘Certificados de Servidor – Certificado Auto-firmado’** y lo creamos de la siguiente manera . <br><br>
 
 
 ![Re-dirección de http a https 1](./img/iis_http/18_iis.png)
@@ -140,7 +139,7 @@ Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado
 
 ![Re-dirección de http a https 3](./img/iis_http/20_iis.png)
 
-Ahora volvemos al navegador y escribimos la misma ***url*** pero en ves de poner ***http*** ponemos ***https*** y nos mostrara la siguiente advertencia  <br><br>
+Ahora volvemos al navegador y escribimos la misma ***url*** pero en ves de poner **``http``** ponemos **``https``** y nos mostrara la siguiente advertencia  <br><br>
 
 ![Re-dirección de http a https 4](./img/iis_http/21_iis.png)
 
