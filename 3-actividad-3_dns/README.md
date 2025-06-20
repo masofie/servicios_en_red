@@ -1,16 +1,17 @@
 # 🧭🌐 Instalación y Configuración Servicio DNS
+<br>
 
 El Servicio **DNS (Domain Name System)** permite traducir nombres de dominio en direcciones IP, haciendo posible la navegación por Internet y la comunicación entre dispositivos. 🔄🌍
 
 En este repositorio aprenderás a:
 
-> ⚙️ Instalar un servidor DNS paso a paso
+> - ⚙️ Instalar un servidor DNS paso a paso
 >
-> 🛠️ Configurar zonas y registros correctamente
+> - 🛠️ Configurar zonas y registros correctamente
 >
-> 🔎 Verificar el funcionamiento con herramientas de prueba
+> - 🔎 Verificar el funcionamiento con herramientas de prueba
 >
-> 🔐 Aplicar configuraciones seguras y eficientes
+> - 🔐 Aplicar configuraciones seguras y eficientes
 
 Ideal tanto para estudiantes como para administradores de red que quieran entender o implementar este servicio clave. 🚀💡
 
