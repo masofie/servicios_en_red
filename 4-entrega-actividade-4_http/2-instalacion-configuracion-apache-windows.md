@@ -15,10 +15,7 @@
 ## 💡 Qué es y su utilidad ?
 <br>
 
-**XAMPP** es un software gratuito y de código abierto que permite crear un entorno de desarrollo web en sistemas Windows. **XAMPP** incluye varios componentes como **`apache`**, **`mysql`**, **`php`** y **`perl`**, que son necesarios para configurar un servidor web local en tu computadora. Esto facilita el desarrollo y prueba de aplicaciones web antes de subirlas a 
-un servidor en línea..
-
-![Imagen logo xampp](./img/install_xampp/portada_xammp.png)
+>**XAMPP** es un software gratuito y de código abierto que permite crear un entorno de desarrollo web en sistemas Windows. **XAMPP** incluye varios componentes como **`apache`**, **`mysql`**, **`php`** y **`perl`**, que son necesarios para configurar un servidor web local en tu computadora. Esto facilita el desarrollo y prueba de aplicaciones web antes de subirlas a un servidor en línea..
 
 <br>
 
@@ -92,3 +89,10 @@ Comprobamos el funcionamiento del **`APACHE`** desde el navegador usando :
 
 
 ![Añadiendo varaiable en path](./img/install_xampp/6_localhost_apache.png)
+
+<br>
+
+**💡Consejo Final**
+
+>Después de instalar **XAMPP** , asegúrate de ejecutar el panel como administrador 🧑‍💻 y verificar que los puertos necesarios **(80 y 443)** no estén en uso por otras aplicaciones como **Skype** o **IIS** 🛑.
+>También es recomendable guardar una copia de seguridad de tus archivos de configuración antes de hacer cambios importantes 🗂️🛟.
