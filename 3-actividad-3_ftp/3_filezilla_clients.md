@@ -15,7 +15,7 @@
 
 ![Logo Filezilla Client](./img/filezillaclient/logo_filezilla_client.png)
 
-<br>º
+<br>
 
 ## 🔧 1.1 Comprobar Configuración de FileZilla Server
 <br>
