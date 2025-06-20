@@ -64,3 +64,10 @@ dig @8.8.8.8 dns.google
 Para ver los registros del dominio se puede hacer de esta manera , ejemplo 
 
 ![Comando dig - Registro NS](./img/consulta_nombre/4_dig_ns.png)
+
+
+<br>
+
+**Consejo Final**
+
+>¡No olvides practicar seguido! Usar estos comandos juntos te ayudará a entender mejor cómo funciona el **DNS** y a resolver problemas rápido. Juega con diferentes consultas y verás que cada vez te vuelves más pro en redes. ¡Ánimo y a darle duro! 🚀⚙️
