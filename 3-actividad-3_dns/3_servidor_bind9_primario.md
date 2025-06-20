@@ -4,11 +4,11 @@
 - [🖥️ Servidor **BIND** Primario (Maestro)](#️-servidor-bind-primario-maestro)
   - [📝 Definición](#-definición)
   - [⚙️ 1. Configuración de **BIND**](#️-1-configuración-de-bind)
-    - [📍 1.1 Añadiendo Reenviadores](#-11-añadiendo-reenviadores)
-    - [🆕 1.2 Definición de Zona Directa e Inversa](#-12-definición-de-zona-directa-e-inversa)
-    - [➕ 1.3 Creación de Zonas](#-13-creación-de-zonas)
+    - [� 1.1 Añadiendo Reenviadores](#-11-añadiendo-reenviadores)
+    - [📍 1.2 Definición de Zona Directa e Inversa](#-12-definición-de-zona-directa-e-inversa)
+    - [🆕 1.3 Creación de Zonas](#-13-creación-de-zonas)
     - [➕ 1.4 Añadiendo Registro en Zona Directa](#-14-añadiendo-registro-en-zona-directa)
-    - [1.5 Añadiendo Registro en Zona Inversa](#15-añadiendo-registro-en-zona-inversa)
+    - [➕ 1.5 Añadiendo Registro en Zona Inversa](#-15-añadiendo-registro-en-zona-inversa)
   - [🧪 2. Comprobaciones en Cliente Windows](#-2-comprobaciones-en-cliente-windows)
     - [✅ 2.1 Verificación de Zona Directa e Inversa](#-21-verificación-de-zona-directa-e-inversa)
     - [📛 2.2 Registro **`ns`**](#-22-registro-ns)
@@ -28,7 +28,7 @@ El ***servidor primario o maestro*** proporciona servicios de administración de
 
 ## ⚙️ 1. Configuración de **BIND**
 
-### 📍 1.1 Añadiendo Reenviadores 
+### 🔄 1.1 Añadiendo Reenviadores 
 
 EL primer fichero ha configurar es fichero de renviadores que esta en la siguiente ruta 
 
@@ -38,7 +38,7 @@ nano /etc/bind/named.conf.options
 
 ![Fichero de Reenviadores](./img/bind9_primario/1_reenviadores.png)
 
-### 🆕 1.2 Definición de Zona Directa e Inversa
+### 📍 1.2 Definición de Zona Directa e Inversa
 
 Para definir las zona directa e inversa del servidor dns se puede encontrar en el siguiente fichero 
 
@@ -49,7 +49,7 @@ nano /etc/bind/named.conf.local
 ![Definir Zonas Directa e Invera](./img/bind9_primario/2_definirzonas.png)
 
 
-### ➕ 1.3 Creación de Zonas
+###  🆕 1.3 Creación de Zonas
 
 Para crear las zonas directa e inversa podemos hacer una copia de los siguientes ficheros por defecto que tenemos y lo podemos hacer de la siguiente manera 
 
@@ -72,7 +72,7 @@ nano /var/cache/bind/db.masofie.eus
 
 ![Registro de la Zona Directa](./img/bind9_primario/4_registros_de_zonas_directa.png)
 
-### 1.5 Añadiendo Registro en Zona Inversa
+### ➕ 1.5 Añadiendo Registro en Zona Inversa
 
 En el fichero de la ***zona inversa*** lo primero que hay que hacer es añadir el registo ***NS*** para dar autoridad a la zona . Y los otros registos son de tipo ***PTR*** y ninguno otro más 
 
