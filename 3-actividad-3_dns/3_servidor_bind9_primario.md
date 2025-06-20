@@ -24,7 +24,7 @@ Un ***servidor primario*** o maestro es un servidor principal en una red de comp
 
 El ***servidor primario o maestro*** proporciona servicios de administración de usuarios, control de acceso, almacenamiento de archivos, copias de seguridad, entre otros. También puede ser utilizado para gestionar el tráfico de red, asignar direcciones **`ip`** y controlar el acceso a recursos compartidos.
 
-En resumen, un ***servidor primario o maestro*** es esencial en una red de computadoras para coordinar y gestionar la comunicación entre los diferentes dispositivos de la red y facilitar el acceso a los recursos compartidos.
+**`En resumen, un ***servidor primario o maestro*** es esencial en una red de computadoras para coordinar y gestionar la comunicación entre los diferentes dispositivos de la red y facilitar el acceso a los recursos compartidos.`**
 
 ## ⚙️ 1. Configuración de **BIND**
 
@@ -113,7 +113,7 @@ Si queremos comprobar el registro **`mx`** ,  solo hay que hacer lo siguiente co
 
 **💡 Consejo Final**
 
-Configurar y mantener un servidor BIND es fundamental para asegurar una resolución DNS eficiente y estable. Recuerda estos puntos clave para optimizar tu trabajo:
+> Configurar y mantener un servidor BIND es fundamental para asegurar una resolución DNS eficiente y estable. Recuerda estos puntos clave para > optimizar tu trabajo:
 
 > - ✅ Verifica siempre tus configuraciones después de realizar cambios para evitar fallos inesperados.
 > - 💾 Mantén copias de seguridad actualizadas de tus archivos de zona y configuración.
