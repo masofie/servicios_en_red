@@ -31,11 +31,11 @@ Para inciar sesión a un servidor **`ftp`** desde **`winscp`** podemos crear un 
 
 Para sincronizar directorios locales y remotos , lo podemos hacer de la siguiente manera .
 
-Primero seleccionamos los directorios que queremos sincronizar y le damos clic en seleccionar **ambos** , para que se sincronicen los dos 
+Primero seleccionamos los directorios que queremos sincronizar y le damos clic en seleccionar **`ambos`** , para que se sincronicen los dos 
 
 ![Sincronizar Directorios 1](./img/winscp/2_sincronizar_directorios_1.png)
 
-Damos la confirmación de son los directorios que queremos sincronizar y le damos clic en **aceptar**
+Damos la confirmación de son los directorios que queremos sincronizar y le damos clic en **`aceptar`** , asi como se ve aqui debajo 
 ![Sincronizar Directorios 2](./img/winscp/3_sincronizar_directorios_2.png)
 
 Como podemos ver se ha sincronizado correctamente los directorios
