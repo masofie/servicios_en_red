@@ -1,48 +1,47 @@
-# Despligue de TROMCAT en Windows 
-<br><br>
-## INDICE 
+# 🪟🐱🚀 Despliegue de Tomcat en Windows 
 
-- [Despligue de TROMCAT en Windows](#despligue-de-tromcat-en-windows)
-  - [INDICE](#indice)
-  - [1. Qué es TROMCAT](#1-qué-es-tromcat)
-  - [1.1 Error al Iniciar el Tromcat](#11-error-al-iniciar-el-tromcat)
-  - [1.2 Solucionar Error de Tromcat](#12-solucionar-error-de-tromcat)
-  - [1.3 Crear Usuario Manager en Tromcat](#13-crear-usuario-manager-en-tromcat)
-  - [2. Información Adicional sombre el Despligue de Tromcat](#2-información-adicional-sombre-el-despligue-de-tromcat)
+**📑 Indice**
+- [🪟🐱🚀 Despliegue de Tomcat en Windows](#-despliegue-de-tomcat-en-windows)
+  - [🌐⚙️ ¿Qué es Apache Tomcat?](#️-qué-es-apache-tomcat)
+  - [❌ 1. Error al iniciar Tomcat](#-1-error-al-iniciar-tomcat)
+  - [🛠️ 2. Solucionar errores comunes](#️-2-solucionar-errores-comunes)
+  - [👤 1.3 Crear usuario "manager" en Tomcat](#-13-crear-usuario-manager-en-tomcat)
+  - [📎 2. Información adicional sobre el despliegue](#-2-información-adicional-sobre-el-despliegue)
 
-
-## 1. Qué es TROMCAT 
-<br><br>
-
-Tromcat es un módulo web que permite la integración de **Tomcat en XAMPP**, un paquete de software que incluye **Apache** , **MySQL** , **PHP** y **Perl**. 
-
-Tomcat es un servidor web de código abierto que se utiliza principalmente para ejecutar aplicaciones Java en un entorno web. Al integrar Tomcat en XAMPP, los usuarios pueden acceder a funcionalidades avanzadas para ejecutar aplicaciones Java y servlets en su servidor web local. Esto es útil para desarrolladores que trabajan con aplicaciones Java y desean probarlas en un entorno seguro y controlado antes de implementarlas en un entorno de producción.
-
-![Logo Tromcat](./img/despligue_tromcat/logo_tromcat.png)
-
-
-## 1.1 Error al Iniciar el Tromcat 
 <br>
 
-Este es el error que nos da al iniciar el **TROMCAT** porque le hace falta una variable 
+##  🌐⚙️ ¿Qué es Apache Tomcat?
+<br> 
+
+**Tomcat** es un módulo web que permite la integración de **Tomcat en XAMPP**, un paquete de software que incluye **``Apache``** , **``MySQL``** , **``PHP``** y **``Perl``**. 
+
+**Tomcat** es un servidor web de código abierto que se utiliza principalmente para ejecutar aplicaciones Java en un entorno web. Al integrar Tomcat en `**XAMPP** , los usuarios pueden acceder a funcionalidades avanzadas para ejecutar aplicaciones **Java** y servlets en su servidor web local. Esto es útil para desarrolladores que trabajan con aplicaciones **Java** y desean probarlas en un entorno seguro y controlado antes de implementarlas en un entorno de producción.
+
+![Logo Tromcat](./img/despligue_tromcat/logo_tromcat.png)
+<br>
+
+## ❌ 1. Error al iniciar Tomcat
+<br>
+
+Este es el error que nos da al iniciar el **``TROMCAT``** porque le hace falta una variable 
 <br><br>
 
 
 ![Error al Iniciar Tromcat](./img/despligue_tromcat/1_crear_usuarios_tromcat.png)
 <br><br>
 
-## 1.2 Solucionar Error de Tromcat 
+## 🛠️ 2. Solucionar errores comunes 
 <br>
 
-Para solucionar el problema del inicio de **tromcat** debemos añadir la variable **java_home** de la siguiente manera : 
+Para solucionar el problema del inicio de **``tromcat``** debemos añadir la variable **``java_home``** de la siguiente manera : 
 <br><br>
 
-~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 HKEY_LOCAL_MACHINE
 FOFTWARE
 JavaSoft
 Java Development Kit >> JavaHome >> ruta del jdk
-~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -56,7 +55,7 @@ Volvemos comprobar que **tromcat** se ha iniciado correctamente
 
 
 
-## 1.3 Crear Usuario Manager en Tromcat
+## 👤 1.3 Crear usuario "manager" en Tomcat
 <br>
 
 
@@ -79,13 +78,13 @@ Iniciamos con el usuario que hemos agreagado antes y como podemos ver inicia cor
 <br><br><br>
 
 
-## 2. Información Adicional sombre el Despligue de Tromcat 
+## 📎 2. Información adicional sobre el despliegue 
 
-***Página oficial :*** 
-
-- ***https://tomcat.apache.org/***
-
-
-***Wikipedia :***  
-
-- ***https://es.wikipedia.org/wiki/Tomcat*** 
+> ***Página oficial :*** 
+>
+> - ***https://tomcat.apache.org/***
+>
+>
+> ***Wikipedia :***  
+>
+> - ***https://es.wikipedia.org/wiki/Tomcat*** 
