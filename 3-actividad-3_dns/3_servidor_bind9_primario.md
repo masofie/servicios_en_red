@@ -86,9 +86,9 @@ nano /var/cache/bind/db.18.168.192
 ![Registro de la Zona Inversa](./img/bind9_primario/5_registros_de_zonas_inversa.png)
 
 ## 🧪 2. Comprobaciones en Cliente Windows 
+<br>
 
 ### ✅ 2.1 Verificación de Zona Directa e Inversa
-<br>
 
 Comprobando zona ***directa e inversa*** de la siguiente manera 
 
@@ -118,7 +118,7 @@ Si queremos comprobar el registro **`mx`** ,  solo hay que hacer lo siguiente co
 **💡 Consejo Final**
 
 > Configurar y mantener un servidor BIND es fundamental para asegurar una resolución DNS eficiente y estable. Recuerda estos puntos clave para > optimizar tu trabajo:
-
+>
 > - ✅ Verifica siempre tus configuraciones después de realizar cambios para evitar fallos inesperados.
 > - 💾 Mantén copias de seguridad actualizadas de tus archivos de zona y configuración.
 > - 🔄 Prueba y valida tus zonas directas e inversas regularmente, tanto en clientes Windows como en otros sistemas.
