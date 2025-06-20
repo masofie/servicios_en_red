@@ -150,7 +150,7 @@ Tenemos las tres máquinas encendidas **``haproxy``** , **``www1``** y **``www2`
 
 ![Comprobaciones desde Windows 1](./img/HAProxy/14_comprobacion_w10.png)
 
-Luego apagamos el servidor **``www1``** y hacemos la misma comprobación y nos responde el www2
+Luego apagamos el servidor **``www1``** y hacemos la misma comprobación y nos responde el **``www2``**
 <br>
 
 ![Comprobaciones desde Windows 2](./img/HAProxy/15_comprobacion_w10.png)
@@ -160,3 +160,12 @@ Ahora apagamos el servidor **``www2``** y solo tenemos encendió haproxy , y com
 <br>
 
 ![Comprobaciones desde Windows 3](./img/HAProxy/16_comprobacion_w10.png)
+
+<br>
+
+**💡 Consejo Final**
+
+>Asegúrate de que todos los servidores backend estén activos 🟢 y correctamente configurados antes de levantar **``HAProxy``** 🛠️.
+>Utiliza el modo balanceo de carga **``round-robin``** 🔁 para distribuir tráfico de forma equitativa y mejorar el rendimiento.
+>Puedes verificar el estado en tiempo real con herramientas como **``haproxy -c -f /ruta/al/config.cfg``** o accediendo a la interfaz de estadísticas si está habilitada 📊.
+>¡No olvides reiniciar el servicio tras cada cambio con **``sudo systemctl restart haproxy``** ! 🔄
