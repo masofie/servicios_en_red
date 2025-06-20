@@ -27,6 +27,7 @@ Además de servir como ***respaldo***, los servidores secundarios también puede
 <br>
 
 ## 🛠️ 1. Cambios en el Servidor Primario
+<br>
 
 ### 🔐 1.2 Cláusula **`allow-transfer`** 
 
@@ -65,6 +66,7 @@ ns2 IN  A   192.168.18.109
 
 
 ## 🧩 2. Configuración en Servidor Secundario
+<br>
 
 ### 📍 2.1 Definición de Zonas 
 
@@ -105,6 +107,7 @@ Comprobamos el fichero de zona para ver si acambiado el formato y este mas legib
 
 
 ## 🧪 3. Comprobaciones en Cliente Windows
+<br>
 
 ### 📛 3.1 Verificación del Registro **`ns`**
 
