@@ -83,6 +83,7 @@ equipo1 IN  SRV 1 1 5060  equipo1.nombre_dominio.
 <br>
 
 **🔍 Estos son algunos de los tipos de registros más comunes que encontrarás en un servidor DNS.**
+<br>
 **⚠️ Existen otros tipos menos frecuentes, que se usan según las necesidades específicas de cada dominio.**
 
 
