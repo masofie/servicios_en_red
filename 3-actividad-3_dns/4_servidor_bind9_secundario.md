@@ -24,6 +24,8 @@ Un ***servidor secundario*** es un servidor que contiene una copia de la informa
 
 Además de servir como ***respaldo***, los servidores secundarios también pueden ser utilizados para distribuir la carga de trabajo, mejorar la disponibilidad de los servicios y garantizar la redundancia en caso de falla en el servidor principal. También pueden utilizarse para mejorar la velocidad de acceso a los datos al estar distribuidos geográficamente.
 
+<br>
+
 ## 🛠️ 1. Cambios en el Servidor Primario
 
 ### 🔐 1.2 Cláusula **`allow-transfer`** 
@@ -148,10 +150,8 @@ Luego le preguntamos al servidor secundario , en este caso esta funcionando corr
 **💡 Consejo Final**
 
 > Tener un servidor BIND Secundario no es solo una copia del primario, ¡es tu red de seguridad! 🛡️
-
->🔁 Verifica regularmente las transferencias de zonas para asegurarte de que el servidor secundario está sincronizado.
->🔐 Protege el acceso con la cláusula **`allow-transfer`** para evitar fugas de información.
->🧪 Haz pruebas de fallo del primario para garantizar que el secundario responde correctamente.
->📋 Lleva un registro de cambios y monitorea el sistema para actuar rápido ante cualquier imprevisto.
-
->Un sistema DNS robusto es aquel que no se cae cuando algo falla, sino que sigue funcionando gracias a una buena planificación.
+> - 🔁 Verifica regularmente las transferencias de zonas para asegurarte de que el servidor secundario está sincronizado.
+> - 🔐 Protege el acceso con la cláusula **`allow-transfer`** para evitar fugas de información.
+> - 🧪 Haz pruebas de fallo del primario para garantizar que el secundario responde correctamente.
+> - 📋 Lleva un registro de cambios y monitorea el sistema para actuar rápido ante cualquier imprevisto.
+> Un sistema DNS robusto es aquel que no se cae cuando algo falla, sino que sigue funcionando gracias a una buena planificación.
