@@ -57,7 +57,7 @@
 ##  🧱🌐 3. Creación de un Nuevo Sitio Web 
 <br>
 
-3.1 Crea un sitio virtual por nombre denominado masofieiis.gal : <br><br>
+3.1 Crea un sitio virtual por nombre denominado **``masofieiis.gal``** : <br><br>
 
 ![Creando Sitio 1](./img/iis_http/4_iis.png)
 
@@ -83,7 +83,7 @@ Directorio virtual creado correctamente <br><br>
 ![Creando Error 404 (2)](./img/iis_http/10_iis.png)
 
 
-3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio wen masofieiis.gal ” . <br><br>
+3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio web **``masofieiis.gal``** ” . <br><br>
 
 ![Comprobando Error 404](./img/iis_http/11_iis.png)
 
