@@ -1,13 +1,18 @@
-# Instalación y Configuración de Apache en Windows 
+# 🪟🛠️⚙️🌐 Instalación y Configuración de Apache en Windows con XAMPP 
 
-- [Instalación y Configuración de Apache en Windows](#instalación-y-configuración-de-apache-en-windows)
-  - [1 Qué es XAMPP y para que se uiliza](#1-qué-es-xampp-y-para-que-se-uiliza)
-  - [1.1 Instalación de Java](#11-instalación-de-java)
-  - [1.2 Instalación de XAMPP](#12-instalación-de-xampp)
-  - [2.0 Correción de Error](#20-correción-de-error)
-    - [2.1 Variables de Entorno](#21-variables-de-entorno)
+**📑 Indice**
 
-## 1 Qué es XAMPP y para que se uiliza 
+- [🪟🛠️⚙️🌐 Instalación y Configuración de Apache en Windows con XAMPP](#️️-instalación-y-configuración-de-apache-en-windows-con-xampp)
+  - [1️⃣ 💡 ¿Qué es XAMPP y para qué se utiliza?](#1️⃣--qué-es-xampp-y-para-qué-se-utiliza)
+  - [🛠️ 1. Instalación y Congiguración](#️-1-instalación-y-congiguración)
+    - [🔧 1.1 Instalación de Java](#-11-instalación-de-java)
+    - [💽 1.2 Instalación de XAMPP](#-12-instalación-de-xampp)
+    - [❗🧰 1.3 Corrección de Errores Comunes](#-13-corrección-de-errores-comunes)
+    - [⚙️ 1.4 Configuración de Variables de Entorno](#️-14-configuración-de-variables-de-entorno)
+
+<br>
+
+## 1️⃣ 💡 ¿Qué es XAMPP y para qué se utiliza?
 <br>
 
 XAMPP es un software gratuito y de código abierto que permite crear un entorno de desarrollo web en sistemas Windows. XAMPP incluye varios componentes como **Apache**, **MySQL**, **PHP** y **Perl**, que son necesarios para configurar un servidor web local en tu computadora. Esto facilita el desarrollo y prueba de aplicaciones web antes de subirlas a 
@@ -15,8 +20,12 @@ un servidor en línea..
 
 ![Imagen logo xampp](./img/install_xampp/portada_xammp.png)
 
-## 1.1 Instalación de Java
 <br>
+
+## 🛠️ 1. Instalación y Congiguración
+<br>
+
+### 🔧 1.1 Instalación de Java 
 
 Primero vamos a descargar el **jdk** para java que lo vamos a utilizar para iniciar nuestro xampp , lo puedes consultar en la siguiente url :
 
@@ -26,7 +35,7 @@ Primero vamos a descargar el **jdk** para java que lo vamos a utilizar para inic
 
 ![Descarga de Java](./img/install_xampp/1_xammp_windows.png)
 
-## 1.2 Instalación de XAMPP
+### 💽 1.2 Instalación de XAMPP
 <br>
 
 En este caso apara instalar xammp utilizaremos un formato zip , para configuralo desde cero . Lo podemos encontrar
@@ -37,7 +46,7 @@ en el siguiente enlace
 ![Descarga de XAMMP](./img/install_xampp/2_xammp_windows.png)
 
 
-## 2.0 Correción de Error 
+### ❗🧰 1.3 Corrección de Errores Comunes 
 <br>
 
 Cuando tenemos el xammp instalado y descomprimido lo ejecutamos pero nos da un error , ese error viene de las 
@@ -49,7 +58,7 @@ variables de entorno . El error ese el siguiente que se ve en la imagen :
 
 
 
-### 2.1 Variables de Entorno  
+### ⚙️ 1.4 Configuración de Variables de Entorno  
 
 Para solucionar el problema añadimos el **jdk (java)** en las variables de entorno de la siguiente manera : 
 
