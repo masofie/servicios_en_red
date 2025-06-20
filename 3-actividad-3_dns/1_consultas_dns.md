@@ -25,6 +25,8 @@
 
 >El comando **`host`** en **Debian** es utilizado para realizar consultas de resolución de nombres de dominio, es decir, para obtener información sobre una dirección **`ip`** a partir de un nombre de dominio. Sin embargo, en **Windows** no existe un comando específico llamado **`host`**, pero se puede realizar consultas **DNS** usando el comando **`nslookup`** . En resumen, el comando host funciona en **Debian** para hacer consultas de resolución de nombres, mientras que en **Windows** se puede usar **`nslookup`** para realizar la misma función.
 
+<br>
+
 ## ⚙️💻 2. Ejecución Práctica de Comandos
 
 ### 🧩✨ 2.1 Comandos **`nslookup`**

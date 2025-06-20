@@ -15,6 +15,7 @@
 <br>
 
 ## 📌 1. Tipos de Registros DNS
+<br>
 
 ### 🏠 1.1 Registro de recursos ***A (Address)***
 

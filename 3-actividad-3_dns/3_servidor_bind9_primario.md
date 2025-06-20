@@ -4,7 +4,7 @@
 - [🖥️ Servidor **BIND** Primario (Maestro)](#️-servidor-bind-primario-maestro)
   - [📝 Definición](#-definición)
   - [⚙️ 1. Configuración de **BIND**](#️-1-configuración-de-bind)
-    - [� 1.1 Añadiendo Reenviadores](#-11-añadiendo-reenviadores)
+    - [🔄 1.1 Añadiendo Reenviadores](#-11-añadiendo-reenviadores)
     - [📍 1.2 Definición de Zona Directa e Inversa](#-12-definición-de-zona-directa-e-inversa)
     - [🆕 1.3 Creación de Zonas](#-13-creación-de-zonas)
     - [➕ 1.4 Añadiendo Registro en Zona Directa](#-14-añadiendo-registro-en-zona-directa)
@@ -26,7 +26,10 @@ El ***servidor primario o maestro*** proporciona servicios de administración de
 
 **`En resumen, un servidor "primario" o "maestro" es esencial en una red de computadoras para coordinar y gestionar la comunicación entre los diferentes dispositivos de la red y facilitar el acceso a los recursos compartidos.`**
 
+<br>
+
 ## ⚙️ 1. Configuración de **BIND**
+<br>
 
 ### 🔄 1.1 Añadiendo Reenviadores 
 
@@ -85,6 +88,7 @@ nano /var/cache/bind/db.18.168.192
 ## 🧪 2. Comprobaciones en Cliente Windows 
 
 ### ✅ 2.1 Verificación de Zona Directa e Inversa
+<br>
 
 Comprobando zona ***directa e inversa*** de la siguiente manera 
 
