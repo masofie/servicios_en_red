@@ -10,6 +10,7 @@
 <br>
 
 ## 1. 🔐 scp – Copia segura entre máquinas Linux
+<br>
 
 El comando scp se usa para transferir archivos de forma segura entre dos equipos mediante SSH.
 Sirve para enviar archivos a un servidor o copiarlos desde él.
@@ -22,7 +23,7 @@ scp archivo.txt usuario@ip:/ruta/de/destino
 
 
 ## 2. 💻 pscp – Copia segura desde Windows
-
+<br>
 
 **`pscp`** es la versión de **`scp`** para sistemas Windows, y forma parte de las herramientas de **PuTTY** .
 Permite enviar y recibir archivos con seguridad desde la línea de comandos de Windows.
@@ -34,6 +35,7 @@ pscp archivo.txt usuario@ip:/ruta/remot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## 3. 🌐 wget – Descarga de archivos desde FTP o HTTP
+<br>
 
 **`wget`** es una herramienta que permite descargar archivos desde servidores **FTP** o web.
 Se utiliza comúnmente en Linux, aunque también está disponible en Windows.
