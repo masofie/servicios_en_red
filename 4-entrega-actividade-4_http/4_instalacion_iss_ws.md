@@ -24,7 +24,7 @@
 ##  🏗️ 1. Instalación del Servidor IIS 
 <br>
 
-1.1 Agregar roles y características 
+1.1 Primero tenemos que agregar roles y características (servicios necesarios)
 
 
 ![Agregando Roles 1](./img/iis_http/1_roles.png)
@@ -77,13 +77,13 @@ Directorio virtual creado correctamente <br><br>
 
 ![Directorio Virtual 2](./img/iis_http/8_iis.png)
 
-3.4 Cuando se produzca un error **``404``** deberás mostrar una página llamada error_404.html . Esta página deberá contener el texto **“Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ”**. <br><br>
+3.4 Cuando se produzca un error **``404``** deberás mostrar una página llamada **``error_404.html``** . Esta página deberá contener el texto **“Cometiste un ERROR 404  , no se encontrado ningún resultado en la búsqueda ”**. <br><br>
 
 ![Creando Error 404 (1)](./img/iis_http/9_iis.png)
 ![Creando Error 404 (2)](./img/iis_http/10_iis.png)
 
 
-3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga “Esta es la página principal del sitio web **``masofieiis.gal``** ” . <br><br>
+3.5 Crea un archivo denominado index.html en la raíz de este sitio que contenga **``Esta es la página principal del sitio web masofieiis.gal``** ” . <br><br>
 
 ![Comprobando Error 404](./img/iis_http/11_iis.png)
 
@@ -108,7 +108,7 @@ Crear usuario nuevo para acceder al directorio virtual <br><br>
 
 ![Autenticación Basic 3](./img/iis_http/15_iis.png)
 
-Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos **``index.html``** y ***default.asp*** , y como este directorio tiene un fichero llamado **``privado.html``** . <br><br>
+Comprobación la accesibilidad , nos va ha fallar si hacemos esto porque entes en los directorios predeterminados solo teníamos **``index.html``** y **``default.asp``** , y como este directorio tiene un fichero llamado **``privado.html``** . <br><br>
 
 ![Autenticación Basic 4](./img/iis_http/16_iis.png)
 
@@ -137,10 +137,16 @@ Y cuando lo tengamos así , solo hay que añadir el certificado que hemos creado
 
 ![Re-dirección de http a https 3](./img/iis_http/20_iis.png)
 
-Ahora volvemos al navegador y escribimos la misma ***url*** pero en ves de poner **``http``** ponemos **``https``** y nos mostrara la siguiente advertencia  <br><br>
+Ahora volvemos al navegador y escribimos la misma **``url``** pero en ves de poner **``http``** ponemos **``https``** y nos mostrara la siguiente advertencia  <br><br>
 
 ![Re-dirección de http a https 4](./img/iis_http/21_iis.png)
 
 Como podemos ver se ha redirigido correctamente y nos muestra también el certificado que hemos creado antes <br><br>
 
 ![Re-dirección de http a https 5](./img/iis_http/22_iis.png)
+
+<br>
+
+**💡 Consejo Final**
+>Antes de publicar tu sitio web en **``IIS``** 🪟🌐, asegúrate de que esté correctamente configurado con certificados válidos 🔒✅ para **``HTTPS``** y que la redirección esté activa 🔁🌍.
+>Además, verifica los permisos y rutas físicas del sitio para evitar errores de acceso 🚫📁. 
