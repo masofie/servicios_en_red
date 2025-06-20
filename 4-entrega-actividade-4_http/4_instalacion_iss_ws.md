@@ -21,8 +21,6 @@
 
 <br>
 
-![Portada IIS](./img/iis_http/portada_iis.png)
-
 ##  🏗️ 1. Instalación del Servidor IIS 
 <br>
 
