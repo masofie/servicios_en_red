@@ -51,12 +51,13 @@ Se utiliza comúnmente en Linux , aunque también está disponible en Windows.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wget ftp://usuario:contraseña@ip/archivo.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br>
 
-**También se puede usar sin autenticación si el servidor FTP lo permite.**
+**También se puede usar sin autenticación si el servidor *``ftp``* lo permite.**
 
 
 **💡 Consejo Final**
 
-> - 🔄 Usa scp o pscp cuando necesites seguridad (SSH).
-> - 📥 Usa wget si solo vas a descargar archivos desde un servidor sin editar nada.
-> - ✅ Antes de usar los comandos, asegúrate de tener acceso, permisos y conocer la dirección IP o nombre del servidor.
+> - 🔄 Usa *``scp``* o *``pscp``* cuando necesites seguridad *``(ssh)``* .
+> - 📥 Usa *``wget``* si solo vas a descargar archivos desde un servidor sin editar nada.
+> - ✅ Antes de usar los comandos, asegúrate de tener acceso, permisos y conocer la dirección *``ip``* o nombre del servidor.
