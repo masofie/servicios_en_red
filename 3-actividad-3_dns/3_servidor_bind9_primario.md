@@ -20,6 +20,7 @@
 <br>
 
 ## 📝 Definición 
+<br>
 
 Un *``servidor primario``* o maestro es un servidor principal en una red de computadoras que tiene la capacidad de almacenar y gestionar bases de datos, archivos y otros recursos compartidos. Este servidor actúa como el punto central de la red, controlando y distribuyendo la información a otros dispositivos conectados a la red.
 
@@ -113,7 +114,7 @@ nano /var/cache/bind/db.18.168.192
 
 ### ✅ 2.1 Verificación de Zona Directa e Inversa
 
-Comprobando zona ***directa e inversa*** de la siguiente manera 
+Comprobando zona *``directa e inversa``* de la siguiente manera 
 
 ![Comprobaciones de Zona Directa e Inversa](./img/bind9_primario/6_w10_comprobaciones_directa_inversa.png)
 <br>
