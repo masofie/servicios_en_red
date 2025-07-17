@@ -20,8 +20,7 @@ Claro, un servidor *``FTP Filezilla Server``* es un software de servidor *``FTP 
 
 En resumen, un servidor *``ftp``* Filezilla Server es una herramienta que permite a los usuarios compartir y transferir archivos de forma segura a través de Internet utilizando el protocolo *``ftp``*.
 
-![Logo de Filezilla Server](./img/filezillaserver/logo_filezilla.png)
-<br>
+
 <br>
 
 ##  ⚙️ 1. Configuración 
