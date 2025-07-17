@@ -105,13 +105,13 @@ Hacemos las consultas al subdominios para ver si responde corretamente tanto en 
 
 **💡 Consejo Final**
 
-> Configurar subdominios correctamente es esencial para mantener una estructura DNS clara, funcional y escalable 🌐✨.
+> Configurar subdominios correctamente es esencial para mantener una estructura *``DNS``* clara, funcional y escalable 🌐✨.
 >
 > - Planifica la jerarquía de nombres antes de crear registros. Esto te ayudará a mantener el control y facilitar futuras ampliaciones.
 > - Distingue cuándo usar dominios virtuales y cuándo delegar:
 >   - Los virtuales son rápidos y locales 🧩.
 >   - Los delegados ofrecen independencia y distribución de servicios 🛰️.
 > - Revisa la configuración de zonas y registros cuidadosamente antes de hacer pruebas.
-> - Utiliza herramientas como dig o nslookup para comprobar que todo está funcionando como esperas 🔎.
+> - Utiliza herramientas como *``dig ``* o *``nslookup``* para comprobar que todo está funcionando como esperas 🔎.
 >
 > Una estructura de subdominios bien diseñada mejora la administración, el rendimiento y la seguridad de tu red.
