@@ -53,7 +53,7 @@ ssh root@192.168.18.107
 
 
 
-2 - Una vez creada la clave la copiamos y la añadimos al fichero *``named.conf.options``* , de la siguiente manera . Tiene que estar antes de la directiva *``options*** la clave``* , asi como se muestra .
+2 - Una vez creada la clave la copiamos y la añadimos al fichero *``named.conf.options``* , de la siguiente manera . Tiene que estar antes de la directiva *``options la clave``* , asi como se muestra .
 
 
 ~~~
