@@ -124,9 +124,9 @@ Accedemos al cliente y hacemos las siguientes comprobaciones , esto para ver si 
 
 **💡 Consejo Final**
 
->La correcta configuración del DNS Maestro en Windows Server es esencial para garantizar la resolución rápida y precisa de nombres en una red interna 🧠⚡.
+>La correcta configuración del *``DNS``* Maestro en Windows Server es esencial para garantizar la resolución rápida y precisa de nombres en una red interna 🧠⚡.
 >
-> - 📌 Verifica que las zonas estén correctamente creadas (directa e inversa) y que los registros correspondan al nombre y IP esperados.
+> - 📌 Verifica que las zonas estén correctamente creadas *``(directa e inversa)``* y que los registros correspondan al *``nombre``* y *``IP``* esperados.
 > - 🔁 Los reenviadores permiten una navegación externa más eficiente.
 > - 🧪 Utiliza nslookup para comprobar la resolución y detectar errores tempranos.
 > - 🔐 ¡Y no olvides los permisos y el cortafuegos si usas máquinas virtuales o múltiples redes!
