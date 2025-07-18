@@ -92,11 +92,11 @@ Nombre + jdk
 ## 📎 2. Información Adicional sobre el Despliegue 
 <br>
 
-> **Página oficial :**
->   - *``https://tomcat.apache.org/``*
-> 
-> **Wikipedia :**  
->   - *``https://es.wikipedia.org/wiki/Tomcat``*
+**Página oficial :**
+   - *``https://tomcat.apache.org/``*
+ 
+**Wikipedia :**  
+   - *``https://es.wikipedia.org/wiki/Tomcat``*
 
 <br>
 <br>
