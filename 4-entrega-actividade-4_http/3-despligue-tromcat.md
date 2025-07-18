@@ -14,7 +14,7 @@
 ##  🌐⚙️ ¿Qué es Apache Tomcat?
 <br> 
 
-> **Tomcat** es un módulo web que permite la integración de **Tomcat en XAMPP**, un paquete de software que incluye *``apache``* , **``mysql``** , **``php``** y **``perl``**. 
+> Tomcat es un módulo web que permite la integración de **Tomcat en XAMPP**, un paquete de software que incluye *``apache``* , **``mysql``** , **``php``** y **``perl``**. 
 >
 > Es un servidor web de código abierto que se utiliza principalmente para ejecutar aplicaciones *``java``* en un entorno web. Al integrar *``tomcat``* en xampp , los usuarios pueden acceder a funcionalidades avanzadas para ejecutar aplicaciones *``java``* y servicios en su servidor web local. Esto es útil para desarrolladores que trabajan con aplicaciones *``java``* y desean probarlas en un entorno seguro y controlado antes de implementarlas en un entorno de producción.
 
