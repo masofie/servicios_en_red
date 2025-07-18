@@ -108,7 +108,7 @@ a2enmod userdir
         ServerName www.ciudad.gal
         ServerAlias ciudad.gal
         DocumentRoot /var/www/ciudad.gal
-<VirtualHost>
+</VirtualHost>
 ~~~
 
 ![Añadir puertos](./img/sitios_virtuales_apache2/7_exapache2.png)
@@ -119,6 +119,7 @@ a2enmod userdir
 2 – Modificar los archivos de *``logs``* para que sean específicos .
 
 ~~~~
+# Errores de logs modificado
 ErrorLog ${APACHE_LOG_DIR}/error_ciudad_gal.log
 CustomLog ${APACHE_LOG_DIR}/access.log_ciudad_gal.log combined
 ~~~~
@@ -143,12 +144,22 @@ Formato *``combined``* incluye :
 
 3 – Cuando se produzca un error *``404``* se mostrar un mensaje *``No se ha podido encontrar ningún resultado en la búsqueda``* , que este alojado en el directorio *``/var/www/ciudad.gal/error_404.html``* .
 
+~~~
+# Añadir error 404
+ErrorDocument 404 /error_404.html
+~~~
+
 ![Error 404](./img/sitios_virtuales_apache2/9_exapache2.png)
 <br>
 <br>
 
 
 4 – Cuando se produzca un error *``403``* mostrar un mensaje de *``PROHIBIDO``* .
+
+~~~
+# Añadir error 403
+ErrorDocument 403 "PROIBIDO"
+~~~
 
 ![Error 403](./img/sitios_virtuales_apache2/10_exapache2.png)
 <br>
@@ -157,12 +168,27 @@ Formato *``combined``* incluye :
 
 5 – Los archivos de este sitio a mostrar por defecto serán *``index.html``* e *``index.php``*
 
+~~~
+# Mostrar archivos por defecto
+<Directory /var/www/ciudad.gal>
+    DirectoryIndex index.html index.php
+</Directory    
+~~~
+
 ![Archivos por defecto](./img/sitios_virtuales_apache2/11_exapache2.png)
 <br>
 <br>
 
 
 6 – No permitir que se listen los contenidos de las carpetas , al no encontrar ninguno de los documentos por defecto .
+
+~~~
+# Listar contenido de las carpetas
+<Directory /var/www/ciudad.gal>
+    DirectoryIndex index.html index.php
+    Options -Indexes
+</Directory    
+~~~
 
 ![Listado de directorios](./img/sitios_virtuales_apache2/12_exapache2.png)
 <br>
@@ -171,12 +197,23 @@ Formato *``combined``* incluye :
 
 7 – Crea un *``alias``* que se redirija la *``url``* *``./docs  ./documentos``* , que se debe crear previamente .
 
+~~~
+# Añadir un alias en directorio en especifico
+Alias "/docs" "/var/www/ciudad.gal/documentos"
+~~~
+
 ![Creación de alias](./img/sitios_virtuales_apache2/13_exapache2.png)
 <br>
 <br>
 
 
 8 – Crea una carpeta denominada *``carpetacuidad``* . El acceso a esta carpeta debe ser restringida para los usuarios *``user1``* y *``user2``* con contraseña *``abc123.``* mediante *``Autenticación Basic``* .
+
+~~~
+# Añadir acceso limitado 
+htpasswd -c /usr/local/apache/passwd/passwords user1
+htpasswd -c /usr/local/apache/passwd/passwords user2
+~~~
 
 ![Autenticación Basic](./img/sitios_virtuales_apache2/14_exapache2.png)
 <br>
