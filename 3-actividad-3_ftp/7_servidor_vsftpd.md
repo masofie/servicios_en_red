@@ -97,7 +97,7 @@ En resumen, un servidor *``vsftpd``* actúa como un intermediario entre los clie
 <br>
 <br>
 
-5 - Creamos un certificado , añadiendo la clave *``privada``* y *``pública``* . Forzando a que simpre pida el certificado ``*(obligatorio)``* .
+5 - Creamos un certificado , añadiendo la clave *``privada``* y *``pública``* . Forzando a que simpre pida el certificado *``(obligatorio)``* .
 
 ![Añadir Certificado](./img/vsftpd/certificado.png)
 <br>
@@ -123,6 +123,8 @@ En resumen, un servidor *``vsftpd``* actúa como un intermediario entre los clie
 
   *``systemctl status vsftpd.service``*
 
+<br>
+<br>
 
 ## 📚 Biografía
 
