@@ -1,25 +1,25 @@
 # 📘 Guía Básica de VSFTPD
+<br>
 
 **📑 Indice**
-
 - [📘 Guía Básica de VSFTPD](#-guía-básica-de-vsftpd)
   - [📝 Explicación del Fichero](#-explicación-del-fichero)
 - [📄 1. Fichero Básico: vsftpd.conf](#-1-fichero-básico-vsftpdconf)
   - [📁 1.1 Configuración del Servidor](#-11-configuración-del-servidor)
-  - [👤 2. Configuración del Usuario **`anonymous`**](#-2-configuración-del-usuario-anonymous)
+  - [👤 2. Configuración del Usuario *``anonymous``*](#-2-configuración-del-usuario-anonymous)
   - [👨‍💻 3. Configuración de Usuarios Locales](#-3-configuración-de-usuarios-locales)
 
 <br>
 
 ## 📝 Explicación del Fichero
 
-En esta guía veremos algunas de las opciones esenciales del archivo de configuración vsftpd.conf, que nos permiten dejar listo un servidor FTP de forma básica y funcional, sin complicaciones.
+En esta guía veremos algunas de las opciones esenciales del archivo de configuración *``vsftpd.conf``* , que nos permiten dejar listo un servidor *``ftp``* de forma básica y funcional, sin complicaciones.
 
-🗂️ Estas configuraciones son ideales para comenzar y comprender cómo opera el servicio **VSFTPD** paso a paso.
+🗂️ Estas configuraciones son ideales para comenzar y comprender cómo opera el servicio *``VSFTPD``* paso a paso.
 
-> ⚠️ Advertencia: ¡Recuerda reiniciar el servicio después de cada cambio! Si no lo haces, los ajustes no tendrán efecto.
+> ⚠️ Advertencia: ¡Recuerda reiniciar el servicio después de cada cambio! Si no lo haces , los ajustes no tendrán efecto .
 > 
-> 📌 Comando útil: sudo systemctl restart vsftpd
+> 📌 Comando útil : *``sudo systemctl restart vsftpd``*
 
 <br>
 
@@ -68,7 +68,7 @@ xferlog_std_format=YES
 xferlog_file=/var/log/vsftpd.log
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-## 👤 2. Configuración del Usuario **`anonymous`**
+## 👤 2. Configuración del Usuario *``anonymous``*
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 🚫 Acceso anónimo desactivado (por seguridad)
@@ -118,11 +118,11 @@ allow_writeable_chroot=YES
 
 **💡 Consejo Final**
 
->🔧 Recuerda siempre reiniciar el servicio después de cada cambio en el fichero de configuración:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sudo systemctl restart vsftpd
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>🔧 Recuerda siempre reiniciar el servicio después de cada cambio en el fichero de configuración :
 >
->🛡️ Evita permitir acceso anónimo salvo que sea estrictamente necesario y controlado.
+> *``sudo systemctl restart vsftpd``*
 >
->📈 Verifica los logs regularmente para detectar posibles accesos no autorizados.
+>
+>🛡️ Evita permitir acceso anónimo salvo que sea estrictamente necesario y controlado .
+>
+>📈 Verifica los logs regularmente para detectar posibles accesos no autorizados .
