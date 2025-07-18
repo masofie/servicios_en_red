@@ -222,12 +222,38 @@ htpasswd -c /usr/local/apache/passwd/passwords user2
 
 9 – Crea un archivo denominado *``index.html``* en la carpeta ciudad.gal que tenga en el contenido *``Bienvenido al Sitio Virtual ciudad.gal``* .
 
+~~~
+# Directorio Privado 
+<Directory /var/www/ciudad.gal/carpetaciudad>
+    AuthType Basic
+    AuthName "Acceso Restrigido"
+    AuthBasicProvider file
+    AuthuserFile "/usr/local/apache/passwd/passwords"
+    Require user1
+    Require user2
+</Directory    
+~~~
+
+
 ![Creación de Index](./img/sitios_virtuales_apache2/15_exapache2.png)
 <br>
 <br>
 
 
 10 – Habilita en el sitio wen anterior un acceso por *``ssl``* con la creación de la *``claves RSA``*. Debe redirigir las peticiones del puerto *``80``* al puerto *``443``* .
+
+~~~
+# Habilitar ssl
+<VirtualHost 192.168.18.97:80 192.168.18.97:9999>
+        ServerName www.ciudad.gal
+        ServerAlias ciudad.gal
+        Redirect / https://www.ciudad.gal
+</VirtualHost>
+<VirtualHost 192.168.18.97:443
+        ServerName www.ciudad.gal
+        ServerAlias ciudad.gal
+        DocumentRoot /var/www/ciudad.gal
+~~~
 
 ![Redirección https](./img/sitios_virtuales_apache2/16_exapache2.png)
 <br>
@@ -249,17 +275,17 @@ htpasswd -c /usr/local/apache/passwd/passwords user2
 <br>
 
  **Página Oficial :** 
-   - *``https://httpd.apache.org/``*
+     - *``https://httpd.apache.org/``*
  **Wikipedia :** 
-   - *``https://es.wikipedia.org/wiki/Servidor_HTTP_Apache``*
+     - *``https://es.wikipedia.org/wiki/Servidor_HTTP_Apache``*
  **Ionos :** 
-   - *``https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/``*
+     - *``https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/``*
 
 <br>
 <br>
 
 **💡 Consejo Final**
 
-> No olvides habilitar el nuevo sitio con *``a2ensite nombredelsitio.conf``* ✅ y recargar *``Apache``* con **``sudo systemctl reload apache2``** 🔁.
+> No olvides habilitar el nuevo sitio con *``a2ensite nombredelsitio.conf``* ✅ y recargar *``apache``* con **``sudo systemctl reload apache2``** 🔁.
 > Si vas a usar *``https``* , asegúrate de que el módulo *``ssl``* esté activado con *``a2enmod ssl``* 🔒 y que el certificado esté correctamente configurado.
 > Haz pruebas con el navegador 🧪 o con comandos como *``curl -I``* para verificar que el sitio responde en ambos protocolos sin errores. 🌐✨
