@@ -1,8 +1,8 @@
-# 🛠️ Configuración en el Servidor vsftpd
+# 🛠️ Configuración en el Servidor *``vsftpd``*
 <br>
 
 **📑 Indice** 
-- [🛠️ Configuración en el Servidor vsftpd](#️-configuración-en-el-servidor-vsftpd)
+- [🛠️ Configuración en el Servidor *``vsftpd``*](#️-configuración-en-el-servidor-vsftpd)
   - [🧾 Definición](#-definición)
   - [⚙️ 1. Configuración](#️-1-configuración)
     - [🔐 1.1 Servidor](#-11-servidor)
@@ -106,6 +106,7 @@ En resumen, un servidor *``vsftpd``* actúa como un intermediario entre los clie
 
 
 ## ℹ️ 2. Información Adiciona
+<br>
 
 - Instalar servidor *``vsftpd``* en Debian
 
@@ -127,6 +128,7 @@ En resumen, un servidor *``vsftpd``* actúa como un intermediario entre los clie
 <br>
 
 ## 📚 Biografía
+<br>
 
 **Página Oficial Debian :**
 > - https://wiki.debian.org/vsftpd
