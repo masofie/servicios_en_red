@@ -14,7 +14,7 @@
 ## 📘 Definición
 <br>
 
-> *``Apache``* : Es un servidor web de código abierto que permite publicar páginas web en Internet. Es muy popular y es ampliamente utilizado en la mayoría de los sistemas operativoc.
+> *``Apache``* : Es un servidor web de código abierto que permite publicar páginas web en Internet . Es muy popular y es ampliamente utilizado en la mayoría de los sistemas operativoc .
 
 > *``PHP``* : Es un lenguaje de programación de código abierto especialmente diseñado para el desarrollo web. Se utiliza para crear sitios web dinámicos e interactivos , ya que puede integrarse fácilmente con bases de datos y otros servicios web .
 
