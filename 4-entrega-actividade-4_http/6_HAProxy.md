@@ -84,6 +84,7 @@ apt install apache2
 1 - Instalamos el módulo *``php``* , es un módulo necesario para ajecutar apache2 .
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Instalación de paquetes 
 sudo apt-get install apache2 php libapache2-mod-php
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
