@@ -17,7 +17,7 @@
 ## 📝 Definición 
 <br>
 
-*``HAProxy``* es un software de código abierto que proporciona balanceo de carga y proxy inverso para servidores web . Es utilizado comúnmente en entornos de alta disponibilidad para distribuir la carga entre varios servidores y garantizar la disponibilidad y rendimiento de los servicios web . En **Debian**, *``HAProxy``* se puede instalar a través del gestor de paquetes *``apt-get``*.
+*``HAProxy``* es un software de código abierto que proporciona balanceo de carga y proxy inverso para servidores web . Es utilizado comúnmente en entornos de alta disponibilidad para distribuir la carga entre varios servidores y garantizar la disponibilidad y rendimiento de los servicios web . En Debian *``HAProxy``* se puede instalar a través del gestor de paquetes *``apt-get``*.
 
 <br>
 
@@ -30,6 +30,7 @@
 1 - En una máquina nueva instalamos el paquete *``haproxy``* usando el comando *``apt``* como se muestra en el terminal .
 
 ~~~~~~~~~~~~~~~~~~~~
+# Instalación de Servicio
 apt install haproxy
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -41,6 +42,7 @@ apt install haproxy
 2 - Comprobamos que se instalo visualizando la versión que hemos instalado
 
 ~~~~~~~~~~~~
+# Visualizar verisión
 haproxy -v
 ~~~~~~~~~~~~
 
@@ -52,6 +54,7 @@ haproxy -v
 3 - Hacemos una copia de seguridad del fichero , copiandolo con otro nombre . Esto por si queremos volver a tener el fichero original .
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Copiar fichero y modificar nombre
 cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -66,6 +69,7 @@ cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original
 En el equipo *``ww1``* instalamos el servicio de *``apache2``* (en el equipo del sitio web) .
 
 ~~~~~~~~~~~~~~~~~~~~
+# Instalar  servicio
 apt install apache2
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -106,6 +110,7 @@ systemclt status apache2
 3 - Creamos un nuevo sitio web llamado *``seriprobas.eu``* . Para no tener que hacerlo todo desde el principio copiamos el sitio por defecto y le damos otro nombre .
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Copiar fichero de sitio por defecto
 cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/www.seriprobas.eu.conf
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -117,6 +122,7 @@ cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/ww
 4 - Creamos un fichero llamado *``index.php``* referencia a  *``seriprobas.eu``* , usando el comando *``nano``* . 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 Abrir y crear fichero index
 nano var/www/www.seriprobas.eu/index.php
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -156,6 +162,7 @@ nano var/www/www.seriprobas.eu/index.php
 3 - Abrimos el fichero *``haproxy.cfg``* y añadimos las siguientes lineas .
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Fichero de configuración de haproxy
 frontend apache_front
 	bind *:80
 	acl host_www_seriprobas.eu hdr(host) -i www.seriprobas.eu
