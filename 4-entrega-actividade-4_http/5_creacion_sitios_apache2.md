@@ -274,12 +274,12 @@ htpasswd -c /usr/local/apache/passwd/passwords user2
 # 📚📖 Biografía de Apache2 
 <br>
 
- **Página Oficial :** 
-- *``https://httpd.apache.org/``*
- **Wikipedia :** 
-- *``https://es.wikipedia.org/wiki/Servidor_HTTP_Apache``*
- **Ionos :** 
-- *``https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/``*
+- **Página Oficial :** 
+  - *``https://httpd.apache.org/``*
+- **Wikipedia :** 
+  - *``https://es.wikipedia.org/wiki/Servidor_HTTP_Apache``*
+- **Ionos :** 
+  - *``https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/``*
 
 <br>
 <br>
