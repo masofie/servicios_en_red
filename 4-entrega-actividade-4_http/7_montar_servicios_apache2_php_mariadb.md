@@ -54,6 +54,14 @@ ss -ltn
 
 3 - Hacemos una una comprobación de su funcionamiento iniciando sesión en *``mysql``* desd el terminal .
 
+~~~~~~~~
+# Iniciar sesión
+mysql
+
+# Cerrar sesión 
+quit
+~~~~~~~~
+
 ![Iniciar MYSQL](./img/montar_servicios/3_iniciar_mysql.png)
 <br>
 <br>
